@@ -1,0 +1,43 @@
+---
+title: "2017 project abstract"
+author: "Siyang Sun"
+date: "February 27, 2016"
+output: html_document
+---
+With this project, I am going to explore movie industry data. To be specific, I would like to constrcut predictive models that help both movie makers and movie goers make better decisions. The procedure could be seperated into several parts:
+1.Data scrapping
+2.Data manipulating
+3.Modeling
+4.Data Visulization
+5.Further analysis...(Network analysis)
+---
+1.Data scrapping
+
+Scrape movie data from relevant movie websites. Features including but not limited to:
+IMDb rating; movie financials:worldwide revenue, national revenue, openingweekend,budget; movie release date, run time, duration; movie genre, MPAA rate; director, actors.
+Merge and prepare data
+---
+2.Data manipulating
+Clean data: date and time date (release date,run time,duration), string data split(actor names,etc)...
+Create categorical data type: MPAA rate, movie genre...
+---
+3.Modeling
+Quantify features: Directors,Actors...
+Construct models: Machine learning technique (Trees,Linear models...)
+To be continued...
+---
+4.Data Visualization
+Beautify my data and analysis
+---
+5.Further analysis
+Get Social Media movie data (Twitter?) and make some interesting analysis.
+They could be:
+text mining---relationship between reviews and ratings.
+extract geolocial tags and visualization--- detect regional differences when talking about movie
+star value evaluation--- actors/directors some twitter indexes...
+time series analysis--- trend changes after a movie releases
+To be continued...
+---
+Some questions need to figure out:
+1. Superhero movies are always blockbusters, how to get rid of their effects and learn some new?
+2. ...
