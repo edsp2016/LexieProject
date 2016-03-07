@@ -1,0 +1,677 @@
+Number,Rank,Title,Studio,Worldwide,Domestic ,Overseas ,Year,release_date,genre,runtime,mpaa,budget,opening_weekend,duration,director,actors,theater,rating
+1,1,Avatar,Fox,2788.0,760.5,2027.5,2009^,"December 18, 2009",Sci-Fi Adventure, 2 hrs. 40 min.,PG-13,,77025481,238 days / 34 weeks,James Cameron,Sam WorthingtonZoe SaldanaSigourney WeaverMichelle RodriguezGiovanni RibisiJoel David Moore,3461,7.9
+2,2,Titanic,Par.,2186.8,658.7,1528.1,1997^,"December 19, 1997",Romance, 3 hrs. 14 min.,PG-13,200 ,2186772302,,,,,7.7
+3,3,Star Wars: The Force Awakens,BV,2042.5,923.7,1118.8,2015,"December 18, 2015",Sci-Fi Fantasy, 2 hrs. 16 min.,PG-13,200 ,2048044884,,,,,8.4
+4,4,Jurassic World,Uni.,1670.4,652.3,1018.1,2015,"June 12, 2015",Sci-Fi Horror, 2 hrs. 4 min.,PG-13,150 ,1670400637,,,,,7.1
+5,5,Marvel's The Avengers,BV,1519.6,623.4,896.2,2012,"May 4, 2012",Action / Adventure, 2 hrs. 22 min.,PG-13,220 ,207438708,154 days / 22 weeks,Joss Whedon,Robert Downey Jr.Chris HemsworthChris EvansJeremy RennerMark RuffaloScarlett JohanssonClark GreggSamuel L. JacksonCobie SmuldersTom HiddlestonStellan SkarsgardGwyneth Paltrow*Paul Bettany* (Voice),4349,8.1
+6,6,Furious 7,Uni.,1516.0,353,1163.0,2015,"April 3, 2015",Action, 2 hrs. 17 min.,PG-13,190 ,147187040,James Wan,Chris Morgan,Vin DieselNeal H. MoritzThomas Tull (executive),4022,7.3
+7,7,Avengers: Age of Ultron,BV,1405.4,459,946.4,2015,"May 1, 2015",Action / Adventure, 2 hrs. 21 min.,PG-13,250 ,191271109,161 days / 23 weeks,Joss Whedon,Robert Downey Jr.Chris HemsworthMark RuffaloChris EvansScarlett JohanssonJeremy RennerDon CheadleAaron JohnsonElizabeth OlsenPaul BettanyCobie SmuldersAnthony MackieHayley AtwellIdris ElbaStellan SkarsgardJames Spader (Voice)Samuel L. JacksonJosh Brolin (Voice)Andy Serkis* (Cameo),4276,7.6
+8,8,Harry Potter and the Deathly Hallows Part 2,WB,1341.5,381,960.5,2011,"July 15, 2011",Fantasy, 2 hrs. 10 min.,PG-13,,169189427,133 days / 19 weeks,David Yates,Daniel RadcliffeRupert GrintEmma WatsonHelena Bonham CarterRalph FiennesTom Felton*Robbie Coltrane*Michael Gambon*Jason Isaacs*Alan RickmanDavid Thewlis*Julie Walters*Bonnie Wright*Gary Oldman*Emma Thompson*Maggie Smith*John Hurt*Kelly Macdonald*Ciaran Hinds*Warwick Davis*Miranda Richardson*Timothy Spall*Jim Broadbent*,4375,8.1
+9,9,Frozen,BV,1276.5,400.7,875.7,2013,"November 22, 2013",Animation, 1 hrs. 48 min.,PG,150 ,1276480335,,,,,7.6
+10,10,Iron Man 3,BV,1215.4,409,806.4,2013,"May 3, 2013",Action / Adventure, 2 hrs. 9 min.,PG-13,200 ,174144585,133 days / 19 weeks,Shane Black,Robert Downey Jr.Gwyneth PaltrowDon CheadleGuy PearceRebecca HallJames Badge DaleJon FavreauBen KingsleyPaul Bettany* (Voice)Mark Ruffalo* (Cameo),4253,7.3
+11,11,Minions,Uni.,1159.4,336,823.4,2015,"July 10, 2015",Animation, 1 hrs. 31 min.,PG,74 ,1159398397,,,,,6.5
+12,12,Transformers: Dark of the Moon,P/DW,1123.8,352.4,771.4,2011,"June 29, 2011",Sci-Fi Action, 2 hrs. 34 min.,PG-13,195 ,97852865,107 days / 15.3 weeks,Michael Bay,Shia LaBeoufRosie Huntington-WhiteleyJosh DuhamelTyrese GibsonFrances McDormandPatrick DempseyJohn MalkovichAlan TudykKen JeongJohn TurturroHugo Weaving* (Voice)Leonard Nimoy* (Voice),4088,6.3
+13,13,The Lord of the Rings: The Return of the King,NL,1119.9,377.8,742.1,2003^,"December 17, 2003",Fantasy, 3 hrs. 20 min.,PG-13,94 ,1119929521,,,,,8.9
+14,14,Skyfall,Sony,1108.6,304.4,804.2,2012,"November 9, 2012",Action, 2 hrs. 23 min.,PG-13,200 ,88364714,122 days / 17.4 weeks,Sam Mendes,Daniel CraigJudi DenchJavier BardemRalph FiennesNaomie HarrisBerenice MarloheBen WhishawAlbert Finney,3526,7.8
+15,15,Transformers: Age of Extinction,Par.,1104.1,245.4,858.6,2014,"June 27, 2014",Sci-Fi Action, 2 hrs. 45 min.,PG-13,210 ,100038390,105 days / 15 weeks,Michael Bay,Mark WahlbergNicola PeltzJack ReynorTJ MillerStanley TucciKelsey Grammer,4233,5.7
+16,16,The Dark Knight Rises,WB,1084.9,448.1,636.8,2012,"July 20, 2012",Action Thriller, 2 hrs. 45 min.,PG-13,250 ,160887295,147 days / 21 weeks,Christopher Nolan,Christian BaleMichael CaineAnne HathawayTom HardyGary OldmanMarion CotillardJoseph Gordon-LevittMorgan FreemanMatthew ModineJuno Temple*Cillian Murphy*Liam Neeson*Joey King*,4404,8.5
+17,17,Pirates of the Caribbean: Dead Man's Chest,BV,1066.2,423.3,642.9,2006,"July 7, 2006",Period Adventure, 2 hrs. 31 min.,PG-13,225 ,135634554,154 days / 22 weeks,Gore Verbinski,Johnny DeppOrlando BloomKeira KnightleyJack DavenportBill NighyJonathan PryceStellan SkarsgardTom HollanderNaomie HarrisGeoffrey Rush* (Cameo),4133,7.3
+18,18,Toy Story 3,BV,1063.2,415,648.2,2010,"June 18, 2010",Animation, 1 hrs. 43 min.,G,200 ,110307189,168 days / 24 weeks,Lee Unkrich,Tom Hanks (Voice)Michael Keaton (Voice)Joan Cusack (Voice)Tim Allen (Voice)Don Rickles (Voice)John Ratzenberger (Voice)Whoopi Goldberg* (Voice)Wallace Shawn (Voice)Timothy Dalton (Voice)Bonnie Hunt* (Voice)Ned Beatty (Voice)Jodi Benson* (Voice)Richard Kind* (Voice)Jeff Garlin* (Voice)Lee Unkrich* (Voice),4028,8.4
+19,19,Pirates of the Caribbean: On Stranger Tides,BV,1045.7,241.1,804.6,2011,"May 20, 2011",Period Adventure, 2 hrs. 17 min.,PG-13,250 ,90151958,133 days / 19 weeks,Rob Marshall,Johnny DeppPenelope CruzIan McShaneKevin McNallyAstrid Berges-FrisbeySam ClaflinGeoffrey Rush,4164,6.7
+20,20,Jurassic Park,Uni.,1029.2,402.5,626.7,1993^,"June 11, 1993",Sci-Fi Horror, 2 hrs. 7 min.,PG-13,63 ,47026828,David Koepp,Sam NeillJeff GoldblumLaura DernRichard AttenboroughSamuel L. Jackson*,John Williams,2566,8.1
+21,21,Star Wars: Episode I - The Phantom Menace,Fox,1027.0,474.5,552.5,1999^,"May 19, 1999",Sci-Fi Fantasy, 2 hrs. 13 min.,PG,115 ,64820970,261 days / 37.3 weeks,George Lucas,Anthony DanielsIan McDiarmidLiam NeesonEwan McGregorNatalie PortmanSamuel L. Jackson*Keira Knightley*,3126,6.5
+22,22,Alice in Wonderland (2010),BV,1025.5,334.2,691.3,2010,"March 5, 2010",Family Adventure, 1 hrs. 49 min.,PG,200 ,116101023,126 days / 18 weeks,Tim Burton,Mia WasikowskaJohnny DeppHelena Bonham CarterAnne HathawayCrispin GloverMichael Sheen (Voice)Alan Rickman (Voice)Timothy Spall (Voice),3739,6.5
+23,23,The Hobbit: An Unexpected Journey,WB (NL),1021.1,303,718.1,2012,"December 14, 2012",Fantasy, 2 hrs. 46 min.,PG-13,,84617303,133 days / 19 weeks,Peter Jackson,Martin FreemanIan McKellenRichard ArmitageAndy Serkis (Voice)Cate BlanchettHugo WeavingChristopher Lee*Ian Holm*Elijah Wood*,4100,7.9
+24,24,The Dark Knight,WB,1004.6,534.9,469.7,2008^,"July 18, 2008",Action / Adventure, 2 hrs. 30 min.,PG-13,185 ,158411483,231 days / 33 weeks,Christopher Nolan,Christian BaleHeath LedgerAaron EckhartMorgan FreemanMichael CaineGary OldmanMaggie GyllenhaalEric RobertsMichael Jai White*William Fichtner*Cillian Murphy*,4366,9.0
+25,25,The Lion King,BV,987.5,422.8,564.7,1994^,"June 15, 1994",Animation, 1 hrs. 29 min.,G,45 ,"June 15 1994 (limited)
+ June 24 1994 (wide)",,,,,8.5
+26,26,Harry Potter and the Sorcerer's Stone,WB,974.8,317.6,657.2,2001,"November 16, 2001",Fantasy, 2 hrs. 33 min.,PG,125 ,90294621,Steve Kloves,Daniel RadcliffeEmma WatsonRupert GrintRobbie ColtraneAlan Rickman*,John Williams,3672,7.5
+27,27,Despicable Me 2,Uni.,970.8,368.1,602.7,2013,"July 3, 2013",Animation, 1 hrs. 38 min.,PG,76 ,83517315,Pierre CoffinChris Renaud,Ken DaurioCinco Paul,Janet HealyChristopher Meledandri,4003,7.5
+28,28,Pirates of the Caribbean: At World's End,BV,963.4,309.4,654.0,2007,"May 25, 2007",Period Adventure, 2 hrs. 48 min.,PG-13,300 ,114732820,133 days / 19 weeks,Gore Verbinski,Johnny DeppOrlando BloomKeira KnightleyChow Yun-FatGeoffrey RushJack DavenportBill NighyJonathan PryceStellan SkarsgardTom HollanderNaomie Harris,4362,7.1
+29,29,Harry Potter and the Deathly Hallows Part 1,WB,960.3,296,664.3,2010,"November 19, 2010",Fantasy, 2 hrs. 30 min.,PG-13,,125017372,David Yates,Steve Kloves,Alexandre Desplat,4125,7.7
+30,30,The Hobbit: The Desolation of Smaug,WB (NL),958.4,258.4,700.0,2013,"December 13, 2013",Fantasy, 2 hrs. 41 min.,PG-13,,73645197,126 days / 18 weeks,Peter Jackson,Martin FreemanIan McKellenRichard ArmitageOrlando BloomEvangeline LillyBenedict Cumberbatch (Voice)Luke EvansLee PaceCate Blanchett*,3928,7.9
+31,31,The Hobbit: The Battle of the Five Armies,WB (NL),956.0,255.1,700.9,2014,"December 17, 2014",Fantasy, 2 hrs. 24 min.,PG-13,,54724334,107 days / 15.3 weeks,Peter Jackson,Ian McKellenMartin FreemanRichard ArmitageLee PaceLuke EvansOrlando BloomEvangeline LillyHugo WeavingChristopher LeeCate BlanchettBenedict Cumberbatch (Voice),3875,7.5
+32,32,Harry Potter and the Order of the Phoenix,WB,939.9,292,647.9,2007,"July 11, 2007",Fantasy, 2 hrs. 19 min.,PG-13,150 ,77108414,156 days / 22.3 weeks,David Yates,Daniel RadcliffeRupert GrintEmma WatsonHelena Bonham Carter*Robbie Coltrane*Warwick Davis*Ralph FiennesMichael GambonBrendan Gleeson*Richard Griffiths*Jason Isaacs*Gary OldmanAlan Rickman*Fiona Shaw*Maggie Smith*Imelda StauntonDavid Thewlis*Emma Thompson*Julie Walters*Robert Pattinson*,4285,7.5
+33,33,Finding Nemo,BV,936.7,380.8,555.9,2003^,"May 30, 2003",Animation, 1 hrs. 44 min.,G,94 ,70251710,203 days / 29 weeks,Andrew StantonLee Unkrich,Albert Brooks (Voice)Ellen DeGeneres (Voice)Willem Dafoe* (Voice)Eric Bana* (Voice)Geoffrey Rush* (Voice),3425,8.1
+34,34,Harry Potter and the Half-Blood Prince,WB,934.4,302,632.5,2009,"July 15, 2009",Fantasy, 2 hrs. 33 min.,PG,250 ,77835727,156 days / 22.3 weeks,David Yates,Daniel RadcliffeRupert GrintEmma WatsonJim BroadbentHelena Bonham CarterRobbie Coltrane*Warwick Davis*Michael GambonAlan RickmanMaggie Smith*Timothy Spall*David Thewlis*Julie Walters*,4455,7.5
+35,35,The Lord of the Rings: The Two Towers,NL,926.0,342.6,583.5,2002^,"December 18, 2002",Fantasy, 2 hrs. 59 min.,PG-13,94 ,926047111,,,,,8.7
+36,36,Shrek 2,DW,919.8,441.2,478.6,2004,"May 19, 2004",Animation, 1 hrs. 33 min.,PG,150 ,108037878,149 days / 21.3 weeks,Andrew AdamsonKelly AsburyConrad Vernon,Mike Myers (Voice)Cameron Diaz (Voice)Eddie Murphy (Voice)Antonio Banderas (Voice)Julie Andrews* (Voice),4223,7.2
+37,37,Harry Potter and the Goblet of Fire,WB,896.9,290,606.9,2005,"November 18, 2005",Fantasy, 2 hrs. 33 min.,PG-13,150 ,102685961,140 days / 20 weeks,Mike Newell,Warwick DavisDaniel RadcliffeEmma WatsonRupert GrintRalph FiennesBrendan GleesonRobert PattinsonGary Oldman*Alan Rickman*,3858,7.6
+38,38,Spider-Man 3,Sony,890.9,336.5,554.3,2007,"May 4, 2007",Action / Adventure, 2 hrs. 20 min.,PG-13,258 ,151116516,112 days / 16 weeks,Sam Raimi,Tobey MaguireKirsten DunstJames FrancoThomas Haden ChurchTopher GraceBryce Dallas HowardElizabeth Banks*Willem Dafoe* (Cameo),4324,6.2
+39,39,Ice Age: Dawn of the Dinosaurs,Fox,886.7,196.6,690.1,2009,"July 1, 2009",Animation, 1 hrs. 27 min.,PG,90 ,41690382,149 days / 21.3 weeks,Carlos Saldanha,Ray Romano (Voice)John Leguizamo (Voice)Denis Leary (Voice)Queen Latifah (Voice)Simon Pegg (Voice)Kristen Wiig* (Voice)Joey King*,4102,7.0
+40,40,Spectre,Sony,879.5,199.8,679.7,2015,"November 6, 2015",Action, 2 hrs. 28 min.,PG-13,245 ,879499914,,,,,6.9
+41,41,Harry Potter and the Chamber of Secrets,WB,879.0,262,617.0,2002,"November 15, 2002",Fantasy, 2 hrs. 41 min.,PG,100 ,88357488,171 days / 24.4 weeks,Chris Columbus,Warwick DavisDaniel RadcliffeRupert GrintEmma WatsonRobbie ColtraneKenneth BranaghAlan Rickman*,3682,7.4
+42,42,Ice Age: Continental Drift,Fox,877.2,161.3,715.9,2012,"July 13, 2012",Animation, 1 hrs. 34 min.,PG,95 ,46629259,210 days / 30 weeks,Ray Romano (Voice)Queen Latifah (Voice)Denis Leary (Voice)John Leguizamo (Voice)Jennifer Lopez (Voice)Josh Peck* (Voice)Seann William Scott* (Voice)Alan Tudyk* (Voice)Nick Frost* (Voice)Aziz Ansari* (Voice)Nicki Minaj* (Voice)Rebel Wilson* (Voice),John Powell,3886,6.7
+43,43,The Lord of the Rings: The Fellowship of the Ring,NL,871.5,315.5,556.0,2001^,"December 19, 2001",Fantasy, 2 hrs. 58 min.,PG-13,93 ,871530324,,,,,8.8
+44,44,The Hunger Games: Catching Fire,LGF,865.0,424.7,440.3,2013,"November 22, 2013",Action / Adventure, 2 hrs. 26 min.,PG-13,130 ,158074286,133 days / 19 weeks,Francis Lawrence,Jennifer LawrenceJosh HutchersonLiam HemsworthElizabeth BanksStanley TucciWoody HarrelsonPhilip Seymour HoffmanJeffrey WrightJena MaloneAmanda PlummerSam ClaflinDonald SutherlandLenny Kravitz,4163,7.6
+45,45,Inside Out,BV,856.8,356.5,500.3,2015,"June 19, 2015",Animation, 1 hrs. 34 min.,PG,175 ,856809711,,,,,8.3
+46,46,Star Wars: Episode III - Revenge of the Sith,Fox,848.8,380.3,468.5,2005^,"May 19, 2005",Sci-Fi Fantasy, 2 hrs. 26 min.,PG-13,113 ,108435841,155 days / 22.1 weeks,George Lucas,Anthony DanielsChristopher LeePeter Mayhew*Ian McDiarmidEwan McGregorHayden ChristensenNatalie PortmanSamuel L. Jackson,3663,7.6
+47,47,Transformers: Revenge of the Fallen,P/DW,836.3,402.1,434.2,2009,"June 24, 2009",Sci-Fi Action, 2 hrs. 24 min.,PG-13,200 ,108966307,114 days / 16.3 weeks,Michael Bay,Shia LaBeoufMegan FoxJosh DuhamelTyrese GibsonJohn Turturro,4293,6.0
+48,48,The Twilight Saga: Breaking Dawn Part 2,LG/S,829.7,292.3,537.4,2012,"November 16, 2012",Romance, 1 hrs. 56 min.,PG-13,120 ,141067634,112 days / 16 weeks,Bill Condon,Kristen StewartRobert PattinsonTaylor LautnerBilly BurkePeter FacinelliAshley GreeneDakota FanningMaggie GraceMichael SheenNikki ReedKellan LutzJackson Rathbone,4070,5.5
+49,49,Inception,WB,825.5,292.6,533.0,2010,"July 16, 2010",Sci-Fi Action, 2 hrs. 28 min.,PG-13,160 ,62785337,175 days / 25 weeks,Christopher Nolan,Leonardo DiCaprioKen WatanabeJoseph Gordon-LevittMarion CotillardEllen PageTom HardyCillian MurphyTom BerengerMichael CaineLukas Haas*,3792,8.8
+50,50,Spider-Man,Sony,821.7,403.7,418.0,2002,"May 3, 2002",Action / Adventure, 2 hrs. 1 min.,PG-13,139 ,114844116,108 days / 15.4 weeks,Sam Raimi,Tobey MaguireWillem DafoeKirsten DunstJames FrancoElizabeth Banks*,3876,7.3
+51,51,Independence Day,Fox,817.4,306.2,511.2,1996^,"July 3, 1996",Sci-Fi Action, 2 hrs. 33 min.,PG-13,75 ,50228264,Roland Emmerich,Dean Devlin,Dean Devlin,2977,6.9
+52,52,Shrek the Third,P/DW,799.0,322.7,476.2,2007,"May 18, 2007",Animation, 1 hrs. 32 min.,PG,160 ,121629270,Chris Miller,Chris Miller,Harry Gregson-Williams,4172,6.1
+53,53,Harry Potter and the Prisoner of Azkaban,WB,796.7,249.5,547.1,2004,"June 4, 2004",Fantasy, 2 hrs. 22 min.,PG,130 ,93687367,178 days / 25.4 weeks,Alfonso Cuaron,Warwick DavisDaniel RadcliffeEmma WatsonRupert GrintAlan Rickman*Gary OldmanEmma Thompson*,3855,7.8
+54,54,E.T.: The Extra-Terrestrial,Uni.,792.9,435.1,357.8,1982^,"June 11, 1982",Family Adventure, 1 hrs. 57 min.,PG,10.5 ,792910554,,,,,7.8
+55,55,Fast & Furious 6,Uni.,788.7,238.7,550.0,2013,"May 24, 2013",Action, 2 hrs. 10 min.,PG-13,160 ,97375245,105 days / 15 weeks,Justin Lin,Vin DieselPaul WalkerDwayne JohnsonMichelle RodriguezTyrese GibsonChris 'Ludacris' BridgesJordana BrewsterLuke EvansGina Carano,3771,7.2
+56,56,Indiana Jones and the Kingdom of the Crystal Skull,Par.,786.6,317.1,469.5,2008,"May 22, 2008",Period Adventure, 2 hrs. 0 min.,PG-13,185 ,100137835,Steven Spielberg,David KoeppGeorge Lucas (story)Jeff Nathanson (story),George Lucas (Executive)Frank Marshall,4264,6.2
+57,57,Spider-Man 2,Sony,783.8,373.6,410.2,2004,"June 30, 2004",Action / Adventure, 2 hrs. 7 min.,PG-13,200 ,88156227,159 days / 22.7 weeks,Sam Raimi,Tobey MaguireKirsten DunstJames FrancoAlfred MolinaJ.K. SimmonsElizabeth Banks*Willem Dafoe* (Cameo),4166,7.3
+58,58,Star Wars,Fox,775.4,461,314.4,1977^,"May 25, 1977",Sci-Fi Fantasy, 2 hrs. 1 min.,PG,11 ,775398007,,,,,8.7
+59,59,Guardians of the Galaxy,BV,773.3,333.2,440.1,2014,"August 1, 2014",Action / Adventure, 2 hrs. 1 min.,PG-13,170 ,94320883,175 days / 25 weeks,James Gunn,Chris PrattZoe SaldanaDave BautistaVin Diesel (Voice)Bradley Cooper (Voice)Lee PaceKaren GillanDjimon HounsouJohn C. ReillyGlenn CloseBenicio Del ToroJosh Brolin*,4088,8.1
+60,60,,Sony,769.7,166.1,603.6,2009,"November 13, 2009",Action Drama, 2 hrs. 38 min.,PG-13,200 ,65237614,101 days / 14.4 weeks,Roland Emmerich,Larry J. FrancoMark GordonHarald Kloser,3444,5.8
+61,61,Maleficent,BV,758.5,241.4,517.1,2014,"May 30, 2014",Fantasy, 1 hrs. 37 min.,PG,180 ,69431298,189 days / 27 weeks,Robert Stromberg,Angelina JolieSharlto CopleyElle FanningSam RileyImelda StauntonJuno TempleLesley ManvilleBrenton ThwaitesMiranda Richardson,3948,7.0
+62,62,The Da Vinci Code,Sony,758.2,217.5,540.7,2006,"May 19, 2006",Thriller, 2 hrs. 29 min.,PG-13,125 ,77073388,94 days / 13.4 weeks,Ron Howard,Tom HanksAudrey TautouIan McKellenPaul BettanyJean RenoAlfred Molina,3757,6.5
+63,63,The Amazing Spider-Man,Sony,757.9,262,495.9,2012,"July 3, 2012",Action / Adventure, 2 hrs. 16 min.,PG-13,230 ,62004688,104 days / 14.9 weeks,Marc Webb,Andrew GarfieldEmma StoneRhys IfansDenis LearyMartin SheenSally FieldIrrfan KhanCampbell Scott*Embeth Davidtz*,4318,7.3
+64,64,The Hunger Games: Mockingjay - Part 1,LGF,755.4,337.1,418.2,2014,"November 21, 2014",Action / Adventure, 2 hrs. 3 min.,PG-13,125 ,121897634,119 days / 17 weeks,Francis Lawrence,Jennifer LawrenceJosh HutchersonLiam HemsworthWoody HarrelsonDonald SutherlandPhilip Seymour HoffmanJulianne MooreSam ClaflinElizabeth BanksJena MaloneJeffrey WrightStanley Tucci,4151,6.7
+65,65,Shrek Forever After,P/DW,752.6,238.7,513.9,2010,"May 21, 2010",Animation, 1 hrs. 33 min.,PG,165 ,70838207,Mike Mitchell,Darren Lemke,Harry Gregson-Williams,4386,6.4
+66,66,X-Men: Days of Future Past,Fox,747.9,233.9,513.9,2014,"May 23, 2014",Action / Adventure, 2 hrs. 11 min.,PG-13,200 ,90823660,140 days / 20 weeks,Bryan Singer,Hugh JackmanJames McAvoyMichael FassbenderJennifer LawrenceNicholas HoultPatrick StewartIan McKellenEllen PageHalle BerryShawn AshmorePeter DinklageAnna Paquin*Famke Janssen*James Marsden*,4001,8.0
+67,67,Madagascar 3: Europe's Most Wanted,P/DW,746.9,216.4,530.5,2012,"June 8, 2012",Animation, 1 hrs. 33 min.,PG,145 ,60316738,133 days / 19 weeks,Eric DarnellTom McGrathConrad Vernon,Ben Stiller (Voice)Chris Rock (Voice)David Schwimmer (Voice)Jada Pinkett-Smith (Voice)Sacha Baron Cohen (Voice)Cedric the Entertainer (Voice)Andy Richter (Voice)Jessica Chastain (Voice)Frances McDormand (Voice)Bryan Cranston (Voice)Martin Short (Voice),4263,6.9
+68,68,The Chronicles of Narnia: The Lion the Witch and the Wardrobe,BV,745.0,291.7,453.3,2005,"December 9, 2005",Fantasy, 2 hrs. 12 min.,PG,180 ,65556312,154 days / 22 weeks,Andrew Adamson,Tilda SwintonJames McAvoy*Jim Broadbent*Liam Neeson* (Voice),3853,6.9
+69,69,Monsters University,BV,743.6,268.5,475.1,2013,"June 21, 2013",Animation, 1 hrs. 47 min.,G,,82429469,182 days / 26 weeks,Dan Scanlon,Billy Crystal (Voice)John Goodman (Voice)Steve Buscemi (Voice)Helen Mirren (Voice)Alfred Molina* (Voice)Sean Hayes* (Voice)Charlie Day* (Voice)Nathan Fillion* (Voice)Aubrey Plaza* (Voice)Tyler Labine* (Voice)John Krasinski* (Voice)Bonnie Hunt* (Voice)John Ratzenberger* (Voice),4004,7.4
+70,70,The Matrix Reloaded,WB,742.1,281.6,460.6,2003,"May 15, 2003",Sci-Fi Action, 2 hrs. 18 min.,R,150 ,91774413,183 days / 26.1 weeks,Andy & Lana Wachowski,Keanu ReevesLaurence FishburneCarrie-Anne MossJada Pinkett-SmithHugo WeavingMonica Bellucci,3603,7.2
+71,71,Up,BV,731.3,293,438.3,2009,"May 29, 2009",Animation, 1 hrs. 36 min.,PG,175 ,68108790,161 days / 23 weeks,Pete DocterBob Peterson,Edward Asner* (Voice)Christopher Plummer* (Voice)John Ratzenberger* (Voice)Delroy Lindo* (Voice),3886,8.3
+72,72,Gravity,WB,723.2,274.1,449.1,2013,"October 4, 2013",Sci-Fi Thriller, 1 hrs. 31 min.,PG-13,100 ,55785112,217 days / 31 weeks,Alfonso Cuaron,George ClooneySandra Bullock,3820,7.9
+73,73,Captain America: The Winter Soldier,BV,714.4,259.8,454.7,2014,"April 4, 2014",Action / Adventure, 2 hrs. 16 min.,PG-13,170 ,95023721,140 days / 20 weeks,Anthony RussoJoe Russo,Chris EvansScarlett JohanssonSamuel L. JacksonRobert RedfordSebastian StanAnthony MackieCobie SmuldersFrank GrilloHayley AtwellEmily VanCamp*Toby Jones*,3938,7.8
+74,74,The Twilight Saga: Breaking Dawn Part 1,Sum.,712.2,281.3,430.9,2011,"November 18, 2011",Romance, 1 hrs. 48 min.,PG-13,110 ,138122261,98 days / 14 weeks,Bill Condon,Robert PattinsonKristen StewartTaylor LautnerAshley GreeneBilly BurkePeter FacinelliElizabeth ReaserNikki ReedKellan LutzJackson RathboneMaggie Grace*Anna Kendrick*Michael Sheen*,4066,4.9
+75,75,Dawn of the Planet of the Apes,Fox,710.6,208.5,502.1,2014,"July 11, 2014",Sci-Fi Action, 2 hrs. 10 min.,PG-13,170 ,72611427,147 days / 21 weeks,Matt Reeves,Andy SerkisJason ClarkeGary OldmanKeri RussellKodi Smit-McPheeJudy Greer*,3969,7.6
+76,76,The Twilight Saga: New Moon,Sum.,709.7,296.6,413.1,2009,"November 20, 2009",Romance, 2 hrs. 10 min.,PG-13,50 ,142839137,133 days / 19 weeks,Chris Weitz,Kristen StewartRobert PattinsonTaylor LautnerBilly BurkeAshley GreenePeter FacinelliElizabeth ReaserJackson RathboneKellan LutzMichael SheenDakota Fanning*Anna Kendrick*Cam Gigandet*,4124,4.6
+77,77,Transformers,P/DW,709.7,319.2,390.5,2007,"July 3, 2007",Sci-Fi Action, 2 hrs. 23 min.,PG-13,150 ,70502384,Michael Bay,Alex KurtzmanRoberto Orci,Michael Bay (executive)Ian BryceTom DeSantoLorenzo di BonaventuraDon MurphySteven Spielberg (executive)Mark Vahradian (executive),4050,7.1
+78,78,The Amazing Spider-Man 2,Sony,709.0,202.9,506.1,2014,"May 2, 2014",Action / Adventure, 2 hrs. 22 min.,PG-13,,91608337,108 days / 15.4 weeks,Marc Webb,Andrew GarfieldEmma StoneJamie FoxxDane DeHaanSally FieldPaul GiamattiChris CooperFelicity Jones*,4324,6.8
+79,79,The Twilight Saga: Eclipse,Sum.,698.5,300.5,398.0,2010,"June 30, 2010",Romance, 2 hrs. 4 min.,PG-13,68 ,64832191,114 days / 16.3 weeks,David Slade,Kristen StewartRobert PattinsonTaylor LautnerAshley GreeneBilly BurkePeter FacinelliElizabeth ReaserNikki ReedKellan LutzJackson RathboneDakota FanningCameron Bright*Bryce Dallas Howard*Catalina Sandino Moreno*Anna Kendrick*Sarah Clarke*Xavier Samuel,4468,4.9
+80,80,Mission: Impossible - Ghost Protocol,Par.,694.7,209.4,485.3,2011,"December 16, 2011",Action, 2 hrs. 12 min.,PG-13,145 ,"December 16 2011 (limited)
+ December 21 2011 (wide)",,,,,7.4
+81,81,The Hunger Games,LGF,694.4,408,286.4,2012,"March 23, 2012",Action / Adventure, 2 hrs. 22 min.,PG-13,78 ,152535747,168 days / 24 weeks,Gary Ross,Jennifer LawrenceJosh HutchersonLiam HemsworthElizabeth BanksWes BentleyStanley TucciWoody HarrelsonLenny KravitzToby Jones,4137,7.3
+82,82,Mission: Impossible - Rogue Nation,Par.,682.3,195,487.3,2015,"July 31, 2015",Action, 2 hrs. 10 min.,PG-13,150 ,55520089,91 days / 13 weeks,Christopher McQuarrie,Rebecca FergusonRebecca FergusonTom CruiseJeremy RennerSimon PeggAlec BaldwinVing Rhames,3988,7.5
+83,83,Forrest Gump,Par.,677.9,330.3,347.7,1994^,"July 6, 1994",Comedy / Drama, 2 hrs. 21 min.,PG-13,55 ,677945399,,,,,8.8
+84,84,Interstellar,Par.,675.1,188,487.1,2014,"November 5, 2014",Sci-Fi Adventure, 2 hrs. 49 min.,PG-13,165 ,675120017,,,,,8.6
+85,85,The Sixth Sense,BV,672.8,293.5,379.3,1999,"August 6, 1999",Horror, 1 hrs. 47 min.,PG-13,40 ,26681262,M. Night Shyamalan,Bruce WillisHaley Joel OsmentToni ColletteM. Night Shyamalan*,James Newton Howard,2821,8.1
+86,86,Man of Steel,WB,668.0,291,377.0,2013,"June 14, 2013",Action / Adventure, 2 hrs. 23 min.,PG-13,225 ,116619362,98 days / 14 weeks,Zack Snyder,Henry CavillAmy AdamsMichael ShannonKevin CostnerDiane LaneLaurence FishburneAyelet ZurerRussell CroweChristopher Meloni,4207,7.2
+87,87,Kung Fu Panda 2,P/DW,665.7,165.2,500.4,2011,"May 26, 2011",Animation, 1 hrs. 31 min.,PG,150 ,665692281,,,,,7.3
+88,88,Ice Age: The Meltdown,Fox,660.9,195.3,465.6,2006,"March 31, 2006",Animation, 1 hrs. 30 min.,PG,80 ,68033544,161 days / 23 weeks,Carlos Saldanha,Christopher Meledandri (executive)Chris Wedge (executive),3969,6.9
+89,89,Big Hero 6,BV,657.8,222.5,435.3,2014,"November 7, 2014",Animation, 1 hrs. 48 min.,PG,165 ,657818612,,,,,7.9
+90,90,Pirates of the Caribbean: The Curse of the Black Pearl,BV,654.3,305.4,348.9,2003,"July 9, 2003",Period Adventure, 2 hrs. 15 min.,PG-13,140 ,46630690,184 days / 26.3 weeks,Gore Verbinski,Johnny DeppGeoffrey RushOrlando BloomKeira KnightleyJack DavenportJonathan PryceZoe Saldana*,3416,8.1
+91,91,The Hunger Games: Mockingjay - Part 2,LGF,653.0,281.7,371.2,2015,"November 20, 2015",Action / Adventure, 2 hrs. 17 min.,PG-13,160 ,652955370,,,,,7.0
+92,92,Star Wars: Episode II - Attack of the Clones,Fox,649.4,310.7,338.7,2002^,"May 16, 2002",Sci-Fi Fantasy, 2 hrs. 12 min.,PG,115 ,80027814,172 days / 24.6 weeks,George Lucas,Anthony DanielsChristopher LeeIan McDiarmidEwan McGregorHayden ChristensenNatalie PortmanSamuel L. Jackson*Rose Byrne*,3161,6.7
+93,93,Thor: The Dark World,BV,644.6,206.4,438.2,2013,"November 8, 2013",Action / Adventure, 2 hrs. 0 min.,PG-13,170 ,85737841,161 days / 23 weeks,Alan Taylor,Chris HemsworthNatalie PortmanTom HiddlestonAnthony HopkinsIdris ElbaStellan SkarsgardChristopher EcclestonKat DenningsRay StevensonZachary LeviJaimie AlexanderChris O'DowdRene RussoChris Evans*,3841,7.1
+94,94,Kung Fu Panda,P/DW,631.7,215.4,416.3,2008,"June 6, 2008",Animation, 1 hrs. 31 min.,PG,130 ,631744560,,,,,7.6
+95,95,The Incredibles,BV,631.4,261.4,370.0,2004,"November 5, 2004",Animation, 1 hrs. 55 min.,PG,92 ,70467623,161 days / 23 weeks,Brad Bird,Craig T. Nelson (Voice)Holly Hunter (Voice)Samuel L. Jackson (Voice)Brad Bird* (Voice),3933,8.0
+96,96,Fast Five,Uni.,626.1,209.8,416.3,2011,"April 29, 2011",Action, 2 hrs. 10 min.,PG-13,125 ,86198765,105 days / 15 weeks,Justin Lin,Vin DieselPaul WalkerDwayne JohnsonJordana BrewsterChris 'Ludacris' BridgesTyrese Gibson,3793,7.3
+97,97,Hancock,Sony,624.4,227.9,396.4,2008,"July 2, 2008",Fantasy Drama, 1 hrs. 32 min.,PG-13,150 ,62603879,72 days / 10.3 weeks,Peter Berg,Ian Bryce (executive)Akiva GoldsmanJames LassiterWill Smith,3965,6.4
+98,98,MIB 3,Sony,624.0,179,445.0,2012,"May 25, 2012",Sci-Fi Comedy, 1 hrs. 46 min.,PG-13,108 ,624030738,,,,,6.8
+99,99,Iron Man 2,Par.,623.9,312.4,311.5,2010,"May 7, 2010",Action / Adventure, 2 hrs. 5 min.,PG-13,225 ,54592779,108 days / 15.4 weeks,Barry Sonnenfeld,Will SmithJosh BrolinTommy Lee JonesAlice EveEmma ThompsonMichael StuhlbargJemaine ClementBill Hader*,4248,7.0
+100,100,Ratatouille,BV,623.7,206.4,417.3,2007,"June 29, 2007",Animation, 1 hrs. 51 min.,PG-13,200 ,128122480,Jon Favreau,"Robert Downey, Jr.Don CheadleScarlett JohanssonGwyneth PaltrowSam RockwellMickey RourkeSamuel L. JacksonClark GreggJohn SlatteryGarry ShandlingPaul Bettany* (Voice)Kate Mara*Jon Favreau*",John Debney,4390,8.0
+101,101,How to Train Your Dragon 2,Fox,621.5,177,444.5,2014,"June 13, 2014",Animation, 1 hrs. 45 min.,G,150 ,47027395,168 days / 24 weeks,Brad Bird,Patton Oswalt (Voice)Ian Holm* (Voice)Brian Dennehy* (Voice)Peter Sohn* (Voice)Peter O'Toole (Voice)Brad Garrett* (Voice)Will Arnett* (Voice)Janeane Garofalo* (Voice)James Remar* (Voice)John Ratzenberger* (Voice)Brad Bird* (Voice),3940,7.9
+102,102,The Martian,Fox,619.7,228.3,391.4,2015,"October 2, 2015",Sci-Fi, 2 hrs. 21 min.,PG,145 ,49451322,182 days / 26 weeks,Dean DeBlois,Jay Baruchel (Voice)Gerard Butler (Voice)Craig Ferguson (Voice)America Ferrera (Voice)Jonah Hill (Voice)Christopher Mintz-Plasse (Voice)TJ Miller (Voice)Kristen Wiig (Voice)Kit Harington (Voice)Cate Blanchett (Voice)Djimon Hounsou (Voice),4268,8.1
+103,103,The Lost World: Jurassic Park,Uni.,618.6,229.1,389.6,1997,"May 23, 1997",Sci-Fi Horror, 2 hrs. 9 min.,PG-13,73 ,72132785,Steven Spielberg,David Koepp,Kathleen Kennedy (executive)Gerald R. MolenColin Wilson,3565,6.5
+104,104,The Passion of the Christ,NM,611.9,370.8,241.1,2004^,"February 25, 2004",Historical Drama, 2 hrs. 6 min.,R,30 ,83848082,156 days / 22.3 weeks,Mel Gibson,John Debney,3408,7.1
+105,105,Mamma Mia!,Uni.,609.8,144.1,465.7,2008,"July 18, 2008",Musical, 1 hrs. 48 min.,PG-13,52 ,27751240,,,,,6.3
+106,106,Life of Pi,Fox,609.0,125,484.0,2012,"November 21, 2012",Adventure, 2 hrs. 6 min.,R,58 ,132434639,Tim Miller,Rhett ReesePaul Wernick,Lauren Schuler DonnerSimon KinbergRyan Reynolds,3856,8.0
+107,107,Madagascar: Escape 2 Africa,P/DW,603.9,180,423.9,2008,"November 7, 2008",Animation, 1 hrs. 29 min.,PG,120 ,22451514,247 days / 35.3 weeks,Ang Lee,Suraj SharmaIrrfan Khan,2946,6.7
+108,108,Casino Royale,Sony,599.0,167.4,431.6,2006,"November 17, 2006",Action, 2 hrs. 24 min.,PG,150 ,63106589,112 days / 16 weeks,Eric DarnellTom McGrath,Ben Stiller (Voice)Chris Rock (Voice)David Schwimmer (Voice)Jada Pinkett-Smith (Voice)Sacha Baron Cohen (Voice)Cedric the Entertainer (Voice)Andy Richter (Voice)Bernie Mac (Voice)Alec Baldwin (Voice)Tom McGrath* (Voice)Zachary Gordon* (Voice),4065,8.0
+109,109,Tangled,BV,591.8,200.8,391.0,2010,"November 24, 2010",Animation, 1 hrs. 40 min.,PG-13,150 ,40833156,122 days / 17.4 weeks,Martin Campbell,Daniel CraigJudi DenchEva GreenJeffrey WrightMads MikkelsenCaterina Murino,3443,7.8
+110,110,War of the Worlds,Par.,591.7,234.3,357.5,2005,"June 29, 2005",Sci-Fi Horror, 1 hrs. 57 min.,PG,260 ,48767052,191 days / 27.3 weeks,Nathan GrenoByron Howard,Mandy Moore (Voice)Zachary Levi (Voice)Donna Murphy (Voice)Ron Perlman (Voice)Jeffrey Tambor (Voice)Brad Garrett (Voice),3603,6.5
+111,111,Men in Black,Sony,589.4,250.7,338.7,1997,"July 2, 1997",Sci-Fi Comedy, 1 hrs. 37 min.,PG-13,132 ,64878725,149 days / 21.3 weeks,Steven Spielberg,Amy Ryan*Tom CruiseDakota FanningTim Robbins,3910,7.3
+112,112,The Croods,Fox,587.2,187.2,400.0,2013,"March 22, 2013",Animation, 1 hrs. 38 min.,PG-13,90 ,51068455,Ed Solomon,Tommy Lee JonesWill Smith,Danny Elfman,3180,7.3
+113,113,The Hangover Part II,WB,586.8,254.5,332.3,2011,"May 26, 2011",Comedy, 1 hrs. 42 min.,PG,135 ,43639736,182 days / 26 weeks,Kirk De MiccoChris Sanders,Nicolas Cage (Voice)Emma Stone (Voice)Ryan Reynolds (Voice)Catherine Keener (Voice)Cloris Leachman (Voice)Clark Duke (Voice),4065,6.5
+114,114,Quantum of Solace,Sony,586.1,168.4,417.7,2008,"November 14, 2008",Action, 1 hrs. 46 min.,R,80 ,85946294,113 days / 16.1 weeks,Todd Phillips,Bradley CooperEd HelmsZach GalifianakisJustin BarthaKen JeongPaul GiamattiMike TysonJeffrey TamborJamie Chung,3675,6.7
+115,115,I Am Legend,WB,585.3,256.4,329.0,2007,"December 14, 2007",Sci-Fi Horror, 1 hrs. 40 min.,PG-13,200 ,67528882,77 days / 11 weeks,Marc Forster,Mathieu AmalricDaniel CraigOlga KurylenkoJudi DenchGemma ArtertonJeffrey Wright,3501,7.2
+116,116,Iron Man,Par.,585.2,318.4,266.8,2008,"May 2, 2008",Action / Adventure, 2 hrs. 6 min.,PG-13,150 ,77211321,119 days / 17 weeks,Francis Lawrence,Will Smith,3648,7.9
+117,117,Night at the Museum,Fox,574.5,250.9,323.6,2006,"December 22, 2006",Family Adventure, 1 hrs. 48 min.,PG-13,140 ,98618668,Jon Favreau,Mark FergusHawk Ostby,Avi AradPeter Billingsley (executive)Louis D'Esposito (executive)Jon Favreau (executive)Kevin FeigeStan Lee (executive)David Maisel (executive),4154,6.4
+118,118,Fifty Shades of Grey,Uni.,571.0,166.2,404.8,2015,"February 13, 2015",Romance, 2 hrs. 5 min.,PG,,574480841,,,,,4.1
+119,119,The Smurfs,Sony,563.7,142.6,421.1,2011,"July 29, 2011",Family Comedy, 1 hrs. 26 min.,R,40 ,85171450,84 days / 12 weeks,Sam Taylor-Johnson,Dakota JohnsonJamie DornanJennifer EhleMarcia Gay Harden,3655,5.5
+120,120,Monsters Inc.,BV,562.8,289.9,272.9,2001^,"November 2, 2001",Animation, 1 hrs. 30 min.,PG,110 ,35611637,140 days / 20 weeks,Raja Gosnell,Neil Patrick HarrisJayma MaysHank AzariaKaty Perry (Voice)Alan Cumming (Voice)George Lopez (Voice)Paul Reubens (Voice)Anton Yelchin (Voice),3427,8.1
+121,121,Cars 2,BV,559.9,191.5,368.4,2011,"June 24, 2011",Animation, 1 hrs. 53 min.,G,115 ,62577067,329 days / 47 weeks,Pete DocterDavid Silverman (co-director)Lee Unkrich,Billy Crystal (Voice)John Goodman (Voice)Bonnie Hunt* (Voice),3649,6.3
+122,122,Puss in Boots,P/DW,555.0,149.3,405.7,2011,"October 28, 2011",Animation, 1 hrs. 30 min.,G,200 ,66135507,175 days / 25 weeks,John LasseterBrad Lewis (co-director),Owen Wilson (Voice)Larry the Cable Guy (Voice)Michael Caine (Voice)Emily Mortimer (Voice)Bonnie Hunt (Voice)Tony Shalhoub (Voice)Cheech Marin (Voice)Jason Isaacs* (Voice)Joe Mantegna* (Voice),4115,6.7
+123,123,Armageddon,BV,553.7,201.6,352.1,1998,"July 1, 1998",Sci-Fi Action, 2 hrs. 24 min.,PG,130 ,34077439,126 days / 18 weeks,Chris Miller,Antonio Banderas (Voice)Salma Hayek (Voice)Zach Galifianakis (Voice)Billy Bob Thornton (Voice)Amy Sedaris (Voice),3963,6.6
+124,124,King Kong,Uni.,550.5,218.1,332.4,2005,"February 12, 2016",Action, 1 hrs. 46 min.,PG-13,140 ,36089972,J.J. AbramsTony Gilroy* (adaptation)Jonathan Hensleigh,Bruce WillisBen AffleckLiv TylerBilly Bob ThorntonWill PattonSteve BuscemiMichael Clarke DuncanWilliam FichtnerPeter StormareOwen Wilson*,Trevor Rabin,3184,7.2
+125,125,Ted,Uni.,549.4,218.8,330.6,2012,"December 14, 2005",Period Adventure, 3 hrs. 7 min.,PG-13,207 ,50130145,114 days / 16.3 weeks,Peter Jackson,Naomi WattsJack BlackAdrien BrodyColin HanksAndy SerkisJamie BellKyle Chandler,3627,7.0
+126,126,American Sniper,WB,547.4,350.1,197.3,2014,"June 29, 2012",Comedy, 1 hrs. 46 min.,R,50 ,54415205,Seth MacFarlane,Seth MacFarlaneAlec SulkinWellesley Wild,Jason ClarkJohn JacobsSeth MacFarlaneScott StuberWellesley Wild,3303,7.3
+127,127,Mission: Impossible II,Par.,546.4,215.4,331.0,2000,"December 25, 2014",Drama, 2 hrs. 12 min.,R,58.8 ,"December 25 2014 (limited)
+ January 16 2015 (wide)",,,,,6.1
+128,128,Sherlock Holmes: A Game of Shadows,WB,545.4,186.8,358.6,2011,"May 24, 2000",Action, 2 hrs. 3 min.,PG-13,125 ,57845297,149 days / 21.3 weeks,John Woo,Tom CruisePaula Wagner,3669,7.5
+129,129,The Day After Tomorrow,Fox,544.3,186.7,357.5,2004,"December 16, 2011",Adventure, 2 hrs. 8 min.,PG-13,,39637079,112 days / 16 weeks,Guy Ritchie,Robert Downey Jr.Jude LawNoomi RapaceJared HarrisStephen FryRachel McAdamsEddie Marsan*,3703,6.4
+130,130,Despicable Me,Uni.,543.1,251.5,291.6,2010,"May 28, 2004",Action Drama, 2 hrs. 4 min.,PG-13,125 ,68743584,161 days / 23 weeks,Roland Emmerich,Mark Gordon,3444,7.7
+131,131,Cinderella (2015),BV,542.7,201.2,341.5,2015,"July 9, 2010",Animation, 1 hrs. 35 min.,PG,69 ,543113985,,,,,7.0
+132,132,World War Z,Par.,540.0,202.4,337.6,2013,"March 13, 2015",Fantasy, 1 hrs. 52 min.,PG,95 ,67877361,189 days / 27 weeks,Kenneth Branagh,Lily JamesRichard MaddenCate BlanchettHelena Bonham CarterStellan SkarsgardHayley Atwell,3848,7.0
+133,133,Brave,BV,539.0,237.3,301.7,2012,"June 21, 2013",Action Horror, 1 hrs. 56 min.,PG-13,190 ,66411834,112 days / 16 weeks,Marc Forster,Brad PittMireille EnosDavid Morse,3607,7.2
+134,134,The Empire Strikes Back,Fox,538.4,290.5,247.9,1980^,"June 22, 2012",Animation, 1 hrs. 40 min.,PG,185 ,66323594,210 days / 30 weeks,Mark AndrewsBrenda Chapman,Kelly Macdonald (Voice)Billy Connolly (Voice)Emma Thompson (Voice)Julie Walters (Voice)Robbie Coltrane (Voice)Craig Ferguson (Voice),4164,8.8
+135,135,Madagascar,DW,532.7,193.6,339.1,2005,"May 21, 1980",Sci-Fi Fantasy, 2 hrs. 9 min.,PG,18 ,"May 21 1980 (limited)
+ June 20 1980 (wide)",,,,,6.9
+136,136,Deadpool,Fox,529.6,263.1,266.5,2016,"May 27, 2005",Animation, 1 hrs. 26 min.,PG,,47224594,Eric DarnellTom McGrath,Eric DarnellTom McGrath,Mireille Soria,4142,8.5
+137,137,Godzilla (2014),WB,529.1,200.7,328.4,2014,"May 16, 2014",Sci-Fi Action, 2 hrs. 3 min.,PG-13,160 ,93188384,105 days / 15 weeks,Gareth Edwards,Aaron JohnsonKen WatanabeElizabeth OlsenJuliette BinocheSally HawkinsDavid StrathairnBryan Cranston,3952,6.0
+138,138,The Simpsons Movie,Fox,527.1,183.1,343.9,2007,"July 27, 2007",Animation, 1 hrs. 27 min.,PG-13,75 ,74036787,147 days / 21 weeks,David Silverman,James L. BrooksMatt GroeningRichard Sakai,3926,7.4
+139,139,Sherlock Holmes,WB,524.0,209,315.0,2009,"December 25, 2009",Adventure, 2 hrs. 14 min.,PG-13,90 ,62304277,126 days / 18 weeks,Guy Ritchie,Robert Downey Jr.Jude LawRachel McAdamsMark StrongEddie Marsan,3626,7.6
+140,140,WALL-E,BV,521.3,223.8,297.5,2008,"June 27, 2008",Animation, 1 hrs. 37 min.,G,180 ,63087526,196 days / 28 weeks,Andrew Stanton,Fred Willard* (Voice)Jeff Garlin* (Voice)Sigourney Weaver* (Voice),3992,8.4
+141,141,Terminator 2: Judgment Day,TriS,519.8,204.8,315.0,1991,"July 3, 1991",Sci-Fi Action, 2 hrs. 17 min.,R,102 ,31765506,,,,,8.5
+142,142,Ant-Man,BV,519.3,180.2,339.0,2015,"July 17, 2015",Action / Adventure, 1 hrs. 57 min.,PG-13,130 ,519250779,,,,,7.4
+143,143,Meet the Fockers,Uni.,516.6,279.3,237.4,2004,"December 22, 2004",Comedy, 1 hrs. 54 min.,PG-13,80 ,46120980,149 days / 21.3 weeks,Jay Roach,Randy Newman,3554,6.3
+144,144,Ghost,Par.,505.7,217.6,288.1,1990,"July 13, 1990",Romance, 2 hrs. 8 min.,PG-13,22 ,12191540,,,,,7.0
+145,145,Aladdin,BV,504.1,217.4,286.7,1992,"November 13, 1992",Animation, 1 hrs. 30 min.,G,28 ,504050219,,,,,8.0
+146,146,Rio 2,Fox,500.1,131.5,368.6,2014,"April 11, 2014",Animation, 1 hrs. 41 min.,G,103 ,39327869,147 days / 21 weeks,Carlos Saldanha,Anne Hathaway (Voice)Jesse Eisenberg (Voice)Leslie Mann (Voice)Jemaine Clement (Voice)Jamie Foxx (Voice)Tracy Morgan (Voice)Kristin Chenoweth (Voice)Rodrigo Santoro (Voice)George Lopez (Voice)Bruno Mars (Voice)Janelle Monae (Voice),3975,6.4
+147,147,Troy,WB,497.4,133.4,364.0,2004,"May 14, 2004",Historical Epic, 2 hrs. 43 min.,R,175 ,46865412,112 days / 16 weeks,Wolfgang Petersen,Brad PittEric BanaOrlando BloomBrian CoxSean BeanPeter O'TooleDiane KrugerBrendan GleesonRose ByrneGarrett Hedlund*,3411,7.2
+148,148,How to Train Your Dragon,P/DW,494.9,217.6,277.3,2010,"March 26, 2010",Animation, 1 hrs. 38 min.,PG,165 ,43732319,119 days / 17 weeks,Dean DeBloisChris Sanders,Jay Baruchel (Voice)Gerard Butler (Voice)America Ferrera (Voice)Jonah Hill (Voice)TJ Miller (Voice)Kristen Wiig (Voice)Christopher Mintz-Plasse (Voice),4060,8.2
+149,149,Twister,WB,494.5,241.7,252.8,1996,"May 10, 1996",Action Drama, 1 hrs. 53 min.,PG-13,92 ,41059405,,,,,6.3
+150,150,Teenage Mutant Ninja Turtles (2014),Par.,493.3,191.2,302.1,2014,"August 8, 2014",Action / Adventure, 1 hrs. 41 min.,PG-13,125 ,65575105,105 days / 15 weeks,Jonathan Liebesman,Megan FoxWill ArnettWilliam FichtnerJohnny Knoxville (Voice)Whoopi Goldberg,3980,6.3
+151,151,Oz The Great and Powerful,BV,493.3,234.9,258.4,2013,"March 8, 2013",Adventure, 2 hrs. 7 min.,PG,215 ,79110453,133 days / 19 weeks,Sam Raimi,Tony CoxJames FrancoMila KunisMichelle WilliamsRachel WeiszZach Braff (Voice)Joey King (Voice),3912,6.4
+152,152,Clash of the Titans (2010),WB,493.2,163.2,330.0,2010,"April 2, 2010",Fantasy, 1 hrs. 58 min.,PG-13,125 ,61235105,112 days / 16 weeks,Louis Leterrier,Sam WorthingtonLiam NeesonRalph FiennesGemma ArtertonMads MikkelsenAlexa DavalosNicholas Hoult*,3802,5.8
+153,153,Angels & Demons,Sony,485.9,133.4,352.6,2009,"May 15, 2009",Thriller, 2 hrs. 20 min.,PG-13,150 ,46204168,84 days / 12 weeks,Ron Howard,Tom HanksEwan McGregorStellan SkarsgardAyelet Zurer,3527,6.7
+154,154,Toy Story 2,BV,485.0,245.9,239.2,1999^,"November 19, 1999",Animation, 1 hrs. 32 min.,G,90 ,"November 19 1999 (limited)
+ November 24 1999 (wide)",,,,,7.9
+155,155,Rio,Fox,484.6,143.6,341.0,2011,"April 15, 2011",Animation, 1 hrs. 36 min.,G,90 ,39225962,147 days / 21 weeks,Carlos Saldanha,Anne Hathaway (Voice)Jesse Eisenberg (Voice)Leslie Mann (Voice)Jamie Foxx (Voice)Rodrigo Santoro* (Voice)Jemaine Clement* (Voice)George Lopez* (Voice)Tracy Morgan* (Voice)Wanda Sykes* (Voice),3842,7.0
+156,156,Bruce Almighty,Uni.,484.6,242.8,241.8,2003,"May 23, 2003",Fantasy Comedy, 1 hrs. 41 min.,PG-13,81 ,67953330,189 days / 27 weeks,Tom Shadyac,Jim CarreyMorgan FreemanJennifer AnistonSteve Carell,3549,6.7
+157,157,Shrek,DW,484.4,267.7,216.7,2001,"May 16, 2001",Animation, 1 hrs. 30 min.,PG,60 ,42347760,205 days / 29.3 weeks,Andrew Adamson,Mike Myers (Voice)Cameron Diaz (Voice)Eddie Murphy (Voice),3715,7.9
+158,158,Saving Private Ryan,DW,481.8,216.5,265.3,1998,"July 24, 1998",War, 2 hrs. 50 min.,R,70 ,30576104,,,,,8.6
+159,159,Rise of the Planet of the Apes,Fox,481.8,176.8,305.0,2011,"August 5, 2011",Sci-Fi Action, 1 hrs. 50 min.,PG-13,93 ,54806191,Rupert Wyatt,Rick JaffaAmanda Silver,Peter CherninDylan ClarkThomas M. Hammel (executive)Rick JaffaAmanda Silver,3691,7.6
+160,160,Mr. & Mrs. Smith,Fox,478.2,186.3,291.9,2005,"June 10, 2005",Action Comedy, 1 hrs. 55 min.,PG-13,110 ,50342878,189 days / 27 weeks,Doug Liman,Brad PittAngelina JolieVince VaughnAdam BrodyKerry WashingtonKeith DavidMichelle Monaghan*,3451,6.5
+161,161,Home Alone,Fox,476.7,285.8,190.9,1990,"November 16, 1990",Family Comedy, 1 hrs. 45 min.,PG,18 ,17081997,John Hughes,Macaulay Culkin,John Williams,2173,7.5
+162,162,Return of the Jedi,Fox,475.1,309.3,165.8,1983^,"May 25, 1983",Sci-Fi Fantasy, 2 hrs. 14 min.,PG,32.5 ,23019618,,,,,8.4
+163,163,Charlie and the Chocolate Factory,WB,475.0,206.5,268.5,2005,"July 15, 2005",Family Adventure, 1 hrs. 46 min.,PG,150 ,474968763,,,,,6.7
+164,164,Indiana Jones and the Last Crusade,Par.,474.2,197.2,277.0,1989,"May 24, 1989",Period Adventure, 2 hrs. 7 min.,PG-13,48 ,29355021,George Lucas (story),Sean ConneryHarrison Ford,John Williams,2327,8.3
+165,165,San Andreas,WB,473.8,155.2,318.6,2015,"May 29, 2015",Action, 1 hrs. 54 min.,PG-13,110 ,473790832,,,,,6.1
+166,166,Wreck-It Ralph,BV,471.2,189.4,281.8,2012,"November 2, 2012",Animation, 1 hrs. 48 min.,PG,165 ,49038712,182 days / 26 weeks,Rich Moore,John C. Reilly (Voice)Jack McBrayer (Voice)Sarah Silverman (Voice)Jane Lynch (Voice)Alan Tudyk* (Voice)Mindy Kaling* (Voice),3752,7.8
+167,167,Jaws,Uni.,470.7,260,210.7,1975,"June 20, 1975",Horror Thriller, 2 hrs. 5 min.,PG,7 ,"June 20 1975 (limited)
+ July 25 1975 (wide)",,,,,8.1
+168,168,The LEGO Movie,WB,469.2,257.8,211.4,2014,"February 7, 2014",Animation, 1 hrs. 40 min.,PG,60 ,469160692,,,,,7.8
+169,169,Hotel Transylvania 2,Sony,469.0,169.7,299.4,2015,"September 25, 2015",Animation, 1 hrs. 29 min.,PG,80 ,469034909,,,,,6.8
+170,170,The Hangover,WB,467.5,277.3,190.2,2009,"June 5, 2009",Comedy, 1 hrs. 36 min.,R,35 ,44979319,196 days / 28 weeks,Todd Phillips,Bradley CooperEd HelmsZach GalifianakisJustin BarthaHeather GrahamJeffrey TamborKen JeongRachael HarrisRob Riggle*,3545,7.8
+171,171,Star Trek Into Darkness,Par.,467.4,228.8,238.6,2013,"May 16, 2013",Sci-Fi Adventure, 2 hrs. 3 min.,PG-13,190 ,70165559,120 days / 17.1 weeks,J.J. Abrams,Leonard Nimoy*Chris PineZachary QuintoZoe SaldanaKarl UrbanSimon PeggJohn ChoAnton YelchinBruce GreenwoodBenedict CumberbatchAlice EvePeter Weller,3907,7.8
+172,172,The Matrix,WB,463.5,171.5,292.0,1999,"March 31, 1999",Sci-Fi Action, 2 hrs. 16 min.,R,63 ,27788331,Andy & Lana Wachowski,Keanu ReevesCarrie-Anne MossLaurence FishburneHugo Weaving,Bill Pope,2903,8.7
+173,173,Pretty Woman,BV,463.4,178.4,285.0,1990,"March 23, 1990",Romantic Comedy, 1 hrs. 59 min.,R,14 ,11280591,J.F. Lawton,Richard GereJulia Roberts,Charles Minsky,1811,6.9
+174,174,Lucy,Uni.,463.4,126.7,336.7,2014,"July 25, 2014",Sci-Fi Action, 1 hrs. 30 min.,R,40 ,43899340,Luc Besson,Luc Besson,Virginie Silla,3202,6.4
+175,175,Cars,BV,462.0,244.1,217.9,2006,"June 9, 2006",Animation, 1 hrs. 56 min.,G,120 ,60119509,133 days / 19 weeks,John Lasseter,Owen Wilson (Voice)Paul Newman (Voice)Bonnie Hunt (Voice)Larry the Cable Guy (Voice)Michael Keaton* (Voice),3988,7.2
+176,176,X-Men: The Last Stand,Fox,459.4,234.4,225.0,2006,"May 26, 2006",Action / Adventure, 1 hrs. 44 min.,PG-13,210 ,102750665,126 days / 18 weeks,Brett Ratner,Hugh JackmanHalle BerryIan McKellenFamke JanssenAnna PaquinKelsey GrammerRebecca RomijnJames MarsdenBen Foster*Patrick StewartEllen Page*,3714,6.8
+177,177,Mission: Impossible,Par.,457.7,181,276.7,1996,"May 22, 1996",Action, 1 hrs. 50 min.,PG-13,80 ,45436830,212 days / 30.3 weeks,Brian De Palma,Tom CruiseJon Voight,3012,7.1
+178,178,Gladiator,DW,457.6,187.7,269.9,2000,"May 5, 2000",Historical Epic, 2 hrs. 35 min.,R,103 ,34819017,371 days / 53 weeks,Ridley Scott,Russell CroweJoaquin Phoenix,3188,8.5
+179,179,National Treasure: Book of Secrets,BV,457.4,220,237.4,2007,"December 21, 2007",Adventure, 2 hrs. 4 min.,PG,,44783772,182 days / 26 weeks,Jon Turteltaub,Nicolas CageJustin BarthaDiane KrugerJon VoightHelen MirrenEd HarrisHarvey KeitelBruce GreenwoodTy Burrell*,3832,6.5
+180,180,The Last Samurai,WB,456.8,111.1,345.6,2003,"December 5, 2003",War, 2 hrs. 34 min.,R,140 ,24271354,126 days / 18 weeks,Edward Zwick,Tom CruiseKen Watanabe,2938,7.7
+181,181,,WB,456.1,210.6,245.5,2007,"March 9, 2007",Period Action, 1 hrs. 57 min.,R,65 ,456068181,,,,,7.7
+182,182,Ocean's Eleven,WB,450.7,183.4,267.3,2001,"December 7, 2001",Crime Comedy, 1 hrs. 56 min.,PG-13,85 ,38107822,,,,,7.8
+183,183,Thor,Par.,449.3,181,268.3,2011,"May 6, 2011",Action / Adventure, 1 hrs. 55 min.,PG-13,150 ,65723338,112 days / 16 weeks,Kenneth Branagh,Chris HemsworthNatalie PortmanKat DenningsAnthony HopkinsRay StevensonIdris ElbaStellan SkarsgardRene RussoColm FeoreClark GreggTom HiddlestonSamuel L. Jackson* (Cameo)Jeremy Renner* (Cameo),3963,7.0
+184,184,Pearl Harbor,BV,449.2,198.5,250.7,2001,"May 25, 2001",War, 3 hrs. 3 min.,PG-13,140 ,59078912,Randall Wallace,"Ewen BremnerBen AffleckJosh HartnettKate BeckinsaleCuba Gooding, Jr.Jon VoightAlec BaldwinTom SizemoreJennifer Garner*",Klaus Badelt* (Additional music)Hans Zimmer,3255,6.0
+185,185,Tarzan,BV,448.2,171.1,277.1,1999,"June 16, 1999",Animation, 1 hrs. 28 min.,G,130 ,34221968,,,,,7.2
+186,186,Alvin and the Chipmunks: The Squeakquel,Fox,443.1,219.6,223.5,2009,"December 23, 2009",Family Comedy, 1 hrs. 28 min.,PG,75 ,48875415,149 days / 21.3 weeks,Betty Thomas,Christina Applegate (Voice)David CrossAnna Faris (Voice)Jason LeeZachary LeviJustin Long (Voice)Amy Poehler (Voice),3747,4.5
+187,187,The Bourne Ultimatum,Uni.,442.8,227.5,215.4,2007,"August 3, 2007",Action Thriller, 1 hrs. 51 min.,PG-13,110 ,69283690,119 days / 17 weeks,Paul Greengrass,Matt DamonJulia StilesDavid StrathairnScott GlennPaddy Considine*Albert FinneyJoan Allen,3701,8.1
+188,188,Men in Black II,Sony,441.8,190.4,251.4,2002,"July 3, 2002",Sci-Fi Comedy, 1 hrs. 28 min.,PG-13,140 ,52148751,62 days / 8.9 weeks,Barry Sonnenfeld,Steven Spielberg (executive),3641,6.1
+189,189,Les Miserables (2012),Uni.,441.8,148.8,293.0,2012,"December 25, 2012",Musical, 2 hrs. 37 min.,PG-13,61 ,27281735,101 days / 14.4 weeks,Tom Hooper,Hugh JackmanRussell CroweAnne HathawayAmanda SeyfriedSacha Baron CohenHelena Bonham CarterEddie Redmayne,2927,7.6
+190,190,The Exorcist,WB,441.3,232.9,208.4,1973^,"December 26, 1973",Horror, 2 hrs. 2 min.,R,,,,,,,8.0
+191,191,Mrs. Doubtfire,Fox,441.3,219.2,222.1,1993,"November 24, 1993",Family Comedy, 2 hrs. 5 min.,PG-13,25 ,20468847,,,,,6.9
+192,192,Terminator: Genisys,Par.,440.6,89.8,350.8,2015,"July 1, 2015",Action, 2 hrs. 6 min.,PG-13,155 ,27018486,79 days / 11.3 weeks,Alan Taylor,Arnold SchwarzeneggerJason ClarkeEmilia ClarkeJai CourtneyJ.K. Simmons,3783,6.6
+193,193,Terminator 3: Rise of the Machines,WB,433.4,150.4,283.0,2003,"July 2, 2003",Sci-Fi Action, 1 hrs. 49 min.,R,200 ,44041440,121 days / 17.3 weeks,Arnold SchwarzeneggerNick StahlClaire DanesKristanna Loken,Don Burgess (director of photography),3504,6.4
+194,194,The Mummy Returns,Uni.,433.0,202,231.0,2001,"May 4, 2001",Period Adventure, 2 hrs. 10 min.,PG-13,98 ,68139035,Stephen Sommers,Stephen Sommers,Alan Silvestri,3553,6.3
+195,195,Die Another Day,MGM,432.0,160.9,271.0,2002,"November 22, 2002",Action, 2 hrs. 3 min.,PG-13,142 ,47072040,Lee Tamahori,Neal PurvisRobert Wade,Barbara BroccoliMichael G. Wilson,3377,6.1
+196,196,Cast Away,Fox,429.6,233.6,196.0,2000,"December 22, 2000",Drama, 2 hrs. 23 min.,PG-13,90 ,28883406,Tom HanksHelen Hunt,Tom Hanks,Alan Silvestri,3061,7.7
+197,197,The Matrix Revolutions,WB,427.3,139.3,288.0,2003,"November 5, 2003",Sci-Fi Action, 2 hrs. 15 min.,R,150 ,48475154,Andy & Lana Wachowski,Andy & Lana Wachowski,Joel Silver,3502,6.7
+198,198,The Intouchables (U.S.-only),Wein.,426.6,10.2,416.4,2012,"May 25, 2012",Foreign, 1 hrs. 52 min.,R,,103507,,,,,5.8
+199,199,Django Unchained,Wein.,425.4,162.8,262.6,2012,"December 25, 2012",Western, 2 hrs. 45 min.,R,100 ,30122888,143 days / 20.4 weeks,Quentin Tarantino,Jamie FoxxChristoph WaltzLeonardo DiCaprioKerry WashingtonSamuel L. JacksonDon JohnsonDennis ChristopherWalton Goggins*James Remar*Jonah Hill*,3012,8.5
+200,200,Beauty and the Beast,BV,425.0,219,206.0,1991^,"November 15, 1991",Animation, 1 hrs. 24 min.,G,25 ,"November 15 1991 (limited)
+ November 22 1991 (wide)",,,,,8.0
+201,201,Dances with Wolves,Orion,424.2,184.2,240.0,1990,"November 9, 1990",Western, 3 hrs. 3 min.,PG-13,22 ,"November 9 1990 (limited)
+ November 23 1990 (wide)",,,,,8.0
+202,202,The Chronicles of Narnia: Prince Caspian,BV,419.7,141.6,278.0,2008,"May 16, 2008",Fantasy, 2 hrs. 20 min.,PG,225 ,55034805,112 days / 16 weeks,Andrew Adamson,Warwick DavisPeter DinklageBen BarnesGeorgie HenleySkandar KeynesWilliam MoseleyLiam Neeson* (Voice),3929,6.6
+203,203,The Mummy,Uni.,415.9,155.4,260.5,1999,"May 7, 1999",Period Adventure, 2 hrs. 4 min.,PG-13,80 ,43369635,,,,,7.0
+204,204,The Chronicles of Narnia: The Voyage of the Dawn Treader,Fox,415.7,104.4,311.3,2010,"December 10, 2010",Fantasy, 1 hrs. 52 min.,PG,155 ,24005069,126 days / 18 weeks,Michael Apted,Ben BarnesTilda Swinton*Liam Neeson* (Voice)Simon Pegg* (Voice),3555,6.3
+205,205,Sex and the City,WB (NL),415.3,152.6,262.6,2008,"May 30, 2008",Romantic Comedy, 2 hrs. 15 min.,R,65 ,57038404,112 days / 16 weeks,Michael Patrick King,Sarah Jessica ParkerKim CattrallKristin DavisCynthia NixonChris NothJennifer Hudson,3325,6.9
+206,206,The Wolverine,Fox,414.8,132.6,282.3,2013,"July 26, 2013",Action, 2 hrs. 6 min.,PG-13,120 ,53113752,133 days / 19 weeks,James Mangold,Hugh JackmanFamke Janssen*,3924,6.7
+207,207,Kingsman: The Secret Service,Fox,414.4,128.3,286.1,2015,"February 13, 2015",Action / Adventure, 2 hrs. 9 min.,R,81 ,36206331,147 days / 21 weeks,Matthew Vaughn,Sofia BoutellaColin FirthSamuel L. JacksonMichael CaineTaron EgertonMark StrongSophie CooksonMark Hamill,3282,7.8
+208,208,The King's Speech,Wein.,414.2,138.8,275.4,2010^,"November 26, 2010",Historical Drama, 1 hrs. 58 min.,R,15 ,"November 26 2010 (limited)
+ December 25 2010 (wide)",,,,,8.0
+209,209,Night at the Museum: Battle of the Smithsonian,Fox,413.1,177.2,235.9,2009,"May 22, 2009",Family Adventure, 1 hrs. 45 min.,PG,150 ,54173286,168 days / 24 weeks,Shawn Levy,Ben StillerAmy AdamsOwen WilsonHank AzariaRobin WilliamsChristopher GuestSteve CooganRicky GervaisBill HaderJonah HillJay Baruchel*Mindy Kaling*,4101,5.9
+210,210,Batman,WB,411.3,251.2,160.2,1989,"June 23, 1989",Action / Adventure, 2 hrs. 6 min.,PG-13,35 ,40489746,175 days / 25 weeks,Tim Burton,Jon Peters,2201,7.6
+211,211,The Bodyguard,WB,411.0,122,289.0,1992^,"November 25, 1992",Romance, 2 hrs. 10 min.,R,,16611793,Kevin CostnerWhitney Houston,Kevin CostnerLawrence KasdanJim Wilson,Alan Silvestri,1806,6.1
+212,212,Pacific Rim,WB,411.0,101.8,309.2,2013,"July 12, 2013",Sci-Fi Action, 2 hrs. 11 min.,PG-13,190 ,37285325,98 days / 14 weeks,Guillermo del Toro,Charlie HunnamRinko KikuchiIdris ElbaCharlie DayRon Perlman,3285,7.0
+213,213,Signs,BV,408.2,228,180.3,2002,"August 2, 2002",Sci-Fi Horror, 1 hrs. 47 min.,PG-13,72 ,60117080,189 days / 27 weeks,M. Night Shyamalan,Mel GibsonJoaquin PhoenixAbigail BreslinRory CulkinM. Night Shyamalan*,3453,6.7
+214,214,X2: X-Men United,Fox,407.7,214.9,192.8,2003,"May 2, 2003",Action / Adventure, 2 hrs. 14 min.,PG-13,110 ,85558731,147 days / 21 weeks,Bryan Singer,Patrick StewartHugh JackmanIan McKellenHalle BerryFamke JanssenJames MarsdenAnna PaquinRebecca RomijnBrian CoxAlan Cumming,3749,7.5
+215,215,Prometheus,Fox,403.4,126.5,276.9,2012,"June 8, 2012",Sci-Fi Action, 2 hrs. 4 min.,R,135 ,"December 25 2015 (limited)
+ January 8 2016 (wide)",,,,,7.0
+216,216,The Mummy: Tomb of the Dragon Emperor,Uni.,401.1,102.5,298.6,2008,"August 1, 2008",Period Adventure, 1 hrs. 54 min.,R,130 ,51050101,105 days / 15 weeks,Ridley Scott,Noomi RapaceMichael FassbenderCharlize TheronIdris ElbaGuy PearcePatrick Wilson*,3442,5.2
+217,217,Gone with the Wind,MGM,400.2,198.7,201.5,1939^,"December 15, 1939",Historical Epic, 3 hrs. 58 min.,PG-13,145 ,40457770,Rob Cohen,Alfred Gough & Miles Millar,Stephen Sommers,3778,8.2
+218,218,Tron Legacy,BV,400.1,172.1,228.0,2010,"December 17, 2010",Sci-Fi Action, 2 hrs. 5 min.,G,,400176459,Max Steiner,Rank,1,David O.,6.8
+219,219,Mission: Impossible III,Par.,397.9,134,263.8,2006,"May 5, 2006",Action, 2 hrs. 6 min.,PG,170 ,44026211,119 days / 17 weeks,Joseph Kosinski,Jeff BridgesGarrett HedlundOlivia WildeBruce BoxleitnerJames FrainBeau GarrettMichael SheenCillian Murphy* (Cameo),3451,6.9
+220,220,Snow White and the Huntsman,Uni.,396.6,155.3,241.3,2012,"June 1, 2012",Adventure, 2 hrs. 7 min.,PG-13,150 ,47743273,J.J. Abrams,J.J. AbramsAlex KurtzmanRoberto Orci,Tom CruisePaula Wagner,4059,6.1
+221,221,Grease,Par.,395.0,188.8,206.2,1978^,"June 16, 1978",Musical, 1 hrs. 50 min.,PG-13,170 ,56217700,Rupert Sanders,Hossein AminiEvan DaughertyJohn Lee Hancock,Sam MercerPalak PatelJoe Roth,3777,7.2
+222,222,Twilight,Sum.,393.6,192.8,200.8,2008,"November 21, 2008",Romance, 2 hrs. 0 min.,PG,6 ,394955690,,,,,5.2
+223,223,The Wolf of Wall Street,Par.,392.0,116.9,275.1,2013,"December 25, 2013",Drama, 3 hrs. 0 min.,PG-13,37 ,393616788,,,,,8.2
+224,224,Superman Returns,WB,391.1,200.1,191.0,2006,"June 28, 2006",Action / Adventure, 2 hrs. 34 min.,R,100 ,18361578,100 days / 14.3 weeks,Martin Scorsese,Leonardo DiCaprioJonah HillMatthew McConaugheyMargot RobbieKyle ChandlerJon BernthalJon FavreauShea WhighamRob ReinerJean Dujardin,2557,6.1
+225,225,Robin Hood: Prince of Thieves,WB,390.5,165.5,225.0,1991,"June 14, 1991",Period Adventure, 2 hrs. 23 min.,PG-13,270 ,52535096,128 days / 18.3 weeks,Bryan Singer,Brandon RouthKate BosworthKevin SpaceyJames MarsdenParker PoseyFrank LangellaKal Penn,4065,6.9
+226,226,Raiders of the Lost Ark,Par.,389.9,248.2,141.8,1981^,"June 12, 1981",Period Adventure, 1 hrs. 55 min.,PG-13,48 ,25625602,,,,,8.5
+227,227,Home (2015),Fox,386.0,177.4,208.6,2015,"December 25, 2015",Action / Adventure, 2 hrs. 31 min.,PG,18 ,389925971,,,,,6.7
+228,228,Star Trek,Par.,385.7,257.7,128.0,2009,"March 27, 2015",Animation, 1 hrs. 34 min.,PG,135 ,386041607,,,,,8.0
+229,229,Monster Hunt,FR,385.3,$32.8k,385.2,2016,"May 8, 2009",Sci-Fi Adventure, 2 hrs. 6 min.,PG-13,150 ,75204289,147 days / 21 weeks,J.J. Abrams,Chris PineZachary QuintoLeonard NimoyEric BanaBruce GreenwoodKarl UrbanZoe SaldanaSimon PeggJohn ChoAnton YelchinChris Hemsworth*Winona Ryder*Tyler Perry* (Cameo),4053,6.2
+230,230,The Revenant,Fox,385.0,167.7,217.3,2015,"January 22, 2016",Action Fantasy, 1 hrs. 51 min.,Unrated,,,,,,,8.2
+231,231,Happy Feet,WB,384.3,198,186.3,2006,"November 17, 2006",Animation, 1 hrs. 48 min.,PG,100 ,41533432,175 days / 25 weeks,George Miller,Elijah Wood (Voice)Robin Williams (Voice)Brittany Murphy (Voice)Hugh Jackman (Voice)Nicole Kidman (Voice)Hugo Weaving (Voice)Anthony LaPaglia (Voice),3804,6.5
+232,232,Live Free or Die Hard,Fox,383.5,134.5,249.0,2007,"June 27, 2007",Action, 2 hrs. 10 min.,PG-13,110 ,33369559,135 days / 19.3 weeks,Len Wiseman,Bruce WillisTimothy OlyphantJustin LongMaggie QCliff CurtisMary Elizabeth WinsteadKevin Smith,3411,7.2
+233,233,Ice Age,Fox,383.3,176.4,206.9,2002,"March 15, 2002",Animation, 1 hrs. 21 min.,PG,59 ,46312454,172 days / 24.6 weeks,Carlos Saldanha (co-director)Chris Wedge,Christopher Meledandri (executive),3345,7.6
+234,234,Monsters Vs. Aliens,P/DW,381.5,198.4,183.2,2009,"March 27, 2009",Animation, 1 hrs. 34 min.,PG,175 ,59321095,154 days / 22 weeks,Rob LettermanConrad Vernon,Reese Witherspoon (Voice)Seth Rogen (Voice)Hugh Laurie (Voice)Will Arnett (Voice)Kiefer Sutherland (Voice)Rainn Wilson (Voice)Stephen Colbert (Voice)Paul Rudd* (Voice)John Krasinski* (Voice)Tom McGrath* (Voice)Ed Helms* (Voice),4136,6.6
+235,235,Back to the Future,Uni.,381.1,210.6,170.5,1985,"July 3, 1985",Sci-Fi Adventure, 1 hrs. 51 min.,PG,19 ,381109762,,,,,8.5
+236,236,Godzilla,Sony,379.0,136.3,242.7,1998,"May 20, 1998",Sci-Fi Action, 2 hrs. 20 min.,PG-13,130 ,44047541,Dean DevlinTed Elliott (story)Terry Rossio (story),Matthew Broderick,David Arnold,3310,6.5
+237,237,True Lies,Fox,378.9,146.3,232.6,1994,"July 15, 1994",Action Comedy, 2 hrs. 24 min.,R,115 ,25869770,,,,,7.2
+238,238,Slumdog Millionaire,FoxS,377.9,141.3,236.6,2008,"November 12, 2008",Drama, 2 hrs. 0 min.,R,15 ,"November 12 2008 (limited)
+ December 26 2008 (wide)",,,,,8.0
+239,239,Mad Max: Fury Road,WB,377.6,153.6,224.0,2015,"May 15, 2015",Sci-Fi Action, 2 hrs. 0 min.,R,150 ,377636354,,,,,8.2
+240,240,Taken 2,Fox,376.1,139.9,236.3,2012,"October 5, 2012",Action, 1 hrs. 31 min.,PG-13,45 ,49514769,140 days / 20 weeks,Olivier Megaton,Liam NeesonMaggie GraceFamke Janssen,3706,6.3
+241,241,G.I. Joe: Retaliation,Par.,375.7,122.5,253.2,2013,"March 28, 2013",Action, 1 hrs. 39 min.,PG-13,130 ,40501814,113 days / 16.1 weeks,Jon Chu,Dwayne JohnsonChanning TatumBruce WillisAdrianne PalickiRay StevensonJonathan PryceLuke Bracey*,3734,5.8
+242,242,Batman Begins,WB,374.2,206.9,167.4,2005^,"June 15, 2005",Action / Adventure, 2 hrs. 20 min.,PG-13,150 ,48745440,142 days / 20.3 weeks,Christopher Nolan,Christian BaleMichael CaineLiam NeesonMorgan FreemanGary OldmanKen WatanabeKatie HolmesCillian MurphyTom Wilkinson*Rutger Hauer*Linus Roache*,3858,8.3
+243,243,What Women Want,Par.,374.1,182.8,191.3,2000,"December 15, 2000",Fantasy Comedy, 2 hrs. 7 min.,PG-13,70 ,33614543,,,,,6.4
+244,244,The Adventures of Tintin,Par.,374.0,77.6,296.4,2011,"December 21, 2011",Animation, 1 hrs. 41 min.,PG,,9720993,93 days / 13.3 weeks,Steven Spielberg,Daniel Craig (Voice)Jamie Bell (Voice)Simon Pegg (Voice)Andy Serkis (Voice)Cary Elwes (Voice)Toby Jones (Voice)Nick Frost (Voice),3087,7.4
+245,245,X-Men Origins: Wolverine,Fox,373.1,179.9,193.2,2009,"May 1, 2009",Action / Adventure, 1 hrs. 47 min.,PG-13,150 ,85058003,154 days / 22 weeks,Gavin Hood,Hugh JackmanLiev SchreiberDanny HustonDominic MonaghanRyan ReynoldsTaylor Kitsch,4102,6.7
+246,246,Penguins of Madagascar,Fox,373.0,83.4,289.7,2014,"November 26, 2014",Animation, 1 hrs. 32 min.,PG,132 ,25447444,Eric DarnellSimon J. Smith,Benedict Cumberbatch (Voice)Ken Jeong (Voice)John Malkovich (Voice)Peter Stormare (Voice),Lorne Balfe,3775,6.7
+247,247,The Golden Compass,NL,372.2,70.1,302.1,2007,"December 7, 2007",Fantasy, 1 hrs. 53 min.,PG-13,180 ,25783232,91 days / 13 weeks,Chris Weitz,Nicole KidmanDaniel CraigEva GreenSam ElliottIan McKellen (Voice)Freddie Highmore* (Voice),3528,6.1
+248,248,Terminator Salvation,WB,371.4,125.3,246.0,2009,"May 21, 2009",Sci-Fi Action, 1 hrs. 54 min.,PG-13,200 ,42558390,113 days / 16.1 weeks,McG,Dan Lin (executive)Jeffrey Silver,3602,6.6
+249,249,Captain America: The First Avenger,Par.,370.6,176.7,193.9,2011,"July 22, 2011",Action / Adventure, 2 hrs. 5 min.,PG-13,140 ,65058524,112 days / 16 weeks,Joe Johnston,Chris EvansHugo WeavingStanley TucciTommy Lee JonesDominic CooperNeal McDonoughHayley AtwellSebastian StanToby JonesDerek LukeSamuel L. Jackson*,3715,6.8
+250,250,Edge of Tomorrow,WB,370.5,100.2,270.3,2014,"June 6, 2014",Sci-Fi Action, 1 hrs. 53 min.,PG-13,178 ,28760246,98 days / 14 weeks,Doug Liman,Tom CruiseEmily BluntBill PaxtonBrendan Gleeson,3505,7.9
+251,251,There's Something About Mary,Fox,369.9,176.5,193.4,1998,"July 15, 1998",Romantic Comedy, 1 hrs. 59 min.,R,23 ,13740644,,,,,7.1
+252,252,Gone Girl,Fox,369.3,167.8,201.6,2014,"October 3, 2014",Thriller, 2 hrs. 25 min.,R,61 ,37513109,147 days / 21 weeks,David Fincher,Ben AffleckRosamund PikeNeil Patrick HarrisTyler PerryPatrick FugitCarrie CoonEmily Ratajkowski*Boyd Holbrook*Scoot McNairy*,3284,8.1
+253,253,The Fugitive,WB,368.9,183.9,185.0,1993,"August 6, 1993",Action Thriller, 2 hrs. 10 min.,PG-13,,23758855,147 days / 21 weeks,Andrew Davis,Harrison FordTommy Lee JonesJulianne Moore*,2425,7.8
+254,254,Jurassic Park III,Uni.,368.8,181.2,187.6,2001,"July 18, 2001",Sci-Fi Horror, 1 hrs. 32 min.,PG-13,93 ,50771645,Joe Johnston,Alexander Payne,Larry J. FrancoKathleen KennedySteven Spielberg (executive),3462,5.9
+255,255,My Big Fat Greek Wedding,IFC,368.7,241.4,127.3,2002,"April 19, 2002",Romantic Comedy, 1 hrs. 35 min.,PG,5 ,"April 19 2002 (limited)
+ August 2 2002 (wide)",,,,,6.6
+256,256,Hitch,Sony,368.1,179.5,188.6,2005,"February 11, 2005",Romantic Comedy, 1 hrs. 55 min.,PG-13,70 ,43142214,119 days / 17 weeks,Andy Tennant,James LassiterWill SmithMichael Tadross (executive),3575,6.7
+257,257,Shark Tale,DW,367.3,160.9,206.4,2004,"October 1, 2004",Animation, 1 hrs. 30 min.,PG,75 ,47604606,98 days / 14 weeks,Rob Letterman,Will Smith (Voice)Angelina Jolie (Voice)Renee Zellweger (Voice)Jack Black (Voice)Robert DeNiro (Voice),4070,6.0
+258,258,Die Hard: With A Vengeance,Fox,366.1,100,266.1,1995,"May 19, 1995",Action Thriller, 2 hrs. 11 min.,R,90 ,22162245,Jonathan Hensleigh,Samuel L. JacksonBruce Willis,Michael Kamen,2579,7.6
+259,259,Notting Hill,Uni.,363.9,116.1,247.8,1999,"May 28, 1999",Romantic Comedy, 2 hrs. 4 min.,PG-13,42 ,21811180,,,,,7.0
+260,260,A Bug's Life,BV,363.4,162.8,200.6,1998,"November 20, 1998",Animation, 1 hrs. 36 min.,G,120 ,"November 20 1998 (limited)
+ November 27 1998 (wide)",,,,,7.2
+261,261,Night at the Museum: Secret of the Tomb,Fox,363.2,113.7,249.5,2014,"December 19, 2014",Family Adventure, 1 hrs. 37 min.,PG,127 ,17100520,203 days / 29 weeks,Shawn Levy,Dan StevensBen StillerRobin WilliamsOwen WilsonRebel WilsonBen KingsleyDick Van DykeSteve CooganRicky Gervais,3914,6.2
+262,262,Fast and Furious,Uni.,363.2,155.1,208.1,2009,"April 3, 2009",Action, 1 hrs. 39 min.,PG-13,85 ,70950500,91 days / 13 weeks,Justin Lin,Vin DieselPaul WalkerMichelle RodriguezJordana BrewsterBrandon T. Jackson*,3674,6.6
+263,263,Ocean's Twelve,WB,362.7,125.5,237.2,2004,"December 10, 2004",Crime Comedy, 2 hrs. 4 min.,PG-13,110 ,39153380,105 days / 15 weeks,Steven Soderbergh,George ClooneyBrad PittMatt DamonCatherine Zeta-JonesDon CheadleBernie MacJulia RobertsCasey AffleckBruce Willis* (Cameo)Jared Harris*Topher Grace* (Cameo),3290,6.4
+264,264,Noah,Par.,362.6,101.2,261.4,2014,"March 28, 2014",Drama, 2 hrs. 18 min.,PG-13,125 ,43720472,84 days / 12 weeks,Darren Aronofsky,Russell CroweJennifer ConnellyEmma WatsonAnthony HopkinsLogan LermanRay WinstoneNick Nolte*Kevin Durand*Frank Langella*,3571,5.8
+265,265,Planet of the Apes (2001),Fox,362.2,180,182.2,2001,"July 27, 2001",Sci-Fi Action, 1 hrs. 59 min.,PG-13,100 ,68532960,,,,,
+266,266,The Hangover Part III,WB,362.0,112.2,249.8,2013,"May 23, 2013",Comedy, 1 hrs. 40 min.,R,103 ,41671198,85 days / 12.1 weeks,Todd Phillips,Bradley CooperEd HelmsZach GalifianakisJustin BarthaJohn GoodmanHeather GrahamKen JeongMelissa McCarthy,3565,5.9
+267,267,Toy Story,BV,362.0,191.8,170.2,1995^,"November 22, 1995",Animation, 1 hrs. 21 min.,G,,29140617,John Lasseter,Joel CohenPete DocterJohn Lasseter (story)Alec SokolowAndrew StantonJoss Whedon,Randy Newman (+ songs),2574,8.3
+268,268,The World Is Not Enough,MGM,361.8,126.9,234.9,1999,"November 19, 1999",Action, 2 hrs. 8 min.,PG-13,135 ,35519007,Neal PurvisRobert Wade,Pierce BrosnanJudi DenchDenise Richards,David Arnold,3163,6.4
+269,269,Alvin and the Chipmunks,Fox,361.3,217.3,144.0,2007,"December 14, 2007",Family Comedy, 1 hrs. 32 min.,PG,60 ,361336633,,,,,5.3
+270,270,The Karate Kid,Sony,359.1,176.6,182.5,2010,"June 11, 2010",Action Drama, 2 hrs. 20 min.,PG,40 ,55665805,105 days / 15 weeks,Harald Zwart,James LassiterWill Smith,3740,7.2
+271,271,Home Alone 2: Lost in New York,Fox,359.0,173.6,185.4,1992,"November 20, 1992",Family Comedy, 2 hrs. 0 min.,PG,,31126882,John Hughes,Macaulay CulkinJoe PesciCatherine O'HaraRob Schneider*,John Williams,2461,6.6
+272,272,Hotel Transylvania,Sony,358.4,148.3,210.1,2012,"September 28, 2012",Animation, 1 hrs. 31 min.,PG,85 ,42522194,144 days / 20.6 weeks,Genndy Tartakovsky,Adam Sandler (Voice)Andy Samberg (Voice)Selena Gomez (Voice)Kevin James (Voice)Fran Drescher (Voice)Steve Buscemi (Voice)Molly Shannon* (Voice)David Spade* (Voice)Jon Lovitz* (Voice),3375,7.1
+273,273,Minority Report,Fox,358.4,132.1,226.3,2002,"June 21, 2002",Sci-Fi Thriller, 2 hrs. 24 min.,PG-13,102 ,35677125,Steven Spielberg,Scott Frank,Gerald R. Molen,3001,7.7
+274,274,Top Gun,Par.,356.8,179.8,177.0,1986^,"May 16, 1986",Action Drama, 1 hrs. 50 min.,PG,,356830601,,,,,6.9
+275,275,American Beauty,DW,356.3,130.1,226.2,1999,"September 15, 1999",Drama, 2 hrs. 2 min.,R,15 ,"September 15 1999 (limited)
+ October 1 1999 (wide)",,,,,8.4
+276,276,Apollo 13,Uni.,355.2,173.8,181.4,1995^,"June 30, 1995",Action Thriller, 2 hrs. 20 min.,PG,,25353380,,,,,7.6
+277,277,Rain Man,MGM,354.8,172.8,182.0,1988,"December 16, 1988",Drama, 2 hrs. 13 min.,R,25 ,7005719,,,,,8.0
+278,278,X-Men: First Class,Fox,353.6,146.4,207.2,2011,"June 3, 2011",Action / Adventure, 2 hrs. 11 min.,PG-13,160 ,55101604,119 days / 17 weeks,Matthew Vaughn,James McAvoyMichael FassbenderJennifer LawrenceRose ByrneJanuary JonesKevin BaconNicholas HoultOliver PlattJason Flemyng,3692,7.8
+279,279,Basic Instinct,TriS,352.9,117.7,235.2,1992,"March 20, 1992",Thriller, 2 hrs. 3 min.,R,49 ,15129385,,,,,6.9
+280,280,GoldenEye,MGM,352.2,106.4,245.8,1995,"November 17, 1995",Action, 2 hrs. 10 min.,PG-13,,26205007,,,,,7.2
+281,281,Catch Me If You Can,DW,352.1,164.6,187.5,2002,"December 25, 2002",Comedy / Drama, 2 hrs. 20 min.,PG-13,52 ,30053627,149 days / 21.3 weeks,Steven Spielberg,Leonardo DiCaprioTom HanksChristopher WalkenMartin SheenAmy AdamsJames BrolinJennifer Garner*Elizabeth Banks*,3225,8.0
+282,282,Now You See Me,LG/S,351.7,117.7,234.0,2013,"May 31, 2013",Thriller, 1 hrs. 56 min.,PG-13,75 ,29350389,119 days / 17 weeks,Louis Leterrier,Jesse EisenbergIsla FisherMorgan FreemanWoody HarrelsonMark RuffaloDave FrancoMelanie LaurentMichael Caine,3082,7.3
+283,283,Hannibal,MGM,351.7,165.1,186.6,2001,"February 9, 2001",Thriller, 2 hrs. 11 min.,R,87 ,58003121,Ridley Scott,David MametSteven Zaillian,Ridley Scott,3292,8.6
+284,284,The Mask,NL,351.6,119.9,231.6,1994,"July 29, 1994",Comedy, 1 hrs. 37 min.,PG-13,23 ,23117068,,,,,6.9
+285,285,The Great Gatsby (2013),WB,351.0,144.8,206.2,2013,"May 10, 2013",Drama, 2 hrs. 23 min.,PG-13,105 ,50085185,105 days / 15 weeks,Baz Luhrmann,Elizabeth DebickiLeonardo DiCaprioTobey MaguireJoel EdgertonCarey MulliganIsla FisherJason Clarke,3550,7.3
+286,286,Speed,Fox,350.4,121.2,229.2,1994,"June 10, 1994",Action Thriller, 1 hrs. 56 min.,R,30 ,14456194,Sandra BullockKeanu Reeves,Ian Bryce (executive)Mark GordonAllison Lyon Segan (Co-producer),Mark Mancina,2169,7.2
+287,287,Dinosaur,BV,349.8,137.7,212.1,2000,"May 19, 2000",Animation, 1 hrs. 22 min.,PG,127.5 ,38854851,,,,,6.4
+288,288,Deep Impact,Par.,349.5,140.5,209.0,1998,"May 8, 1998",Action Drama, 2 hrs. 0 min.,PG-13,,41152375,,,,,6.1
+289,289,Dr. Seuss' The Lorax,Uni.,348.8,214,134.8,2012,"March 2, 2012",Animation, 1 hrs. 35 min.,PG,70 ,70217070,147 days / 21 weeks,Chris Renaud,Danny DeVito (Voice)Zac Efron (Voice)Ed Helms (Voice)Rob Riggle (Voice)Taylor Swift (Voice)Betty White (Voice),3769,6.5
+290,290,The Maze Runner,Fox,348.3,102.4,245.9,2014,"September 19, 2014",Sci-Fi Thriller, 1 hrs. 53 min.,PG-13,34 ,32512804,140 days / 20 weeks,Wes Ball,Dylan O'BrienKaya ScodelarioThomas Brodie-SangsterWill Poulter,3638,6.8
+291,291,The Smurfs 2,Sony,347.5,71,276.5,2013,"July 31, 2013",Family Comedy, 1 hrs. 45 min.,PG,105 ,17548389,110 days / 15.7 weeks,Raja Gosnell,Neil Patrick HarrisBrendan GleesonJayma MaysSofia VergaraHank AzariaKaty Perry (Voice)Christina Ricci (Voice)George Lopez (Voice)Anton Yelchin (Voice),3867,5.4
+292,292,National Treasure,BV,347.5,173,174.5,2004,"November 19, 2004",Adventure, 2 hrs. 11 min.,PG,100 ,35142554,196 days / 28 weeks,Jon Turteltaub,Nicolas CageDiane KrugerJustin BarthaSean BeanJon VoightHarvey KeitelChristopher Plummer,3243,6.9
+293,293,Rush Hour 2,NL,347.3,226.2,121.2,2001,"August 3, 2001",Action Comedy, 1 hrs. 30 min.,PG-13,90 ,67408222,,,,,6.6
+294,294,I Robot,Fox,347.2,144.8,202.4,2004,"July 16, 2004",Sci-Fi Thriller, 1 hrs. 45 min.,PG-13,120 ,52179887,168 days / 24 weeks,Alex Proyas,Will SmithBridget MoynahanAlan TudykJames CromwellBruce GreenwoodChi McBrideShia LaBeouf,3494,7.1
+295,295,Pocahontas,BV,346.1,141.6,204.5,1995,"June 16, 1995",Animation, 1 hrs. 21 min.,G,,346079773,,,,,6.6
+296,296,How the Grinch Stole Christmas,Uni.,345.1,260,85.1,2000,"November 17, 2000",Family Comedy, 1 hrs. 44 min.,PG,123 ,55082330,105 days / 15 weeks,Ron Howard,Brian GrazerRon Howard,3256,6.0
+297,297,Alvin and the Chipmunks: Chipwrecked,Fox,342.7,133.1,209.6,2011,"December 16, 2011",Family Comedy, 1 hrs. 27 min.,G,75 ,342695435,,,,,4.4
+298,298,The Flintstones,Uni.,341.6,130.5,211.1,1994,"May 27, 1994",Family Comedy, 1 hrs. 31 min.,PG,46 ,29688730,,,,,7.5
+299,299,Wanted,Uni.,341.4,134.5,206.9,2008,"June 27, 2008",Action / Adventure, 1 hrs. 48 min.,R,75 ,50927085,Timur Bekmambetov,Chris Morgan,Gary Barber (executive)Roger Birnbaum (executive)Marc Platt,3185,6.7
+300,300,Enchanted,BV,340.5,127.8,212.7,2007,"November 21, 2007",Family Adventure, 1 hrs. 47 min.,PG,85 ,34440317,114 days / 16.3 weeks,Amy AdamsJames MarsdenSusan Sarandon,Don Burgess,3730,7.1
+301,301,300: Rise of An Empire,WB,337.6,106.6,231.0,2014,"March 7, 2014",Period Action, 1 hrs. 42 min.,R,110 ,45038460,84 days / 12 weeks,Noam Murro,Sullivan StapletonEva GreenLena HeadeyRodrigo SantoroJack O'ConnellDavid Wenham,3490,6.3
+302,302,Batman Forever,WB,336.5,184,152.5,1995,"June 16, 1995",Action / Adventure, 2 hrs. 2 min.,PG-13,100 ,52784433,147 days / 21 weeks,Joel Schumacher,Val KilmerTommy Lee JonesJim CarreyNicole KidmanChris O'DonnellDrew Barrymore*Jon Favreau*,2893,5.4
+303,303,Prince of Persia: The Sands of Time,BV,336.4,90.8,245.6,2010,"May 28, 2010",Adventure, 1 hrs. 55 min.,PG-13,200 ,30095259,119 days / 17 weeks,Mike Newell,Jake GyllenhaalBen KingsleyAlfred MolinaGemma Arterton,3646,6.6
+304,304,Over the Hedge,P/DW,336.0,155,181.0,2006,"May 19, 2006",Animation, 1 hrs. 27 min.,PG,,38457003,112 days / 16 weeks,Tim Johnson,Bruce Willis (Voice)Garry Shandling (Voice)Steve Carell (Voice)William Shatner (Voice)Wanda Sykes (Voice)Nick Nolte (Voice),4093,6.8
+305,305,Journey 2: The Mysterious Island,WB (NL),335.3,103.9,231.4,2012,"February 10, 2012",Adventure, 1 hrs. 34 min.,PG,79 ,27335363,140 days / 20 weeks,Brad Peyton,Dwayne JohnsonMichael CaineJosh HutchersonVanessa HudgensLuis GuzmanKristin Davis,3500,5.8
+306,306,The Rock,BV,335.1,134.1,201.0,1996,"June 7, 1996",Action, 2 hrs. 16 min.,R,75 ,25069525,182 days / 26 weeks,Michael Bay,Jerry Bruckheimer,2426,7.4
+307,307,The Curious Case of Benjamin Button,Par.,333.9,127.5,206.4,2008,"December 25, 2008",Fantasy Drama, 2 hrs. 48 min.,PG-13,150 ,26853816,120 days / 17.1 weeks,David Fincher,Brad PittCate BlanchettTilda SwintonElle FanningJulia OrmondTaraji P. HensonJared Harris,2988,7.8
+308,308,Indiana Jones and the Temple of Doom,Par.,333.1,179.9,153.2,1984,"May 23, 1984",Period Adventure, 1 hrs. 58 min.,PG,28 ,25337110,George Lucas,Harrison Ford,John Williams,1687,7.6
+309,309,Tomorrow Never Dies,MGM,333.0,125.3,207.7,1997,"December 19, 1997",Action, 1 hrs. 59 min.,PG-13,,25143007,,,,,6.5
+310,310,Back to the Future Part II,Uni.,332.0,118.5,213.5,1989,"November 22, 1989",Sci-Fi Adventure, 1 hrs. 48 min.,PG,40 ,27835125,,,,,7.8
+311,311,22 Jump Street,Sony,331.3,191.7,139.6,2014,"June 13, 2014",Action Comedy, 1 hrs. 52 min.,R,50 ,57071445,157 days / 22.4 weeks,Phil LordChris Miller (II),Jonah HillChanning TatumIce CubePeter StormareNick OffermanDave Franco*Rob Riggle*,3426,7.1
+312,312,Fantastic Four (2005),Fox,330.6,154.7,175.9,2005,"July 8, 2005",Action / Adventure, 2 hrs. 3 min.,PG-13,100 ,56061504,175 days / 25 weeks,Tim Story,Ioan GruffuddJessica AlbaChris EvansMichael ChiklisJulian McMahon,3619,5.7
+313,313,Meet the Parents,Uni.,330.4,166.2,164.2,2000,"October 6, 2000",Comedy, 1 hrs. 48 min.,PG-13,55 ,28623300,175 days / 25 weeks,Jay Roach,Shauna Robertson* (co-producer),2697,7.0
+314,314,Who Framed Roger Rabbit,BV,329.8,156.5,173.4,1988,"June 24, 1988",Fantasy Comedy, 1 hrs. 43 min.,PG,70 ,11226239,,,,,7.7
+315,315,Black Swan,FoxS,329.4,107,222.4,2010,"December 3, 2010",Drama / Thriller, 1 hrs. 43 min.,R,13 ,"December 3 2010 (limited)
+ December 17 2010 (wide)",,,,,8.0
+316,316,The Perfect Storm,WB,328.7,182.6,146.1,2000,"June 30, 2000",Action Drama, 2 hrs. 9 min.,PG-13,140 ,41325042,,,,,6.4
+317,317,Crocodile Dundee,Par.,328.2,174.8,153.4,1986,"September 26, 1986",Adventure Comedy, 1 hrs. 33 min.,PG-13,,,,,,,6.5
+318,318,Seven,NL,327.3,100.1,227.2,1995,"September 22, 1995",Thriller, 2 hrs. 7 min.,R,33 ,13949807,Andrew Kevin Walker,Brad PittMorgan FreemanGwyneth PaltrowKevin Spacey,Darius KhondjiHarris Savides* (Additional photography),2528,8.6
+319,319,The Devil Wears Prada,Fox,326.6,124.7,201.8,2006,"June 30, 2006",Comedy, 1 hrs. 46 min.,PG-13,35 ,27537244,168 days / 24 weeks,David Frankel,Meryl StreepAnne HathawayEmily BluntStanley TucciAdrien GrenierSimon Baker,2882,6.8
+320,320,Taken 3,Fox,326.5,89.3,237.2,2015,"January 9, 2015",Action, 1 hrs. 49 min.,PG-13,48 ,39201657,126 days / 18 weeks,Olivier Megaton,Liam NeesonMaggie GraceFamke JanssenForest WhitakerDougray Scott,3594,6.0
+321,321,The Hunchback of Notre Dame,BV,325.3,100.1,225.2,1996,"June 21, 1996",Animation, 1 hrs. 31 min.,G,100 ,21037414,,,,,6.9
+322,322,A Christmas Carol (2009),BV,325.3,137.9,187.4,2009,"November 6, 2009",Animation, 1 hrs. 36 min.,PG,200 ,30051075,91 days / 13 weeks,Robert Zemeckis,Alan Silvestri,3683,
+323,323,The SpongeBob Movie: Sponge Out of Water,Par.,323.4,163,160.4,2015,"February 6, 2015",Animation, 1 hrs. 33 min.,PG,74 ,55365012,112 days / 16 weeks,Mike MitchellPaul Tibbitt,Antonio Banderas,3680,6.0
+324,324,Megamind,P/DW,321.9,148.4,173.5,2010,"November 5, 2010",Animation, 1 hrs. 36 min.,PG,130 ,46016833,112 days / 16 weeks,Tom McGrath,Lara BreayDenise Nolan CascinoBen Stiller (executive),3949,7.3
+325,325,Lethal Weapon 3,WB,321.7,144.7,177.0,1992,"May 15, 1992",Action Comedy, 1 hrs. 58 min.,R,35 ,33243086,Robert Mark Kamen,Mel GibsonDanny GloverRene Russo,Michael Kamen,2568,6.7
+326,326,Robin Hood,Uni.,321.7,105.3,216.4,2010,"May 14, 2010",Period Adventure, 2 hrs. 28 min.,PG-13,200 ,36063385,84 days / 12 weeks,Ridley Scott,Russell CroweCate BlanchettMax von SydowWilliam HurtMark StrongDanny HustonMark AddyMatthew MacFadyen,3505,6.7
+327,327,Inglourious Basterds,Wein.,321.5,120.5,200.9,2009,"August 21, 2009",War, 2 hrs. 32 min.,R,70 ,38054676,119 days / 17 weeks,Quentin Tarantino,Brad PittMike MyersDiane KrugerChristoph WaltzMelanie LaurentTil SchweigerMichael Fassbender,3358,8.3
+328,328,Schindler's List,Uni.,321.3,96.1,225.2,1993,"December 15, 1993",War Drama, 3 hrs. 14 min.,R,22 ,"December 15 1993 (limited)
+ February 4 1994 (wide)",,,,,8.9
+329,329,101 Dalmatians (1996),BV,320.7,136.2,184.5,1996,"November 27, 1996",Family Comedy, 1 hrs. 43 min.,G,,33504025,,,,,7.0
+330,330,Fatal Attraction,Par.,320.1,156.6,163.5,1987,"September 18, 1987",Thriller, 2 hrs. 3 min.,R,,7602740,,,,,6.9
+331,331,The Last Airbender,Par.,319.7,131.8,187.9,2010,"July 1, 2010",Fantasy, 1 hrs. 43 min.,PG,150 ,40325019,M. Night Shyamalan,M. Night Shyamalan,Scott Aversano (executive)Sam MercerM. Night ShyamalanFrank MarshallKathleen Kennedy (executive),3203,4.2
+332,332,The Conjuring,WB (NL),318.0,137.4,180.6,2013,"July 19, 2013",Horror, 1 hrs. 52 min.,R,20 ,41855326,105 days / 15 weeks,James Wan,Vera FarmigaPatrick WilsonLili TaylorRon LivingstonJoey King,3115,7.5
+333,333,The Proposal,BV,317.4,164,153.4,2009,"June 19, 2009",Romantic Comedy, 1 hrs. 48 min.,PG-13,40 ,33627598,140 days / 20 weeks,Anne Fletcher,Aaron Zigman,3158,6.7
+334,334,Beverly Hills Cop,Par.,316.4,234.8,81.6,1984,"December 5, 1984",Action Comedy, 1 hrs. 45 min.,R,,15214805,,,,,7.3
+335,335,Air Force One,Sony,315.2,173,142.2,1997,"July 25, 1997",Action Thriller, 2 hrs. 4 min.,R,85 ,37132505,Glenn CloseHarrison FordWilliam H. MacyGary Oldman,Marc Abraham (executive),Jerry Goldsmith,2981,6.4
+336,336,Chicken Little,BV,314.4,135.4,179.0,2005,"November 4, 2005",Animation, 1 hrs. 21 min.,G,150 ,40049778,161 days / 23 weeks,Ron BencichRon J. Friedman,John Debney,3658,5.8
+337,337,As Good as It Gets,Sony,314.2,148.5,165.7,1997,"December 23, 1997",Romantic Comedy, 2 hrs. 19 min.,PG,,314232594,,,,,7.7
+338,338,A Beautiful Mind,Uni.,313.5,170.7,142.8,2001,"December 21, 2001",Period Drama, 2 hrs. 16 min.,PG-13,50 ,12606928,James L. Brooks,"Jack NicholsonHelen HuntGreg KinnearCuba Gooding, Jr.",Hans Zimmer,1837,8.2
+339,339,The Good Dinosaur,BV,313.3,122,191.3,2015,"November 25, 2015",Animation, 1 hrs. 40 min.,PG-13,58 ,"December 21 2001 (limited)
+ January 4 2002 (wide)",,,,,6.9
+340,340,Maze Runner: The Scorch Trials,Fox,312.3,81.7,230.6,2015,"September 18, 2015",Action / Adventure, 2 hrs. 11 min.,PG,,313273581,,,,,6.4
+341,341,Austin Powers: The Spy Who Shagged Me,NL,312.0,206,106.0,1999,"June 11, 1999",Comedy, 1 hrs. 35 min.,PG-13,61 ,30316510,126 days / 18 weeks,Wes Ball,Patricia ClarksonGiancarlo EspositoAidan GillenKi Hong LeeBarry PepperLili TaylorDylan O'BrienKaya ScodelarioThomas Brodie-Sangster,3792,6.6
+342,342,Ocean's Thirteen,WB,311.3,117.2,194.2,2007,"June 8, 2007",Crime Comedy, 1 hrs. 53 min.,PG-13,33 ,54917604,,,,,6.9
+343,343,Little Fockers,Uni.,310.7,148.4,162.2,2010,"December 22, 2010",Comedy, 1 hrs. 38 min.,PG-13,,36133403,105 days / 15 weeks,Steven Soderbergh,George ClooneyBrad PittMatt DamonAndy GarciaDon CheadleBernie MacCasey AffleckScott CaanCarl ReinerElliott GouldEllen BarkinAl Pacino,3565,5.5
+344,344,Bolt,BV,310.0,114.1,195.9,2008,"November 21, 2008",Animation, 1 hrs. 36 min.,PG-13,100 ,30833665,86 days / 12.3 weeks,Paul Weitz,Ben StillerRobert DeNiroDustin HoffmanBarbra StreisandTeri PoloOwen WilsonJessica AlbaBlythe DannerHarvey KeitelKevin Hart*,3675,6.9
+345,345,Ransom,BV,309.5,136.5,173.0,1996,"November 8, 1996",Thriller, 2 hrs. 1 min.,PG,150 ,26223128,98 days / 14 weeks,Chris Williams,John Travolta (Voice)Miley Cyrus (Voice)Susie Essman (Voice)Mark Walton (Voice)Malcolm McDowell (Voice)James Lipton (Voice)Nick Swardson (Voice)Chloe Moretz* (Voice),3654,6.6
+346,346,Runaway Bride,Par.,309.5,152.3,157.2,1999,"July 30, 1999",Romantic Comedy, 1 hrs. 56 min.,R,,34216088,Richard Price,Mel GibsonRene RussoGary SiniseDelroy LindoLili TaylorLiev SchreiberDonnie Wahlberg,James Horner,2768,5.4
+347,347,The Blind Side,WB,309.2,256,53.2,2009,"November 20, 2009",Sports Drama, 2 hrs. 6 min.,PG,70 ,35055556,Richard GereJulia Roberts,Ted FieldMario Iscovich (Co-producer)Scott KroopfGary Lucchesi (executive)Tom Rosenberg,James Newton Howard,3240,7.7
+348,348,The Polar Express,WB,307.5,183.4,124.1,2004^,"November 10, 2004",Animation, 1 hrs. 40 min.,PG-13,29 ,34119372,196 days / 28 weeks,John Lee Hancock,Sandra BullockKathy BatesLily Collins,3407,6.6
+349,349,The Fault in our Stars,Fox,307.2,124.9,182.3,2014,"June 6, 2014",Drama, 2 hrs. 5 min.,G,165 ,23323463,121 days / 17.3 weeks,Robert Zemeckis,Gary GoetzmanTom Hanks (executive),3650,7.9
+350,350,The Pursuit of Happyness,Sony,307.1,163.6,143.5,2006,"December 15, 2006",Drama, 1 hrs. 56 min.,PG-13,12 ,48002523,126 days / 18 weeks,Josh Boone,Shailene WoodleyAnsel ElgortLaura DernNat WolffWillem Dafoe,3340,7.9
+351,351,Rise of the Guardians,P/DW,306.9,103.4,203.5,2012,"November 21, 2012",Animation, 1 hrs. 37 min.,PG-13,55 ,26541709,94 days / 13.4 weeks,Gabriele Muccino,Will SmithThandie NewtonJaden Smith,3169,7.3
+352,352,Chicago,Mira.,306.8,170.7,136.1,2002,"December 27, 2002",Musical, 1 hrs. 47 min.,PG,145 ,23773465,142 days / 20.3 weeks,Peter Ramsey,Chris Pine (Voice)Alec Baldwin (Voice)Hugh Jackman (Voice)Isla Fisher (Voice)Jude Law (Voice),3672,7.2
+353,353,The Expendables 2,LGF,305.4,85,220.4,2012,"January 29, 2016",Animation, 1 hrs. 35 min.,PG-13,45 ,306776732,,,,,6.7
+354,354,Wrath of the Titans,WB,305.3,83.7,221.6,2012,"August 17, 2012",Action, 1 hrs. 42 min.,R,100 ,28591370,98 days / 14 weeks,Simon West,Sylvester StalloneJason StathamJet LiDolph LundgrenChuck NorrisJean-Claude Van DammeBruce WillisArnold SchwarzeneggerTerry CrewsRandy CoutureLiam Hemsworth,3355,5.8
+355,355,A Good Day to Die Hard,Fox,304.7,67.3,237.3,2013,"March 30, 2012",Fantasy, 1 hrs. 39 min.,PG-13,150 ,33457188,91 days / 13 weeks,Jonathan Liebesman,Sam WorthingtonRosamund PikeBill NighyEdgar RamirezToby KebbellRalph FiennesLiam NeesonDanny Huston*,3545,5.3
+356,356,Mulan,BV,304.3,120.6,183.7,1998,"February 14, 2013",Action, 1 hrs. 37 min.,R,92 ,24834845,99 days / 14.1 weeks,John Moore,Aldis HodgeBruce WillisJai CourtneySebastian KochCole Hauser*Mary Elizabeth Winstead*,3555,7.5
+357,357,Close Encounters of the Third Kind,Col.,303.8,132.1,171.7,1977^,"June 19, 1998",Animation, 1 hrs. 28 min.,G,,22745143,,,,,7.7
+358,358,Battleship,Uni.,303.0,65.4,237.6,2012,"November 16, 1977",Sci-Fi, 2 hrs. 17 min.,PG,20 ,,,,,,5.9
+359,359,Liar Liar,Uni.,302.7,181.4,121.3,1997,"May 18, 2012",Action, 2 hrs. 11 min.,PG-13,209 ,25534825,Peter Berg,Erich HoeberJon Hoeber,Peter BergScott Stuber,3702,6.8
+360,360,G.I. Joe: The Rise of Cobra,Par.,302.5,150.2,152.3,2009,"March 21, 1997",Fantasy Comedy, 1 hrs. 26 min.,PG-13,,31423025,210 days / 30 weeks,Tom Shadyac,Michael Bostick (executive)Brian Grazer,2909,5.8
+361,361,Hook,TriS,300.9,119.7,181.2,1991,"August 7, 2009",Action, 1 hrs. 58 min.,PG-13,175 ,54713046,91 days / 13 weeks,Stephen Sommers,Channing TatumMarlon WayansRachel NicholsSienna MillerDennis QuaidJoseph Gordon-LevittBrendan Fraser* (Cameo),4007,6.7
+362,362,Rocky IV,UA,300.5,127.9,172.6,1985,"December 11, 1991",Fantasy, 2 hrs. 22 min.,PG,70 ,13522535,,,,,6.7
+363,363,Rambo: First Blood Part II,TriS,300.4,150.4,150.0,1985,"November 27, 1985",Sports Drama, 1 hrs. 31 min.,PG,,19991537,,,,,6.4
+364,364,Van Helsing,Uni.,300.3,120.2,180.1,2004,"May 22, 1985",Action, 1 hrs. 34 min.,R,,20176217,,,,,6.0
+365,365,Superman,WB,300.2,134.2,166.0,1978,"May 7, 2004",Period Horror, 2 hrs. 10 min.,PG-13,160 ,51748040,112 days / 16 weeks,Stephen Sommers,Hugh JackmanKate Beckinsale,3580,7.3
+366,366,Stuart Little,Sony,300.1,140,160.1,1999,"December 15, 1978",Action / Adventure, 2 hrs. 23 min.,PG,55 ,"December 15 1978 (limited)
+ N/A (wide)",,,,,5.9
+367,367,Beverly Hills Cop II,Par.,300.0,153.7,146.3,1987,"December 17, 1999",Family Adventure, 1 hrs. 24 min.,PG,133 ,15018223,M. Night Shyamalan,Michael J. Fox (Voice)Geena DavisHugh LaurieNathan Lane (Voice)Chazz Palminteri (Voice)Steve Zahn (Voice),Alan Silvestri,3151,6.4
+368,368,Kung Fu Panda 3,Fox,299.6,121.4,178.2,2016,"May 20, 1987",Action Comedy, 1 hrs. 43 min.,R,,26348555,,,,,7.8
+369,369,My Best Friend's Wedding,Sony,299.3,127.1,172.2,1997,"June 20, 1997",Romantic Comedy, 1 hrs. 45 min.,PG-13,38 ,21678377,,,,,6.3
+370,370,Real Steel,BV,299.3,85.5,213.8,2011,"October 7, 2011",Action Drama, 2 hrs. 7 min.,PG-13,,27319677,133 days / 19 weeks,Shawn Levy,Hugh JackmanEvangeline LillyDakota GoyoAnthony MackieKevin Durand,3440,7.1
+371,371,The Divergent Series: Insurgent,LG/S,297.3,130.2,167.1,2015,"March 20, 2015",Action / Adventure, 1 hrs. 59 min.,PG-13,110 ,52263680,112 days / 16 weeks,Robert Schwentke,Shailene WoodleyTheo JamesKate WinsletOctavia SpencerJai CourtneyRay StevensonMiles TellerAnsel ElgortMaggie QMekhi PhiferNaomi Watts,3875,6.3
+372,372,Dr. Seuss' Horton Hears a Who!,Fox,297.1,154.5,142.6,2008,"March 14, 2008",Animation, 1 hrs. 28 min.,G,85 ,297138014,,,,,6.9
+373,373,Look Who's Talking,TriS,297.0,140.1,156.9,1989,"October 13, 1989",Family Comedy, 1 hrs. 33 min.,PG-13,,12107784,,,,,5.8
+374,374,Austin Powers in Goldmember,NL,296.7,213.3,83.3,2002,"July 26, 2002",Comedy, 1 hrs. 34 min.,PG-13,63 ,73071188,,,,,6.2
+375,375,X-Men,Fox,296.3,157.3,139.0,2000,"July 14, 2000",Action / Adventure, 1 hrs. 44 min.,PG-13,75 ,54471475,David Hayter,Hugh JackmanPatrick StewartIan McKellenFamke JanssenJames MarsdenHalle BerryAnna PaquinRebecca Romijn,Newton Thomas Sigel,3112,7.4
+376,376,Resident Evil: Afterlife,SGem,296.2,60.1,236.1,2010,"September 10, 2010",Action Horror, 1 hrs. 40 min.,R,60 ,26650264,56 days / 8 weeks,Paul W.S. Anderson,Milla JovovichAli LarterWentworth MillerSienna GuilloryBoris Kodjoe,3209,6.3
+377,377,Ghostbusters,Col.,295.2,242.2,53.0,1984^,"June 8, 1984",Horror Comedy, 1 hrs. 47 min.,PG,30 ,13578151,Harold Ramis,Bill MurraySigourney Weaver,Elmer Bernstein,1506,7.8
+378,378,Shutter Island,Par.,294.8,128,166.8,2010,"February 19, 2010",Period Drama, 2 hrs. 18 min.,R,80 ,41062440,112 days / 16 weeks,Martin Scorsese,Leonardo DiCaprioMark RuffaloBen KingsleyMax von SydowMichelle WilliamsPatricia ClarksonEmily MortimerJackie Earle HaleyElias Koteas,3356,8.1
+379,379,Doctor Dolittle,Fox,294.5,144.2,150.3,1998,"June 26, 1998",Family Comedy, 1 hrs. 25 min.,PG-13,,29014324,,,,,5.3
+380,380,Salt,Sony,293.5,118.3,175.2,2010,"July 23, 2010",Action Thriller, 1 hrs. 39 min.,PG-13,110 ,36011243,98 days / 14 weeks,Phillip Noyce,Angelina JolieLiev SchreiberChiwetel Ejiofor,3612,6.4
+381,381,G-Force,BV,292.8,119.4,173.4,2009,"July 24, 2009",Family Adventure, 1 hrs. 30 min.,PG,150 ,31706934,133 days / 19 weeks,Bill NighySam Rockwell* (Voice)Will ArnettJon Favreau* (Voice)Zach GalifianakisNicolas Cage* (Voice)Penelope Cruz* (Voice)Steve Buscemi* (Voice)Tracy Morgan* (Voice),Trevor Rabin,3697,5.1
+382,382,What Lies Beneath,DW,291.4,155.5,136.0,2000,"July 21, 2000",Horror, 2 hrs. 10 min.,PG-13,100 ,29702959,196 days / 28 weeks,Robert Zemeckis,Harrison FordMichelle Pfeiffer,2925,6.6
+383,383,The Departed,WB,289.8,132.4,157.5,2006,"October 6, 2006",Crime Drama, 2 hrs. 30 min.,R,90 ,289847354,,,,,8.5
+384,384,Shakespeare in Love,Mira.,289.3,100.3,189.0,1998,"December 11, 1998",Period Comedy, 2 hrs. 3 min.,R,25 ,289317794,,,,,7.2
+385,385,Fantastic Four: Rise of the Silver Surfer,Fox,289.0,131.9,157.1,2007,"June 15, 2007",Action / Adventure, 1 hrs. 29 min.,PG,130 ,58051684,126 days / 18 weeks,Tim Story,Ioan GruffuddJessica AlbaChris EvansMichael ChiklisJulian McMahonKerry WashingtonAndre BraugherLaurence Fishburne* (Voice),3963,5.6
+386,386,Divergent,LG/S,288.9,150.9,137.9,2014,"March 21, 2014",Action / Adventure, 2 hrs. 23 min.,PG-13,85 ,54607747,112 days / 16 weeks,Neil Burger,Shailene WoodleyTheo JamesJai CourtneyRay StevensonMiles TellerMaggie QKate WinsletTony GoldwynAshley JuddAnsel Elgort,3936,6.8
+387,387,Coming to America,Par.,288.8,128.2,160.6,1988,"June 29, 1988",Romantic Comedy, 1 hrs. 56 min.,R,,21404420,,,,,6.9
+388,388,The Bourne Supremacy,Uni.,288.5,176.2,112.3,2004,"July 23, 2004",Action Thriller, 1 hrs. 48 min.,PG-13,75 ,52521865,Paul Greengrass,Tony Gilroy,Patrick CrowleyDoug Liman (executive)Frank Marshall,3304,7.8
+389,389,Bridesmaids,Uni.,288.4,169.1,119.3,2011,"May 13, 2011",Comedy, 2 hrs. 5 min.,R,32.5 ,26247410,140 days / 20 weeks,Paul Feig,Kristen WiigMaya RudolphRose ByrneMelissa McCarthyEllie KemperWendi McLendon-CoveyJon HammRebel Wilson*,2958,6.8
+390,390,Sex and the City 2,WB (NL),288.3,95.3,193.0,2010,"May 27, 2010",Romantic Comedy, 2 hrs. 27 min.,R,100 ,31001870,85 days / 12.1 weeks,Michael Patrick King,Sarah Jessica ParkerKim CattrallKristin DavisCynthia NixonAlice EvePenelope CruzJohn CorbettChris Noth,3445,4.3
+391,391,Casper,Uni.,287.9,100.3,187.6,1995,"May 26, 1995",Family Comedy, 1 hrs. 41 min.,PG,,16840385,,,,,6.0
+392,392,Bee Movie,P/DW,287.6,126.6,161.0,2007,"November 2, 2007",Animation, 1 hrs. 30 min.,PG,150 ,38021044,,,,,6.2
+393,393,American Pie 2,Uni.,287.6,145.1,142.5,2001,"August 10, 2001",Comedy, 1 hrs. 44 min.,R,30 ,45117985,133 days / 19 weeks,David H. Steinberg (story),Chris Bender* (co-producer)Chris MooreChris Weitz (executive producer)Paul Weitz (executive producer),3157,6.4
+394,394,Pitch Perfect 2,Uni.,287.5,184.3,103.2,2015,"May 15, 2015",Comedy, 1 hrs. 55 min.,PG-13,29 ,69216890,Elizabeth Banks,Kay Cannon,Elizabeth BanksMax HandelmanJason Moore (executive),3660,6.5
+395,395,The Green Mile,WB,286.8,136.8,150.0,1999,"December 10, 1999",Period Drama, 3 hrs. 8 min.,R,60 ,18017152,Frank Darabont,Tom HanksMichael Clarke DuncanDavid MorseBonnie HuntJames CromwellSam RockwellBarry PepperPatricia ClarksonHarry Dean Stanton,Thomas Newman,2875,8.5
+396,396,Oblivion,Uni.,286.2,89.1,197.1,2013,"April 19, 2013",Sci-Fi Adventure, 2 hrs. 5 min.,PG-13,120 ,37054485,70 days / 10 weeks,Joseph Kosinski,Tom CruiseMorgan FreemanOlga KurylenkoNikolaj Coster-WaldauMelissa LeoAndrea Riseborough,3792,7.0
+397,397,Elysium,TriS,286.1,93.1,193.1,2013,"August 9, 2013",Sci-Fi, 1 hrs. 49 min.,R,115 ,29807393,108 days / 15.4 weeks,Neill Blomkamp,Matt DamonJodie FosterSharlto CopleyWilliam FichtnerAlice BragaDiego Luna,3284,6.6
+398,398,Lethal Weapon 4,WB,285.4,130.4,155.0,1998,"July 10, 1998",Action Comedy, 2 hrs. 7 min.,R,140 ,34048124,Alfred Gough & Miles Millar* (Story),Mel GibsonDanny GloverRene RussoChris RockJet Li,Andrzej Bartkowiak,3117,6.6
+399,399,Wedding Crashers,NL,285.2,209.3,75.9,2005,"July 15, 2005",Comedy, 1 hrs. 53 min.,R,40 ,33900720,163 days / 23.3 weeks,David Dobkin,Andrew Panay,3131,7.0
+400,400,John Carter,BV,284.1,73.1,211.1,2012,"March 9, 2012",Sci-Fi Adventure, 2 hrs. 12 min.,PG-13,250 ,30180188,112 days / 16 weeks,Andrew Stanton,James PurefoyTaylor KitschLynn CollinsSamantha Morton (Voice)Willem Dafoe (Voice)Thomas Haden Church (Voice)Mark StrongCiaran HindsDominic WestBryan Cranston*Daryl Sabara*,3749,6.6
+401,401,Turbo,Fox,282.6,83,199.5,2013,"July 17, 2013",Animation, 1 hrs. 36 min.,PG,135 ,21312625,149 days / 21.3 weeks,David Soren,Ryan Reynolds (Voice)Paul Giamatti (Voice)Michael Pena (Voice)Samuel L. Jackson (Voice)Luis Guzman (Voice)Maya Rudolph (Voice)Michelle Rodriguez (Voice)Snoop Dogg (Voice)Bill Hader* (Voice)Ken Jeong* (Voice)Richard Jenkins* (Voice),3809,6.5
+402,402,Bridget Jones's Diary,Mira.,281.9,71.5,210.4,2001,"April 13, 2001",Romantic Comedy, 1 hrs. 37 min.,R,25 ,10733933,Andrew Davies,Renee ZellwegerHugh GrantJim BroadbentColin Firth,Stuart Dryburgh (director of photography),2547,6.7
+403,403,The Tourist,Sony,278.3,67.6,210.7,2010,"December 10, 2010",Romantic Thriller, 1 hrs. 43 min.,PG-13,100 ,16472458,Florian Henckel von Donnersmarck,Christopher McQuarrieFlorian Henckel von Donnersmarck,Gary BarberRoger BirnbaumJonathan GlickmanTim HeadingtonGraham King,2756,6.0
+404,404,Scary Movie,Mira.,278.0,157,121.0,2000,"July 7, 2000",Horror Comedy, 1 hrs. 28 min.,R,19 ,42346669,Jason FriedbergAaron Seltzer,Shawn WayansMarlon WayansAnna FarisRegina HallKeenen Ivory Wayans*,David Kitay,3301,7.2
+405,405,XXX,SonR,277.4,142.1,135.3,2002,"August 9, 2002",Action, 1 hrs. 53 min.,PG-13,70 ,44506103,150 days / 21.4 weeks,Rob Cohen,Vin Diesel (executive)Todd Garner (executive)Neal H. MoritzGeorge Zakk (executive),3536,5.8
+406,406,The Bourne Legacy,Uni.,276.1,113.2,162.9,2012,"August 10, 2012",Action, 2 hrs. 15 min.,PG-13,125 ,38142825,91 days / 13 weeks,Tony Gilroy,Jeremy RennerRachel WeiszEdward NortonOscar IsaacJoan Allen*David Strathairn*Albert Finney*Scott Glenn*,3753,6.7
+407,407,Mr. Peabody & Sherman,Fox,275.7,111.5,164.2,2014,"March 7, 2014",Animation, 1 hrs. 30 min.,PG,145 ,275698039,,,,,6.9
+408,408,Scooby-Doo,WB,275.7,153.3,122.4,2002,"June 14, 2002",Family Adventure, 1 hrs. 26 min.,PG,84 ,54155312,140 days / 20 weeks,Raja Gosnell,Sarah Michelle GellarFreddie Prinze Jr.Matthew LillardLinda CardelliniRowan AtkinsonIsla Fisher,3447,4.9
+409,409,Lincoln,BV,275.3,182.2,93.1,2012,"November 9, 2012",Historical Drama, 2 hrs. 25 min.,PG-13,65 ,"November 9 2012 (limited)
+ November 16 2012 (wide)",,,,,7.4
+410,410,Spirited Away,BV,274.9,10.1,264.9,2002,"September 20, 2002",Animation, 2 hrs. 4 min.,PG,,274925095,,,,,8.6
+411,411,Lara Croft: Tomb Raider,Par.,274.7,131.2,143.5,2001,"June 15, 2001",Action / Adventure, 1 hrs. 40 min.,PG-13,115 ,47735743,,,,,5.7
+412,412,The Expendables,LGF,274.5,103.1,171.4,2010,"August 13, 2010",Action, 1 hrs. 43 min.,R,80 ,34825135,70 days / 10 weeks,Sylvester Stallone,"Sylvester StalloneJason StathamJet LiDolph LundgrenEric RobertsRandy Couture""""Stone Cold"""" Steve AustinTerry CrewsMickey RourkeDavid ZayasBruce Willis*Arnold Schwarzenegger*",3398,6.5
+413,413,Cloudy with a Chance of Meatballs 2,Sony,274.3,119.8,154.5,2013,"September 27, 2013",Animation, 1 hrs. 35 min.,PG,78 ,34017930,171 days / 24.4 weeks,John Francis DaleyJonathan M. GoldsteinErica Rivinoja,Mark Mothersbaugh,4001,6.5
+414,414,The Nutty Professor (1996),Uni.,274.0,128.8,145.1,1996,"June 28, 1996",Comedy, 1 hrs. 43 min.,PG-13,54 ,25411725,,,,,5.6
+415,415,Jerry Maguire,Sony,273.6,154,119.6,1996,"December 13, 1996",Comedy / Drama, 2 hrs. 18 min.,R,50 ,17084296,,,,,7.3
+416,416,Bad Boys II,Sony,273.3,138.6,134.7,2003,"July 18, 2003",Action Comedy, 2 hrs. 27 min.,R,130 ,46522560,126 days / 18 weeks,Michael Bay,Jerry Bruckheimer,3202,6.6
+417,417,Lilo & Stitch,BV,273.1,145.8,127.3,2002,"June 21, 2002",Animation, 1 hrs. 25 min.,PG,80 ,35260212,,,,,7.2
+418,418,The Silence of the Lambs,Orion,272.7,130.7,142.0,1991,"February 14, 1991",Thriller, 1 hrs. 58 min.,R,19 ,272742922,,,,,8.6
+419,419,Grown Ups,Sony,271.4,162,109.4,2010,"June 25, 2010",Comedy, 1 hrs. 42 min.,PG-13,80 ,40506562,126 days / 18 weeks,Dennis Dugan,Adam SandlerKevin JamesChris RockRob SchneiderDavid SpadeSalma HayekMaria BelloMaya RudolphSteve BuscemiNorm MacDonaldJamie Chung*,3534,6.0
+420,420,Neighbors,Uni.,270.7,150.2,120.5,2014,"May 9, 2014",Comedy, 1 hrs. 36 min.,R,18 ,49033915,Nick Stoller,Andrew J. CohenBrendan O'Brien,Andrew J. Cohen (executive)Evan GoldbergBrendan O'Brien (executive)Seth RogenJames Weaver,3311,6.4
+421,421,The Firm,Par.,270.2,158.3,111.9,1993,"July 2, 1993",Thriller, 2 hrs. 34 min.,R,,25400000,,,,,6.8
+422,422,We're the Millers,WB (NL),270.0,150.4,119.6,2013,"August 7, 2013",Comedy, 1 hrs. 50 min.,R,37 ,26419396,121 days / 17.3 weeks,Rawson Marshall Thurber,Chris BenderJ.C. Spink (executive)Tucker Tooley,3445,7.0
+423,423,Gran Torino,WB,270.0,148.1,121.9,2008,"December 12, 2008",Action Drama, 1 hrs. 56 min.,R,33 ,"December 12 2008 (limited)
+ January 9 2009 (wide)",,,,,8.2
+424,424,10000 B.C.,WB,269.8,94.8,175.0,2008,"March 7, 2008",Period Adventure, 1 hrs. 49 min.,PG-13,105 ,35867488,105 days / 15 weeks,Roland Emmerich,Steven StraitCamilla Belle,3454,5.1
+425,425,Epic,Fox,268.4,107.5,160.9,2013,"May 24, 2013",Animation, 1 hrs. 42 min.,PG,100 ,33531068,119 days / 17 weeks,Chris Wedge,Beyonce Knowles (Voice)Colin Farrell (Voice)Josh Hutcherson (Voice)Amanda Seyfried (Voice)Aziz Ansari (Voice)Jason Sudeikis (Voice)Steven Tyler (Voice)Blake Anderson (Voice)Judah Friedlander (Voice)Christoph Waltz (Voice),3894,6.7
+426,426,Exodus: Gods and Kings,Fox,268.2,65,203.2,2014,"December 12, 2014",Drama, 2 hrs. 30 min.,PG-13,140 ,24115934,77 days / 11 weeks,Ridley Scott,Ewen BremnerChristian BaleJoel EdgertonAaron PaulSigourney WeaverBen KingsleyJohn Turturro,3503,6.1
+427,427,Bambi,RKO,267.4,102.2,165.2,1942^,"August 21, 1942",Animation, 1 hrs. 9 min.,G,,,,,,,7.4
+428,428,The Princess and the Frog,BV,267.0,104.4,162.6,2009,"November 25, 2009",Animation, 1 hrs. 35 min.,G,105 ,"November 25 2009 (limited)
+ December 11 2009 (wide)",,,,,7.2
+429,429,Batman Returns,WB,266.8,162.8,104.0,1992,"June 19, 1992",Action / Adventure, 2 hrs. 6 min.,PG-13,80 ,45687711,126 days / 18 weeks,Tim Burton,Michael KeatonDanny DeVitoMichelle PfeifferChristopher Walken,2644,7.0
+430,430,Something's Gotta Give,Sony,266.7,124.7,142.0,2003,"December 12, 2003",Romantic Comedy, 2 hrs. 8 min.,PG-13,80 ,16064723,126 days / 18 weeks,Nancy Meyers,Jack NicholsonDiane KeatonKeanu ReevesFrances McDormandAmanda PeetJon Favreau,2876,6.7
+431,431,Indecent Proposal,Par.,266.6,106.6,160.0,1993,"April 9, 1993",Romance, 1 hrs. 56 min.,R,,18387632,,,,,5.8
+432,432,American Gangster,Uni.,266.5,130.2,136.3,2007,"November 2, 2007",Crime Drama, 2 hrs. 40 min.,R,100 ,43565115,91 days / 13 weeks,Ridley Scott,Denzel WashingtonRussell CroweJosh BrolinChiwetel EjioforCarla GuginoT.I.RZACommonIdris Elba,3110,7.8
+433,433,Waterworld,Uni.,264.2,88.2,176.0,1995,"July 28, 1995",Sci-Fi Adventure, 2 hrs. 16 min.,PG-13,175 ,21171780,David Twohy,Jack Black*Kevin Costner,James Newton Howard,2420,6.1
+434,434,The Truman Show,Par.,264.1,125.6,138.5,1998,"June 5, 1998",Comedy / Drama, 1 hrs. 43 min.,PG,,31542121,,,,,8.1
+435,435,Charlie's Angels,Sony,264.1,125.3,138.8,2000,"November 3, 2000",Action Comedy, 1 hrs. 38 min.,PG-13,93 ,40128550,McG,John AugustEd Solomon,Ed Shearmur,3037,5.5
+436,436,The Fifth Element,Sony,263.9,63.8,200.1,1997,"May 9, 1997",Sci-Fi Action, 2 hrs. 6 min.,PG-13,,263920180,,,,,7.6
+437,437,The Incredible Hulk,Uni.,263.4,134.8,128.6,2008,"June 13, 2008",Action / Adventure, 1 hrs. 54 min.,PG-13,150 ,55414050,Louis Leterrier,Zak Penn,Avi AradKevin FeigeGale Anne HurdStan Lee (executive)David Maisel (executive)Jim Van Wyck (executive),3508,6.8
+438,438,Jumanji,Sony,262.8,100.5,162.3,1995,"December 15, 1995",Family Adventure, 1 hrs. 44 min.,PG,65 ,11084370,Jonathan Hensleigh,Robin WilliamsKirsten DunstBonnie Hunt,Thomas E. Ackerman,2530,6.9
+439,439,Bridget Jones: The Edge of Reason,Uni.,262.5,40.2,222.3,2004,"November 12, 2004",Romantic Comedy, 1 hrs. 48 min.,R,40 ,"November 12 2004 (limited)
+ November 19 2004 (wide)",,,,,5.9
+440,440,Knight & Day,Fox,261.9,76.4,185.5,2010,"June 23, 2010",Comedy, 2 hrs. 10 min.,PG-13,117 ,20139985,107 days / 15.3 weeks,James Mangold,Todd GarnerArnon Milchan (executive)Steve PinkJoe Roth (executive),3104,6.3
+441,441,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,Fox,261.6,128.5,133.1,2006,"November 3, 2006",Comedy, 1 hrs. 24 min.,R,18 ,26455463,147 days / 21 weeks,Larry Charles,Sacha Baron Cohen,2611,7.3
+442,442,Total Recall,Sony,261.3,119.4,141.9,1990^,"June 1, 1990",Sci-Fi Action, 1 hrs. 53 min.,R,65 ,261317921,,,,,7.5
+443,443,Michael Jackson's This Is It,Sony,261.2,72.1,189.1,2009,"October 28, 2009",Concert, 2 hrs. 1 min.,PG,,23234394,,,,,7.3
+444,444,Robots,Fox,260.7,128.2,132.5,2005,"March 11, 2005",Animation, 1 hrs. 30 min.,PG,75 ,36045301,182 days / 26 weeks,Carlos Saldanha (co-director)Chris Wedge,Ewan McGregor (Voice)Halle Berry (Voice)Greg Kinnear (Voice)Amanda Bynes (Voice)Robin Williams (Voice)Jim Broadbent (Voice)Stanley Tucci* (Voice)Jennifer Coolidge* (Voice)Paul Giamatti*,3776,6.3
+445,445,The Lone Ranger,BV,260.5,89.3,171.2,2013,"July 3, 2013",Western, 2 hrs. 29 min.,PG-13,215 ,29210849,100 days / 14.3 weeks,Gore Verbinski,Johnny DeppArmie HammerWilliam FichtnerTom WilkinsonRuth WilsonHelena Bonham CarterJames Badge DaleBarry Pepper,3904,6.5
+446,446,Super 8,Par.,260.1,127,133.1,2011,"June 10, 2011",Sci-Fi, 1 hrs. 52 min.,PG-13,50 ,35451168,112 days / 16 weeks,J.J. Abrams,Kyle ChandlerElle FanningNoah Emmerich,3424,7.1
+447,447,Paddington,W/Dim.,259.6,76.3,183.3,2015,"January 16, 2015",Family, 1 hrs. 35 min.,PG,55 ,18966676,Paul King,Paul King,David Heyman,3355,7.2
+448,448,Charlie's Angels: Full Throttle,Sony,259.2,100.8,158.3,2003,"June 27, 2003",Action Comedy, 1 hrs. 45 min.,PG-13,120 ,37634221,McG,John August,Patrick Crowley (executive),3485,4.8
+449,449,Rush Hour 3,NL,258.0,140.1,117.9,2007,"August 10, 2007",Action Comedy, 1 hrs. 30 min.,PG-13,140 ,49100158,98 days / 14 weeks,Brett Ratner,Jackie ChanChris Tucker,3778,6.2
+450,450,The Full Monty,FoxS,257.9,46,212.0,1997,"August 15, 1997",Comedy, 1 hrs. 31 min.,R,3.5 ,"August 15 1997 (limited)
+ September 19 1997 (wide)",,,,,7.2
+451,451,Annabelle,WB (NL),256.9,84.3,172.6,2014,"October 3, 2014",Horror, 1 hrs. 35 min.,R,6.5 ,37134255,77 days / 11 weeks,John R. Leonetti,Alfre Woodard,3215,5.4
+452,452,The Village,BV,256.7,114.2,142.5,2004,"July 30, 2004",Period Horror, 1 hrs. 48 min.,PG-13,60 ,50746142,126 days / 18 weeks,M. Night Shyamalan,Joaquin PhoenixBryce Dallas HowardAdrien BrodySigourney WeaverBrendan GleesonJesse EisenbergM. Night Shyamalan*,3733,6.5
+453,453,Erin Brockovich,Uni.,256.3,125.6,130.7,2000,"March 17, 2000",Drama, 2 hrs. 10 min.,R,52 ,28138465,Susannah Grant,Aaron EckhartJulia Roberts,Edward Lachman,3070,7.3
+454,454,Cliffhanger,TriS,255.0,84,171.0,1993,"May 28, 1993",Action Thriller, 1 hrs. 53 min.,R,70 ,16176967,,,,,6.4
+455,455,Babe,Uni.,254.1,63.7,190.5,1995,"August 4, 1995",Family, 1 hrs. 32 min.,G,,8742545,,,,,6.8
+456,456,Wild Hogs,BV,253.6,168.3,85.4,2007,"March 2, 2007",Comedy, 1 hrs. 39 min.,PG-13,,39699023,154 days / 22 weeks,Walter Becker,Brian Robbins,3401,5.9
+457,457,High School Musical 3: Senior Year,BV,252.9,90.6,162.3,2008,"October 24, 2008",Musical, 1 hrs. 40 min.,G,11 ,42030184,105 days / 15 weeks,Kenny Ortega,Kenny Ortega (executive),3626,4.4
+458,458,Hercules,BV,252.7,99.1,153.6,1997,"June 15, 1997",Animation, 1 hrs. 32 min.,G,85 ,"June 15 1997 (limited)
+ June 27 1997 (wide)",,,,,7.2
+459,459,True Grit,Par.,252.3,171.2,81.0,2010,"December 22, 2010",Western, 1 hrs. 50 min.,PG-13,38 ,24830443,Ethan CoenJoel Coen,Ethan CoenJoel Coen,Ethan CoenJoel CoenDavid Ellison (executive)Megan Ellison (executive)Scott Rudin (executive)Paul Schwake (executive)Steven Spielberg (executive),3464,7.7
+460,460,Bean,Gram.,251.2,45.3,205.9,1997,"October 17, 1997",Comedy, 1 hrs. 30 min.,PG-13,18 ,"October 17 1997 (limited)
+ November 7 1997 (wide)",,,,,6.3
+461,461,American Hustle,Sony,251.2,150.1,101.1,2013,"December 13, 2013",Drama, 2 hrs. 18 min.,R,40 ,"December 13 2013 (limited)
+ December 20 2013 (wide)",,,,,7.3
+462,462,You've Got Mail,WB,250.8,115.8,135.0,1998,"December 18, 1998",Romantic Comedy, 1 hrs. 59 min.,PG,65 ,18426749,Delia EphronNora Ephron,Tom HanksMeg RyanGreg KinnearParker PoseyChris Messina*,John Lindley,2948,6.5
+463,463,Enemy of the State,BV,250.6,111.5,139.1,1998,"November 20, 1998",Action Thriller, 2 hrs. 11 min.,R,90 ,20038573,,,,,7.3
+464,464,Brother Bear,BV,250.4,85.3,165.1,2003,"October 24, 2003",Animation, 1 hrs. 25 min.,G,,"October 24 2003 (limited)
+ November 1 2003 (wide)",,,,,6.8
+465,465,The Mask of Zorro,Sony,250.3,94.1,156.2,1998,"July 17, 1998",Period Adventure, 2 hrs. 17 min.,PG-13,95 ,22525855,Ted ElliottTerry Rossio,Antonio BanderasAnthony HopkinsCatherine Zeta-Jones,James Horner,2515,6.7
+466,466,Eragon,Fox,249.5,75,174.5,2006,"December 15, 2006",Fantasy, 1 hrs. 39 min.,PG,100 ,23239907,119 days / 17 weeks,Jeremy IronsRobert CarlyleJohn MalkovichGarrett HedlundDjimon HounsouSienna GuilloryRachel Weisz* (Voice),Patrick Doyle,3030,5.1
+467,467,The Ring,DW,249.3,129.1,120.2,2002,"October 18, 2002",Horror, 1 hrs. 49 min.,PG-13,48 ,15015393,Gore Verbinski,Ehren Kruger,Roy Lee (executive)Michelle Weisler (executive),2927,7.1
+468,468,The Blair Witch Project,Art.,248.6,140.5,108.1,1999,"July 16, 1999",Horror, 1 hrs. 26 min.,R,"60,000","July 16 1999 (limited)
+ July 30 1999 (wide)",,,,,6.4
+469,469,Unbreakable,BV,248.1,95,153.1,2000,"November 22, 2000",Thriller, 1 hrs. 46 min.,PG-13,75 ,30330771,M. Night Shyamalan,Bruce WillisSamuel L. JacksonM. Night Shyamalan*,James Newton Howard,2708,7.2
+470,470,Dumb and Dumber,NL,247.3,127.2,120.1,1994,"December 16, 1994",Comedy, 1 hrs. 41 min.,PG-13,17 ,16363442,,,,,7.3
+471,471,Grown Ups 2,Sony,247.0,133.7,113.3,2013,"July 12, 2013",Comedy, 1 hrs. 41 min.,PG-13,80 ,41508572,129 days / 18.4 weeks,Dennis Dugan,Adam SandlerKevin JamesChris RockDavid SpadeSalma HayekMaya RudolphMaria BelloNick SwardsonTaylor Lautner,3491,5.4
+472,472,Love Actually,Uni.,246.9,59.7,187.2,2003,"November 7, 2003",Romantic Comedy, 2 hrs. 8 min.,R,40 ,"November 7 2003 (limited)
+ November 14 2003 (wide)",,,,,7.7
+473,473,Rango,Par.,245.7,123.5,122.2,2011,"March 4, 2011",Animation, 1 hrs. 47 min.,PG,135 ,38079323,Gore Verbinski,John LoganGore Verbinski (story),Tim Headington (executive)Graham KingGore Verbinski,3923,7.2
+474,474,Four Weddings and a Funeral,Gram.,245.7,52.7,193.0,1994,"March 11, 1994",Romantic Comedy, 1 hrs. 58 min.,R,4.4 ,"March 11 1994 (limited)
+ April 15 1994 (wide)",,,,,7.1
+475,475,Face/Off,Par.,245.7,112.3,133.4,1997,"June 27, 1997",Action, 2 hrs. 18 min.,R,80 ,23387530,John TravoltaNicolas CageJoan AllenThomas Jane*,Michael Douglas (executive producer),John Powell,2851,7.3
+476,476,The Peanuts Movie,Fox,245.7,130.1,115.5,2015,"November 6, 2015",Animation, 1 hrs. 33 min.,G,99 ,245650032,,,,,7.3
+477,477,Dark Shadows,WB,245.5,79.7,165.8,2012,"May 11, 2012",Horror Comedy, 1 hrs. 53 min.,PG-13,150 ,29685274,98 days / 14 weeks,Tim Burton,Johnny DeppMichelle PfeifferHelena Bonham CarterJackie Earle HaleyJonny Lee MillerEva GreenChloe MoretzBella HeathcoteChristopher Lee*,3755,8.1
+478,478,Hulk,Uni.,245.4,132.2,113.2,2003,"June 20, 2003",Action / Adventure, 2 hrs. 15 min.,PG-13,137 ,62128420,119 days / 17 weeks,Ang Lee,Eric BanaJennifer ConnellySam ElliottJosh LucasNick Nolte,3674,5.7
+479,479,Bienvenue chez les Ch'tis,,245.1,n/a,245.1,0,. 46 min.,ting: Unrated,on Budget: N/A,,None,,,,,,7.1
+480,480,The Godfather,Par.,245.1,135,110.1,1972^,"March 15, 1972",Crime Drama, 2 hrs. 55 min.,R,6 ,245066411,,,,,9.2
+481,481,Hercules (2014),Par.,244.8,72.7,172.1,2014,"July 25, 2014",Action / Adventure, 1 hrs. 38 min.,PG-13,100 ,29800263,84 days / 12 weeks,Brett Ratner,Rebecca FergusonDwayne JohnsonIan McShaneRufus SewellJoseph FiennesJohn Hurt,3595,7.2
+482,482,Back to the Future Part III,Uni.,244.5,87.7,156.8,1990,"May 25, 1990",Western, 1 hrs. 58 min.,PG,40 ,19089645,,,,,7.4
+483,483,Rush Hour,NL,244.4,141.2,103.2,1998,"September 18, 1998",Action Comedy, 1 hrs. 37 min.,PG-13,33 ,33001803,,,,,6.9
+484,484,After Earth,Sony,243.8,60.5,183.3,2013,"May 31, 2013",Sci-Fi, 1 hrs. 40 min.,PG-13,130 ,27520040,80 days / 11.4 weeks,M. Night Shyamalan,Jaden SmithWill Smith,3401,4.9
+485,485,Pixels,Sony,243.5,78.7,164.7,2015,"July 24, 2015",Action Comedy, 1 hrs. 45 min.,PG-13,88 ,24011616,108 days / 15.4 weeks,Chris Columbus,Adam SandlerKevin JamesJosh GadMichelle MonaghanPeter DinklageBrian Cox,3723,5.7
+486,486,A Few Good Men,Col.,243.2,141.3,101.9,1992,"December 11, 1992",Drama / Thriller, 2 hrs. 18 min.,R,40 ,15517468,,,,,7.6
+487,487,Cloudy with a Chance of Meatballs,Sony,243.0,124.9,118.1,2009,"September 18, 2009",Animation, 1 hrs. 21 min.,PG,100 ,243006126,,,,,7.0
+488,488,8 Mile,Uni.,242.9,116.8,126.1,2002,"November 8, 2002",Music Drama, 1 hrs. 58 min.,R,41 ,51240555,140 days / 20 weeks,Curtis Hanson,Brian Grazer,2585,7.0
+489,489,Marley and Me,Fox,242.7,143.2,99.6,2008,"December 25, 2008",Comedy, 2 hrs. 0 min.,PG,,36357586,127 days / 18.1 weeks,David Frankel,Jennifer AnistonOwen Wilson,3505,7.1
+490,490,RoboCop (2014),Sony,242.7,58.6,184.1,2014,"February 12, 2014",Sci-Fi Action, 1 hrs. 48 min.,PG-13,100 ,21681430,96 days / 13.7 weeks,Jose Padilha,Michael K. WilliamsJoel KinnamanGary OldmanMichael KeatonAbbie CornishJackie Earle HaleyJennifer EhleJay BaruchelSamuel L. Jackson,3372,5.7
+491,491,Eraser,WB,242.3,101.3,141.0,1996,"June 21, 1996",Action, 1 hrs. 55 min.,R,100 ,24566446,,,,,6.1
+492,492,Journey to the Center of the Earth,WB (NL),242.0,101.7,140.3,2008,"July 11, 2008",Adventure, 1 hrs. 32 min.,PG,60 ,21018141,154 days / 22 weeks,Brendan FraserJosh Hutcherson,Andrew Lockington,2830,5.8
+493,493,Resident Evil: Retribution,SGem,240.2,42.3,197.8,2012,"September 14, 2012",Action Horror, 1 hrs. 35 min.,R,65 ,21052227,59 days / 8.4 weeks,Paul W.S. Anderson,Milla JovovichSienna GuilloryMichelle RodriguezBoris Kodjoe,3016,5.4
+494,494,Die Hard 2: Die Harder,Fox,240.0,117.5,122.5,1990,"July 6, 1990",Action Thriller, 2 hrs. 4 min.,R,70 ,21744661,Bruce WillisJohn Leguizamo*,Lawrence GordonLloyd Levin (executive producer)Joel Silver,Michael Kamen,2507,7.1
+495,495,Crocodile Dundee II,Par.,239.6,109.3,130.3,1988,"May 25, 1988",Adventure Comedy, 1 hrs. 50 min.,PG,,,,,,,5.5
+496,496,Planes,BV,239.3,90.3,149.0,2013,"August 9, 2013",Animation, 1 hrs. 32 min.,PG,50 ,22232291,133 days / 19 weeks,Klay Hall,Dane Cook (Voice)Val Kilmer (Voice)Anthony Edwards (Voice)Teri Hatcher (Voice)Julia Louis-Dreyfus (Voice)John Cleese (Voice)Brad Garrett* (Voice)Larry the Cable Guy* (Voice)Cedric the Entertainer* (Voice)Sinbad* (Voice),3716,5.8
+497,497,Batman and Robin,WB,238.2,107.3,130.9,1997,"June 20, 1997",Action / Adventure, 2 hrs. 5 min.,PG-13,125 ,42872605,Joel Schumacher,Akiva Goldsman,Elliot Goldenthal,2942,3.7
+498,498,Click,SonR,237.7,137.4,100.3,2006,"June 23, 2006",Fantasy Comedy, 1 hrs. 37 min.,PG-13,82.5 ,40011365,Frank Coraci,Steve KorenMark O'Keefe,Jack GiarraputoTim Herlihy (executive)Steve KorenNeal H. MoritzMark O'KeefeAdam Sandler,3764,6.4
+499,499,Gulliver's Travels,Fox,237.4,42.8,194.6,2010,"December 25, 2010",Adventure Comedy, 1 hrs. 25 min.,PG,112 ,6307691,111 days / 15.9 weeks,Rob Letterman,Jack BlackJason SegelEmily BluntAmanda PeetBilly Connolly,3089,4.9
+500,500,Gone in 60 Seconds,BV,237.2,101.6,135.6,2000,"June 9, 2000",Action, 1 hrs. 57 min.,PG-13,90 ,25336048,Nicolas CageGiovanni RibisiAngelina JolieScott CaanWill PattonDelroy LindoTimothy OlyphantRobert Duvall,Jerry Bruckheimer,Trevor Rabin,3089,6.5
+501,501,Saturday Night Fever,Par.,237.1,94.2,142.9,1977,"December 16, 1977",Music Drama, 1 hrs. 58 min.,R,,"December 16 1977 (limited)
+ N/A (wide)",,,,,6.8
+502,502,Silver Linings Playbook,Wein.,236.4,132.1,104.3,2012,"November 16, 2012",Comedy, 2 hrs. 2 min.,R,21 ,"November 16 2012 (limited)
+ December 25 2012 (wide)",,,,,7.8
+503,503,2 Fast 2 Furious,Uni.,236.4,127.2,109.2,2003,"June 6, 2003",Action, 1 hrs. 41 min.,PG-13,76 ,50472480,133 days / 19 weeks,John Singleton,Lee R. MayesNeal H. Moritz,3418,5.8
+504,504,A.I. Artificial Intelligence,WB,235.9,78.6,157.3,2001,"June 29, 2001",Sci-Fi, 2 hrs. 25 min.,PG-13,100 ,29352630,,,,,7.1
+505,505,Dead Poets Society,BV,235.9,95.9,140.0,1989,"June 2, 1989",Drama, 2 hrs. 8 min.,PG,,"June 2 1989 (limited)
+ June 9 1989 (wide)",,,,,8.0
+506,506,Spy,Fox,235.7,110.8,124.8,2015,"December 25, 2015",Comedy, 1 hrs. 36 min.,PG-13,,38740203,,,,,7.1
+507,507,American Pie,Uni.,235.5,102.6,132.9,1999,"June 5, 2015",Comedy, 2 hrs. 0 min.,R,65 ,29085719,126 days / 18 weeks,Paul Feig,Morena BaccarinMelissa McCarthyJason StathamJude LawRose ByrneAllison JanneyBobby Cannavale50 Cent,3715,7.0
+508,508,Howl's Moving Castle,BV,235.2,4.7,230.5,2005,"July 9, 1999",Comedy, 1 hrs. 35 min.,R,11 ,18709680,,,,,8.2
+509,509,American Reunion,Uni.,235.0,57,178.0,2012,"June 10, 2005",Animation, 1 hrs. 59 min.,PG,,235184110,,,,,6.7
+510,510,Big Daddy,Sony,234.8,163.5,71.3,1999,"April 6, 2012",Comedy, 1 hrs. 53 min.,R,50 ,21514080,Jon HurwitzHayden Schlossberg,Jon HurwitzHayden Schlossberg,Jason Biggs (executive)Chris MooreSeann William Scott (executive)Chris Weitz (executive)Paul Weitz (executive),3203,6.4
+511,511,Daddy's Home,Par.,234.7,148,86.7,2015,"June 25, 1999",Comedy, 1 hrs. 33 min.,PG-13,34.2 ,41536370,Dennis Dugan,Tim HerlihyAdam Sandler,Jack GiarraputoAdam Sandler (executive)Robert Simonds (Executive),3254,5.8
+512,512,The Day the Earth Stood Still (2008),Fox,233.1,79.4,153.7,2008,"December 12, 2008",Sci-Fi, 1 hrs. 50 min.,PG-13,80 ,30480153,112 days / 16 weeks,Scott Derrickson,Paul Harris BoardmanErwin Stoff,3560,5.5
+513,513,The Girl with the Dragon Tattoo (2011),Sony,232.6,102.5,130.1,2011,"December 21, 2011",Thriller, 2 hrs. 40 min.,R,90 ,12768604,93 days / 13.3 weeks,David Fincher,Daniel CraigRooney MaraChristopher PlummerStellan SkarsgardRobin Wright PennJoely Richardson*Goran Visnjic*Joel Kinnaman*,2950,2.6
+514,514,Argo,WB,232.3,136,96.3,2012,"October 12, 2012",Drama / Thriller, 2 hrs. 0 min.,R,44.5 ,19458109,Ben Affleck,Chris Terrio,Ben AffleckGeorge ClooneyTim Headington (executive)Grant HeslovGraham King (executive)David Klawans (executive),3247,7.8
+515,515,The English Patient,Mira.,232.0,78.7,153.3,1996,"November 15, 1996",Romance, 2 hrs. 42 min.,R,27 ,"November 15 1996 (limited)
+ December 6 1996 (wide)",,,,,7.4
+516,516,Sister Act,BV,231.6,139.6,92.0,1992,"May 29, 1992",Comedy, 1 hrs. 40 min.,PG,,11894587,,,,,6.2
+517,517,American Wedding,Uni.,231.4,104.6,126.9,2003,"August 1, 2003",Comedy, 1 hrs. 42 min.,R,55 ,33369440,,,,,6.3
+518,518,Juno,FoxS,231.4,143.5,87.9,2007,"December 5, 2007",Comedy / Drama, 1 hrs. 31 min.,PG-13,7.5 ,"December 5 2007 (limited)
+ December 25 2007 (wide)",,,,,7.5
+519,519,Constantine,WB,230.9,76,154.9,2005,"February 18, 2005",Horror, 2 hrs. 1 min.,R,100 ,29769098,Francis Lawrence,Keanu ReevesRachel WeiszShia LaBeoufDjimon HounsouTilda Swinton,Klaus BadeltBrian Tyler,3006,6.9
+520,520,Get Smart,WB,230.7,130.3,100.4,2008,"June 20, 2008",Action Comedy, 1 hrs. 50 min.,PG-13,80 ,38683480,140 days / 20 weeks,Peter Segal,Steve CarellAnne HathawayDwayne JohnsonTerence Stamp,3915,6.5
+521,521,Space Jam,WB,230.4,90.4,140.0,1996,"November 15, 1996",Family Comedy, 1 hrs. 28 min.,PG,,230418342,,,,,6.3
+522,522,The Heat,Fox,229.9,159.6,70.3,2013,"June 28, 2013",Comedy, 1 hrs. 57 min.,R,43 ,39115043,168 days / 24 weeks,Paul Feig,Sandra BullockMelissa McCarthy,3184,6.6
+523,523,Mr. Bean's Holiday,Uni.,229.7,33.3,196.4,2007,"August 24, 2007",Comedy, 1 hrs. 30 min.,G,,9889780,,,,,6.3
+524,524,Life Is Beautiful,Mira.,229.2,57.6,171.6,1998^,"October 23, 1998",Foreign, 1 hrs. 56 min.,PG-13,,"October 23 1998 (limited)
+ February 12 1999 (wide)",,,,,8.6
+525,525,Ghost Rider,Sony,228.7,115.8,112.9,2007,"February 16, 2007",Action Horror, 1 hrs. 50 min.,PG-13,110 ,45388836,77 days / 11 weeks,Mark Steven Johnson,Nicolas CageEva MendesSam ElliottWes BentleyPeter FondaRebel Wilson*,3620,5.2
+526,526,Lethal Weapon 2,WB,227.9,147.3,80.6,1989,"July 7, 1989",Action Comedy, 1 hrs. 53 min.,R,,20388800,Shane Black,Mel GibsonDanny Glover,Michael Kamen,1830,7.2
+527,527,The Green Hornet,Sony,227.8,98.8,129.0,2011,"January 14, 2011",Action / Adventure, 1 hrs. 48 min.,PG-13,120 ,33526876,Michel Gondry,Evan GoldbergSeth Rogen,Evan Goldberg (executive)Michael Grillo (executive)Neal H. MoritzSeth Rogen (executive),3584,5.9
+528,528,Sleepless in Seattle,TriS,227.8,126.7,101.1,1993,"June 25, 1993",Romantic Comedy, 1 hrs. 45 min.,PG,21 ,17253733,Nora Ephron,Tom HanksMeg Ryan,Marc Shaiman,1657,6.8
+529,529,The Imitation Game,Wein.,227.8,91.1,136.6,2014,"November 28, 2014",Drama, 1 hrs. 54 min.,PG-13,,"November 28 2014 (limited)
+ December 25 2014 (wide)",,,,,8.1
+530,530,Immortals,Rela.,226.9,83.5,143.4,2011,"November 11, 2011",Fantasy Drama, 1 hrs. 50 min.,R,75 ,32206425,105 days / 15 weeks,Tarsem,Mark CantonRyan KavanaughGianni NunnariTucker Tooley (executive),3120,6.1
+531,531,Taken,Fox,226.8,145,81.8,2009,"January 30, 2009",Action, 1 hrs. 33 min.,PG-13,25 ,24717037,161 days / 23 weeks,Pierre Morel,Liam NeesonMaggie GraceFamke JanssenKatie Cassidy*,3184,7.9
+532,532,Percy Jackson & The Olympians: The Lightning Thief,Fox,226.5,88.8,137.7,2010,"February 12, 2010",Fantasy, 2 hrs. 0 min.,PG,95 ,31236067,140 days / 20 weeks,Chris Columbus,Chris ColumbusThomas M. Hammel (executive)Karen Rosenfelt,3396,5.9
+533,533,Hansel and Gretel: Witch Hunters,Par.,226.3,55.7,170.6,2013,"January 25, 2013",Action Comedy, 1 hrs. 28 min.,R,50 ,19690956,91 days / 13 weeks,Tommy Wirkola,Jeremy RennerGemma ArtertonFamke JanssenPeter StormareThomas Mann,3375,6.1
+534,534,Good Will Hunting,Mira.,225.9,138.4,87.5,1997,"December 5, 1997",Drama, 2 hrs. 6 min.,R,,"December 5 1997 (limited)
+ January 9 1998 (wide)",,,,,8.3
+535,535,The Social Network,Sony,224.9,97,128.0,2010,"October 1, 2010",Comedy / Drama, 2 hrs. 0 min.,PG-13,40 ,22445653,154 days / 22 weeks,David Fincher,Jesse EisenbergAndrew GarfieldJustin TimberlakeArmie HammerMax MinghellaRooney MaraRashida Jones,2921,7.7
+536,536,Chicken Run,DW,224.8,106.8,118.0,2000,"June 23, 2000",Animation, 1 hrs. 24 min.,G,45 ,17506162,Karey Kirkpatrick,Mel Gibson (Voice)Imelda Staunton* (Voice),Harry Gregson-WilliamsJohn Powell,2953,7.0
+537,537,Con Air,BV,224.0,101.1,122.9,1997,"June 6, 1997",Action, 1 hrs. 55 min.,PG,,224526613,,,,,6.8
+538,538,Interview with the Vampire,WB,223.7,105.3,118.4,1994,"November 11, 1994",Period Horror, 2 hrs. 3 min.,R,75 ,24131738,133 days / 19 weeks,Simon West,Jerry Bruckheimer,2941,7.6
+539,539,Flightplan,BV,223.4,89.7,133.7,2005,"September 23, 2005",Thriller, 1 hrs. 33 min.,R,60 ,36389705,,,,,6.2
+540,540,Yes Man,WB,223.2,97.7,125.6,2008,"December 19, 2008",Comedy, 1 hrs. 44 min.,PG-13,,24629938,168 days / 24 weeks,Robert Schwentke,Jodie FosterPeter SarsgaardSean BeanErika Christensen,3424,6.8
+541,541,Non-Stop,Uni.,222.8,92.2,130.6,2014,"February 28, 2014",Thriller, 1 hrs. 50 min.,PG-13,70 ,18262471,105 days / 15 weeks,Peyton Reed,Jim CarreyBradley CooperZooey Deschanel,3434,7.0
+542,542,Honey I Shrunk the Kids,BV,222.7,130.7,92.0,1989,"June 23, 1989",Family Adventure, 1 hrs. 41 min.,PG-13,50 ,28875635,Jaume Collet-Serra,Ryan EngleJohn W. RichardsonChris Roach,Alex HeinemanJoel SilverJeff Wadlow (executive),3183,6.3
+543,543,Fahrenheit 9/11,Lions,222.4,119.2,103.3,2004,"June 23, 2004",Documentary, 1 hrs. 56 min.,PG,,14262961,,,,,7.5
+544,544,Jumper,Fox,222.2,80.2,142.1,2008,"February 14, 2008",Fantasy, 1 hrs. 30 min.,R,6 ,23920637,,,,,6.1
+545,545,Wild Wild West,WB,222.1,113.8,108.3,1999,"June 30, 1999",Western Comedy, 1 hrs. 47 min.,PG-13,85 ,27354808,148 days / 21.1 weeks,Doug Liman,Hayden ChristensenJamie BellRachel BilsonSamuel L. JacksonMax Thieriot*AnnaSophia Robb*Diane Lane*Kristen Stewart*,3430,4.8
+546,546,Presumed Innocent,WB,221.3,86.3,135.0,1990,"July 27, 1990",Thriller, 2 hrs. 7 min.,PG-13,170 ,27687484,Barry Sonnenfeld,Will SmithKevin KlineKenneth BranaghSalma Hayek,Michael Ballhaus,3342,6.9
+547,547,Scary Movie 3,Dim.,220.7,110,110.7,2003,"October 24, 2003",Horror Comedy, 1 hrs. 30 min.,R,,11718981,,,,,5.4
+548,548,Elf,NL,220.4,173.4,47.0,2003,"November 7, 2003",Comedy, 1 hrs. 35 min.,PG-13,48 ,48113770,119 days / 17 weeks,David Zucker,Kevin HartAnna FarisRegina HallCharlie SheenSimon RexAnthony AndersonLeslie NielsenEddie Griffin* (Cameo)Queen Latifah* (Cameo)Denise Richards* (Cameo),3505,6.9
+549,549,Green Lantern,WB,219.9,116.6,103.3,2011,"June 17, 2011",Action / Adventure, 1 hrs. 45 min.,PG,33 ,31113501,119 days / 17 weeks,Jon Favreau,Shauna Robertson,3381,5.6
+550,550,The Terminal,DW,219.4,77.9,141.5,2004,"June 18, 2004",Comedy / Drama, 2 hrs. 8 min.,PG-13,200 ,53174303,105 days / 15 weeks,Martin Campbell,Ryan ReynoldsBlake LivelyPeter SarsgaardMark StrongAngela BassettTim RobbinsMichael Clarke Duncan* (Voice),3816,7.3
+551,551,What Happens in Vegas,Fox,219.4,80.3,139.1,2008,"May 9, 2008",Comedy, 1 hrs. 39 min.,PG-13,60 ,19053199,Steven Spielberg,Sacha GervasiJeff NathansonAndrew Niccol*,Jason Hoffs (executive)Steven SpielbergPatricia Whitcher (executive),2914,6.1
+552,552,It's Complicated,Uni.,219.1,112.7,106.4,2009,"December 25, 2009",Romantic Comedy, 1 hrs. 58 min.,PG-13,35 ,20172474,133 days / 19 weeks,Tom Vaughan,Cameron DiazAshton KutcherRob CorddryLake BellJason SudeikisTreat WilliamsDennis FarinaZach GalifianakisQueen Latifah,3255,6.6
+553,553,Knocked Up,Uni.,219.1,148.8,70.3,2007,"June 1, 2007",Romantic Comedy, 2 hrs. 9 min.,R,85 ,22100820,98 days / 14 weeks,Nancy Meyers,Meryl StreepSteve MartinAlec BaldwinLake BellJohn KrasinskiZoe Kazan,2955,7.0
+554,554,Captain Phillips,Sony,218.8,107.1,111.7,2013,"October 11, 2013",Drama, 2 hrs. 14 min.,R,30 ,30690990,,,,,7.9
+555,555,The Prince of Egypt,DW,218.6,101.4,117.2,1998,"December 18, 1998",Animation, 1 hrs. 39 min.,PG-13,55 ,25718314,143 days / 20.4 weeks,Paul Greengrass,Tom HanksCatherine KeenerBarkhad Abdi,3143,7.0
+556,556,Jack Reacher,Par.,218.3,80.1,138.3,2012,"December 21, 2012",Crime Drama, 2 hrs. 10 min.,PG,70 ,14524321,,,,,7.0
+557,557,Collateral,DW,217.8,101,116.8,2004,"August 6, 2004",Crime, 2 hrs. 5 min.,PG-13,60 ,15210156,91 days / 13 weeks,Christopher McQuarrie,Tom CruiseRosamund PikeRichard JenkinsDavid OyelowoWerner HerzogJai CourtneyRobert Duvall,3352,7.6
+558,558,Dracula Untold,Uni.,217.1,56.3,160.8,2014,"October 10, 2014",Action Horror, 1 hrs. 32 min.,R,65 ,24701458,98 days / 14 weeks,Michael Mann,Tom CruiseJamie FoxxJada Pinkett-SmithMark RuffaloPeter BergBruce McGillJavier Bardem*Jason Statham*,3205,6.3
+559,559,Million Dollar Baby,WB,216.8,100.5,116.3,2004,"December 15, 2004",Sports Drama, 2 hrs. 17 min.,PG-13,70 ,23514615,Gary Shore,Matt SazamaBurk Sharpless,Michael De LucaJon Jashni (executive)Thomas Tull (executive),2900,8.1
+560,560,Ted 2,Uni.,216.7,81.5,135.2,2015,"June 26, 2015",Comedy, 1 hrs. 55 min.,PG-13,30 ,"December 15 2004 (limited)
+ January 28 2005 (wide)",,,,,6.4
+561,561,The Help,BV,216.6,169.7,46.9,2011,"August 10, 2011",Drama, 2 hrs. 17 min.,R,68 ,33507870,Seth MacFarlane,Seth MacFarlaneAlec SulkinWellesley Wild,Jason ClarkJohn JacobsSeth MacFarlaneScott Stuber,3448,8.1
+562,562,Twins,Uni.,216.6,111.9,104.7,1988,"December 9, 1988",Comedy, 1 hrs. 45 min.,PG-13,25 ,216639112,,,,,6.0
+563,563,Valentine's Day,WB (NL),216.5,110.5,106.0,2010,"February 12, 2010",Romantic Comedy, 1 hrs. 57 min.,PG,15 ,11174980,Danny DeVitoArnold Schwarzenegger,Joe Medjuck (executive)Ivan Reitman,Randy Edelman,1659,5.8
+564,564,Bad Teacher,Sony,216.2,100.3,115.9,2011,"June 24, 2011",Comedy, 1 hrs. 29 min.,PG-13,52 ,56260707,84 days / 12 weeks,Garry Marshall,Jessica AlbaKathy BatesJessica BielBradley CooperJamie FoxxJennifer GarnerTopher GraceAnne HathawayAshton KutcherQueen LatifahTaylor LautnerShirley MacLaineJulia RobertsEmma Roberts,3665,5.7
+565,565,Clear and Present Danger,Par.,215.9,122.2,93.7,1994,"August 5, 1994",Action Thriller, 2 hrs. 21 min.,R,20 ,31603106,,,,,6.9
+566,566,101 Dalmatians,Dis.,215.9,144.9,71.0,1961^,"January 25, 1961",Animation, 1 hrs. 19 min.,PG-13,62 ,20348017,,,,,7.2
+567,567,Bram Stoker's Dracula,Col.,215.9,82.5,133.3,1992,"November 13, 1992",Period Horror, 2 hrs. 7 min.,G,,,,,,,7.5
+568,568,Vertical Limit,Sony,215.7,69.2,146.4,2000,"December 18, 2015",Family Comedy, 1 hrs. 26 min.,R,40 ,30521679,,,,,5.9
+569,569,Alvin and the Chipmunks: The Road Chip,Fox,215.6,84.6,131.0,2015,"December 8, 2000",Action, 2 hrs. 4 min.,PG-13,75 ,15507845,,,,,4.2
+570,570,Ghostbusters II,Col.,215.4,112.5,102.9,1989,"June 16, 1989",Horror Comedy, 1 hrs. 42 min.,PG,,29472894,Harold Ramis,Bill MurraySigourney Weaver,Michael Chapman,2410,6.5
+571,571,The Patriot,Sony,215.3,113.3,102.0,2000,"June 28, 2000",War, 2 hrs. 44 min.,R,110 ,22413710,Roland Emmerich,Mel GibsonHeath LedgerChris CooperLogan Lerman*,John Williams,3061,7.1
+572,572,The Sorcerer's Apprentice,BV,215.3,63.2,152.1,2010,"July 14, 2010",Fantasy, 1 hrs. 51 min.,PG,150 ,17619622,107 days / 15.3 weeks,Jon Turteltaub,Nicolas CageJay BaruchelAlfred MolinaTeresa PalmerMonica Bellucci,3504,6.1
+573,573,Just Go With It,Sony,214.9,103,111.9,2011,"February 11, 2011",Romantic Comedy, 1 hrs. 50 min.,PG-13,80 ,30514732,98 days / 14 weeks,Dennis Dugan,Keegan-Michael KeyAdam SandlerJennifer AnistonNicole KidmanBrooklyn DeckerNick SwardsonAllen Covert*Rachel Dratch*Minka Kelly*,3548,6.4
+574,574,Public Enemies,Uni.,214.1,97.1,117.0,2009,"July 1, 2009",Crime Drama, 2 hrs. 23 min.,R,100 ,25271675,65 days / 9.3 weeks,Michael Mann,Johnny DeppChristian BaleMarion CotillardGiovanni RibisiBilly CrudupStephen DorffRory CochraneJohnny LangDavid WenhamChanning TatumCarey Mulligan*Emilie de Ravin*,3336,7.0
+575,575,The Bourne Identity,Uni.,214.0,121.7,92.4,2002,"June 14, 2002",Action Thriller, 1 hrs. 58 min.,PG-13,60 ,27118640,Doug Liman,Tony GilroyWilliam Blake Herron,Patrick CrowleyDoug LimanFrank Marshall (executive),2663,7.9
+576,576,Disclosure,WB,214.0,83,131.0,1994,"December 9, 1994",Drama / Thriller, 2 hrs. 9 min.,R,55 ,10068126,,,,,6.0
+577,577,Dirty Dancing,Vest,214.0,64,150.0,1987^,"August 21, 1987",Romance, 1 hrs. 45 min.,PG-13,6 ,,,,,,6.9
+578,578,Pulp Fiction,Mira.,213.9,107.9,106.0,1994,"October 14, 1994",Crime, 2 hrs. 34 min.,R,8 ,213928762,,,,,8.9
+579,579,The Aviator,Mira.,213.7,102.6,111.1,2004,"December 17, 2004",Period Drama, 2 hrs. 48 min.,PG-13,110 ,"December 17 2004 (limited)
+ December 25 2004 (wide)",,,,,7.5
+580,580,Crouching Tiger Hidden Dragon,SPC,213.5,128.1,85.4,2000,"December 8, 2000",Foreign / Action, 2 hrs. 0 min.,PG-13,17 ,"December 8 2000 (limited)
+ January 12 2001 (wide)",,,,,7.9
+581,581,Into the Woods,BV,213.1,128,85.1,2014,"December 25, 2014",Musical, 2 hrs. 4 min.,PG,50 ,31051923,113 days / 16.1 weeks,Rob Marshall,Meryl StreepEmily BluntAnna KendrickChris PineJohnny DeppJames Corden,2833,6.0
+582,582,Bedtime Stories,BV,212.9,110.1,102.8,2008,"December 25, 2008",Family Adventure, 1 hrs. 35 min.,PG,80 ,27450296,78 days / 11.1 weeks,Adam Shankman,Adam SandlerKeri RussellGuy PearceRussell BrandRichard GriffithsTeresa PalmerCourteney CoxNick Swardson*Allen Covert*,3684,6.1
+583,583,Miss Congeniality,WB,212.7,106.8,105.9,2000,"December 22, 2000",Action Comedy, 1 hrs. 49 min.,PG-13,45 ,10046534,,,,,6.1
+584,584,Entrapment,Fox,212.4,87.7,124.7,1999,"April 30, 1999",Romantic Thriller, 1 hrs. 53 min.,PG-13,66 ,20145595,,,,,6.2
+585,585,Ace Ventura: When Nature Calls,WB,212.4,108.4,104.0,1995,"November 10, 1995",Comedy, 1 hrs. 34 min.,PG-13,,37804076,,,,,6.3
+586,586,Master and Commander: The Far Side of the World,Fox,212.0,93.9,118.1,2003,"November 14, 2003",War, 2 hrs. 18 min.,PG-13,150 ,25105990,182 days / 26 weeks,Peter Weir,Russell CrowePaul Bettany,3101,7.4
+587,587,End of Days,Uni.,212.0,66.9,145.1,1999,"November 24, 1999",Action Horror, 2 hrs. 1 min.,R,100 ,20523595,,,,,5.7
+588,588,Battle: Los Angeles,Sony,211.8,83.6,128.3,2011,"March 11, 2011",Sci-Fi Action, 1 hrs. 56 min.,PG-13,70 ,35573187,Jonathan Liebesman,Christopher Bertolini,Jeffrey ChernovNeal H. Moritz,3417,5.8
+589,589,Fury (2014),Sony,211.8,85.8,126.0,2014,"October 17, 2014",War, 2 hrs. 14 min.,R,68 ,23702421,95 days / 13.6 weeks,David Ayer,Brad PittLogan LermanShia LaBeoufMichael PenaJon BernthalJason Isaacs,3313,
+590,590,Due Date,WB,211.8,100.5,111.2,2010,"November 5, 2010",Comedy, 1 hrs. 35 min.,R,65 ,32689406,84 days / 12 weeks,Todd Phillips,Keegan-Michael Key (Voice)Robert Downey Jr.Zach GalifianakisMichelle MonaghanJamie FoxxJuliette LewisDanny McBride*RZA*Charlie Sheen*,3365,6.6
+591,591,Kingdom of Heaven,Fox,211.7,47.4,164.3,2005,"May 6, 2005",Historical Epic, 2 hrs. 25 min.,R,130 ,19635996,119 days / 17 weeks,Ridley Scott,Orlando BloomEva GreenJeremy IronsLiam NeesonMichael SheenBrendan GleesonEdward Norton*,3219,7.2
+592,592,The Little Mermaid,BV,211.3,111.5,99.8,1989^,"November 17, 1989",Animation, 1 hrs. 23 min.,G,,6031914,,,,,7.6
+593,593,Australia,Fox,211.3,49.6,161.8,2008,"November 26, 2008",Period Adventure, 2 hrs. 45 min.,PG-13,130 ,14800723,121 days / 17.3 weeks,Baz Luhrmann,Nicole KidmanHugh JackmanDavid WenhamJack ThompsonBryan Brown,2721,6.6
+594,594,District 9,TriS,210.8,115.6,95.2,2009,"August 14, 2009",Sci-Fi, 1 hrs. 53 min.,R,30 ,37354308,84 days / 12 weeks,Neill Blomkamp,Sharlto Copley,3180,8.0
+595,595,Braveheart,Par.,210.4,75.6,134.8,1995,"May 24, 1995",Historical Epic, 2 hrs. 57 min.,R,72 ,9938276,387 days / 55.3 weeks,Mel Gibson,Mel GibsonBrendan GleesonBrian Cox*,2037,8.4
+596,596,Moonraker,MGM,210.3,70.3,140.0,1979,"June 29, 1979",Action, 2 hrs. 6 min.,PG,,,,,,,6.3
+597,597,The Others,Mira.,209.9,96.5,113.4,2001,"August 10, 2001",Period Horror, 1 hrs. 41 min.,PG-13,17 ,14089952,,,,,7.6
+598,598,Horrible Bosses,WB (NL),209.6,117.5,92.1,2011,"July 8, 2011",Comedy, 1 hrs. 40 min.,R,35 ,28302165,112 days / 16 weeks,Seth Gordon,Jason BatemanCharlie DayJason SudeikisJennifer AnistonColin FarrellJamie FoxxKevin SpaceyDonald Sutherland*Julie Bowen*,3134,6.9
+599,599,Red Dragon,Uni.,209.2,93.1,116.0,2002,"October 4, 2002",Thriller, 2 hrs. 6 min.,R,78 ,36540945,Brett Ratner,Anthony HopkinsEdward NortonRalph FiennesHarvey KeitelEmily WatsonMary-Louise ParkerPhilip Seymour Hoffman,Danny Elfman,3363,7.2
+600,600,Lemony Snicket's A Series of Unfortunate Events,Par.,209.1,118.6,90.4,2004,"December 17, 2004",Family Adventure, 1 hrs. 53 min.,PG,140 ,30061756,133 days / 19 weeks,Brad Silberling,Jim CarreyMeryl StreepEmily BrowningJude LawJamie Harris*Cedric the Entertainer*,3623,6.8
+601,601,Tomorrowland,BV,209.0,93.4,115.6,2015,"May 22, 2015",Sci-Fi, 2 hrs. 10 min.,PG,190 ,33028165,119 days / 17 weeks,Brad Bird,Keegan-Michael KeyBritt RobertsonGeorge ClooneyHugh LaurieKathryn Hahn*Judy Greer*,3972,6.5
+602,602,Safe House,Uni.,208.1,126.4,81.7,2012,"February 10, 2012",Action Thriller, 1 hrs. 57 min.,R,85 ,40172720,Daniel Espinosa,David Guggenheim,Scott Aversano (executive)Marc D. Evans (executive)Trevor Macy (executive)Scott Stuber,3121,6.8
+603,603,S.W.A.T.,Sony,207.7,116.9,90.8,2003,"August 8, 2003",Action Thriller, 1 hrs. 51 min.,PG-13,80 ,37062535,119 days / 17 weeks,Clark Johnson,Colin FarrellSamuel L. JacksonMichelle RodriguezLL Cool JJeremy RennerOlivier MartinezColin Egglesfield*,3220,6.0
+604,604,Traffic,USA,207.5,124.1,83.4,2000,"December 27, 2000",Crime Drama, 2 hrs. 27 min.,R,,"December 27 2000 (limited)
+ January 5 2001 (wide)",,,,,7.6
+605,605,The Fast and the Furious,Uni.,207.3,144.5,62.8,2001,"June 22, 2001",Action, 1 hrs. 46 min.,PG-13,38 ,40089015,Rob Cohen,David Ayer,Neal H. MoritzJohn Pogue,2899,6.7
+606,606,Paranormal Activity 3,Par.,207.0,104,103.0,2011,"October 21, 2011",Horror, 1 hrs. 21 min.,R,5 ,52568183,77 days / 11 weeks,Henry JoostAriel Schulman,Dustin Ingram,3329,5.8
+607,607,Philadelphia,TriS,206.7,77.4,129.2,1993,"December 24, 1993",Drama, 2 hrs. 5 min.,PG-13,26 ,"December 24 1993 (limited)
+ January 14 1994 (wide)",,,,,7.7
+608,608,The Expendables 3,LGF,206.2,39.3,166.9,2014,"August 15, 2014",Action, 1 hrs. 43 min.,PG-13,,15879645,63 days / 9 weeks,Patrick Hughes,Sylvester StalloneJason StathamAntonio BanderasJet LiWesley SnipesDolph LundgrenKelsey GrammerRandy CoutureTerry CrewsKellan LutzRonda RouseyRobert DaviMel GibsonHarrison FordArnold Schwarzenegger,3221,6.1
+609,609,Sleepy Hollow,Par.,206.1,101.1,105.0,1999,"November 19, 1999",Period Horror, 1 hrs. 45 min.,R,100 ,30060467,Andrew Kevin Walker,Johnny DeppChristina RicciMiranda RichardsonMichael GambonChristopher Walken*,Danny Elfman,3069,7.4
+610,610,The Jungle Book,Dis.,205.8,141.8,64.0,1967^,"October 18, 1967",Animation, 1 hrs. 18 min.,G,,,,,,,7.6
+611,611,JFK,WB,205.4,70.4,135.0,1991,"December 20, 1991",Drama / Thriller, 3 hrs. 26 min.,R,,5223658,Oliver Stone,Kevin CostnerTommy Lee JonesGary OldmanKevin Bacon,John Williams,1395,8.0
+612,612,White House Down,Sony,205.4,73.1,132.3,2013,"June 28, 2013",Action Drama, 2 hrs. 17 min.,PG-13,150 ,24852258,80 days / 11.4 weeks,Roland Emmerich,Channing TatumJamie FoxxMaggie GyllenhaalJames WoodsRichard JenkinsJoey KingJason Clarke,3222,6.4
+613,613,The Ugly Truth,Sony,205.3,88.9,116.4,2009,"July 24, 2009",Romantic Comedy, 1 hrs. 36 min.,R,38 ,27605576,77 days / 11 weeks,Robert Luketic,Katherine HeiglGerard ButlerCheryl Hines,2975,6.5
+614,614,The Holiday,Sony,205.1,63.2,141.9,2006,"December 8, 2006",Romantic Comedy, 2 hrs. 16 min.,PG-13,85 ,12778913,56 days / 8 weeks,Nancy Meyers,Cameron DiazKate WinsletJude LawJack BlackRufus SewellEdward BurnsJohn KrasinskiShannyn Sossamon*,2698,6.9
+615,615,The Break-Up,Uni.,205.0,118.7,86.3,2006,"June 2, 2006",Romantic Comedy, 1 hrs. 46 min.,PG-13,52 ,39172785,98 days / 14 weeks,Peyton Reed,Vince VaughnJennifer AnistonJason BatemanJon FavreauJustin Long,3146,5.8
+616,616,Eat Pray Love,Sony,204.6,80.6,124.0,2010,"August 13, 2010",Drama, 2 hrs. 13 min.,PG-13,60 ,23104523,84 days / 12 weeks,Ryan Murphy,Julia RobertsJavier BardemJames FrancoBilly CrudupRichard JenkinsViola Davis,3108,5.7
+617,617,King Arthur,BV,203.6,51.9,151.7,2004,"July 7, 2004",Period Adventure, 2 hrs. 10 min.,PG-13,120 ,15193907,100 days / 14.3 weeks,Antoine Fuqua,Clive OwenKeira KnightleyIoan GruffuddStellan SkarsgardJoel EdgertonRay StevensonMads MikkelsenHugh DancyStephen DillaneTil Schweiger,3086,6.3
+618,618,Everest (2015),Uni.,203.4,43.5,159.9,2015,"September 18, 2015",Thriller, 2 hrs. 1 min.,PG-13,55 ,203427584,,,,,
+619,619,Vanilla Sky,Par.,203.4,100.6,102.8,2001,"December 14, 2001",Thriller, 2 hrs. 15 min.,R,68 ,25015518,Cameron Crowe,Tom CruiseCameron DiazPenelope CruzKurt RussellTilda Swinton,John Toll,2842,6.9
+620,620,Need for Speed,BV,203.3,43.6,159.7,2014,"March 14, 2014",Action, 2 hrs. 10 min.,PG-13,66 ,17844939,98 days / 14 weeks,Scott Waugh,Aaron PaulImogen PootsDominic CooperScott MescudiMichael KeatonDakota Johnson,3115,6.5
+621,621,Hairspray (2007),NL,202.5,118.9,83.7,2007,"July 20, 2007",Musical, 1 hrs. 47 min.,PG,,27476745,98 days / 14 weeks,Adam Shankman,Nikki BlonskyJohn TravoltaMichelle PfeifferChristopher WalkenAmanda BynesJames MarsdenQueen LatifahBrittany SnowZac Efron,3121,6.8
+622,622,Patch Adams,Uni.,202.3,135,67.3,1998,"December 25, 1998",Comedy / Drama, 1 hrs. 55 min.,PG-13,90 ,25262280,Steve Oedekerk,Robin WilliamsPhilip Seymour Hoffman,Marc Shaiman,2909,6.7
+623,623,Fun with Dick and Jane,Sony,202.0,110.3,91.7,2005,"December 21, 2005",Crime Comedy, 1 hrs. 30 min.,PG-13,100 ,14383515,72 days / 10.3 weeks,Dean Parisot,Jim CarreyTea LeoniAlec Baldwin,3239,6.1
+624,624,Teenage Mutant Ninja Turtles,NL,202.0,135.3,66.7,1990,"March 30, 1990",Family Adventure, 1 hrs. 33 min.,PG,13.5 ,25398367,,,,,5.9
+625,625,Kindergarten Cop,Uni.,202.0,91.5,110.5,1990,"December 22, 1990",Comedy, 1 hrs. 51 min.,PG-13,15 ,7918560,Arnold SchwarzeneggerAngela Bassett*,Brian GrazerJoe Medjuck (executive)Ivan Reitman,Randy Edelman,1937,6.0
+626,626,Ponyo,BV,201.8,15.1,186.7,2009,"August 14, 2009",Animation, 1 hrs. 40 min.,G,,201750937,,,,,7.7
+627,627,Straight Outta Compton,Uni.,201.6,161.2,40.4,2015,"August 14, 2015",Drama, 2 hrs. 27 min.,R,28 ,201634991,,,,,8.0
+628,628,21 Jump Street,Sony,201.6,138.4,63.1,2012,"March 16, 2012",Action Comedy, 1 hrs. 49 min.,R,42 ,36302612,108 days / 15.4 weeks,Phil LordChris Miller (II),Jonah HillChanning TatumBrie LarsonDave FrancoRob RiggleIce CubeEllie KemperJake Johnson*Chris Parnell*Johnny Depp* (Cameo),3148,7.2
+629,629,Yogi Bear,WB,201.6,100.2,101.3,2010,"December 17, 2010",Family Comedy, 1 hrs. 22 min.,PG,80 ,16411322,112 days / 16 weeks,Joshua SterninJeffrey Ventimilia,Karen Rosenfelt,3515,4.6
+630,630,Garfield: The Movie,Fox,200.8,75.4,125.4,2004,"June 11, 2004",Family Comedy, 1 hrs. 25 min.,PG,50 ,21727611,147 days / 21 weeks,Peter Hewitt,Bill Murray (Voice)Breckin MeyerJennifer Love Hewitt,3150,4.9
+631,631,Cats & Dogs,WB,200.7,93.4,107.3,2001,"July 4, 2001",Family Adventure, 1 hrs. 27 min.,PG,60 ,21707617,,,,,5.2
+632,632,The Hunt for Red October,Par.,200.5,122,78.5,1990,"March 2, 1990",Action Thriller, 2 hrs. 14 min.,PG,30 ,200512643,,,,,7.6
+633,633,Valkyrie,UA,200.3,83.1,117.2,2008,"December 25, 2008",Thriller, 2 hrs. 0 min.,PG-13,75 ,21027007,113 days / 16.1 weeks,Bryan Singer,Tom CruiseBill NighyKenneth BranaghCarice van HoutenTom Wilkinson,2838,7.1
