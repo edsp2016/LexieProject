@@ -1,0 +1,78 @@
+---
+title: "2017 project data cleaning part (1)"
+author: "Siyang Sun"
+date: "March 6, 2016"
+output: pdf_document
+---
+
+1.read raw data from txt file, split data by comma.
+
+```{r}
+data =read.delim("/Users/mac/Desktop/EDSP\ /undo_data.txt", header =T,sep="\t")
+require(reshape2)
+df<-data.frame(matrix(ncol = 20, nrow =663))  
+colnames(df)<-c('number','rank','title','studio','worldwide','domestic','overseas',
+                'year','release_date','release_year','genre','runtime','mpaa','bugdet',
+                'opening_weekend','duration','director','actors','theater','rating')
+for (i in 1:633){
+  df[i,]<-colsplit(data[i,], ",",c('number','rank','title','studio','worldwide','domestic','overseas',
+                               'year','release_date','release_year','genre','runtime','mpaa','bugdet',
+                               'opening_weekend','duration','director','actors','theater','rating'))
+}
+```
+
+2.delete column "year"
+3.split genre
+
+```{r}
+df$year <- NULL
+df$genre <- gsub('Action / Adventure', 'AA', df$genre)
+library(stringr)
+genrematrix<-str_split_fixed(df$genre, " ", 2)
+df$genre1<-genrematrix[,1]
+df$genre2<-genrematrix[,2]
+df$genre2 <- gsub('/ ', '', df$genre2)
+```
+4.transfer opening_weekend data to numerical million level,digit=1
+##have to check if the ow data is valid or not##
+##first delete ow>250 as NA, but still some wrong values here, need to replace where (weeks=NA) to NA.
+```{r}
+df$opening_weekend<-as.numeric(df$opening_weekend)/1000000
+df$ow<-round(df$opening_weekend,digits=1)
+df$opening_weekend<- NULL
+df$ow[df$ow>=250]<-NA
+```
+5.transfer date data
+5.1 transfer release date
+5.2 transfer runtime to mins
+5.3 seperate duration
+```{r}
+#any other way for 5.1?
+date<-as.POSIXlt(strptime(df$release_date,"%B %d"))
+#format(date,"%m %d")
+
+run <- gsub('min.', '', gsub('hrs. ', ',', df$runtime))
+runmatrix<-str_split_fixed(run, ",", 2)
+df$runt<-as.numeric(runmatrix[,1])*60+as.numeric(runmatrix[,2])
+df$runtime <- NULL
+df$duration <- gsub(' / ', ',', df$duration)
+duramatrix<-str_split_fixed(df$duration, ",", 2)
+df$duration<- NULL
+#generate weeks as the number of week (duration)
+weeks<-as.numeric(gsub('weeks','',duramatrix[,2]))
+df$weeks<-weeks
+```
+nest steps:
+1. fix the ow data
+2. clean director, actor data TT
+3. consider genre staff keep 2 or 1?
+4. consider release date as categorical period variable
+5. missing data 
+further more:
+1. descriptive statistical analysis:
+which dependent and independent variable? 
+plots
+2. regression model
+multicollinearity ? 
+delete variables?
+
