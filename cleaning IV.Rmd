@@ -1,0 +1,188 @@
+---
+title: "cleaing IV"
+author: "Siyang Sun"
+date: "April 1, 2016"
+output: html_document
+---
+Clean movie title
+
+```{r}
+dfnew<-read.table("/Users/mac/Desktop/EDSP\ /dataclean_3.txt", header =T,sep="\t")
+grep("\\(",dfnew$title)
+dfnew$title<-as.character(dfnew$title)
+dfnew$title[22]<-"Alice in Wonderland"
+dfnew$title[131]<-"Cinderella"
+dfnew$title[137]<-"Godzilla"
+dfnew$title[150]<-"Teenage Mutant Ninja Turtles"
+dfnew$title[152]<-"Clash of the Titans"
+dfnew$title[189]<-"Les Miserables"
+dfnew$title[198]<-"The Intouchables"
+dfnew$title[227]<-"Home"
+dfnew$title[265]<-"Planet of the Apes"
+dfnew$title[285]<-"The Great Gatsby"
+dfnew$title[312]<-"Fantastic Four"
+dfnew$title[322]<-"A Christmas Carol"
+dfnew$title[329]<-"101 Dalmatians"
+dfnew$title[414]<-"The Nutty Professor"
+dfnew$title[481]<-"Hercules"
+dfnew$title[490]<-"RoboCop"
+dfnew$title[512]<-"The Day the Earth Stood Still"
+dfnew$title[513]<-"The Girl with the Dragon Tattoo"
+dfnew$title[589]<-"Fury"
+dfnew$title[618]<-"Everest"
+dfnew$title[621]<-"Hairspray"
+```
+
+Goal 1: Create a label to distinguish super hero movie or not ($hero)
+Goal 2: Create a label to distinguish a series moive or not ($series)
+
+```{r}
+dfnew$series<-substr(dfnew$title,nchar(dfnew$title),nchar(dfnew$title))
+dfnew$series[543]<-0
+part<-grep("Part",dfnew$title)
+episode<-grep("Episode",dfnew$title)
+s23<-union(grep("2",dfnew$series),grep("3",dfnew$series))
+s45<-union(grep("4",dfnew$series),grep("5",dfnew$series))
+s67<-union(grep("6",dfnew$series),grep("7",dfnew$series))
+U<-union(part,episode)
+U<-sort(union(union(s23,s45),union(s67,U)),F)
+colon<-grep(":",dfnew$title)
+se<-union(U,colon)
+#134 series movies
+dfnew$series[se]<-1
+dfnew$series<-ifelse(dfnew$series==1,1,0)
+table(dfnew$series)
+dfnew$release_date<-NULL
+```
+
+
+```{r}
+toma<-read.table("/Users/mac/Desktop/EDSP\ /rt.txt", header =T,sep="\t")
+toma$title<-as.character(toma$title)
+toma$title[182]<-"Léon: The Professional"
+toma$title[228]<-"The City of Lost Children"
+toma$title[350]<-"Life Is Beautiful"
+toma$title[437]<-"Live Flesh"
+toma$title[479]<-"Apt Pupil"
+toma$title[617]<-"Aimée & Jaguar"
+toma$title[629]<-"Nico and Dani"
+toma$title[663]<-"Code Unknown"
+toma$title[724]<-"Amélie"
+toma$title[734]<-"Kandahar: Le soleil derrière la lune"
+toma$title[745]<-"Comment j'ai tué mon père"
+toma$title[922]<-"The Best of Youth"
+toma$title[957]<-"Noi the Albino"
+toma$title1<-toma$title
+toma$title1<-gsub("Episode VII","",toma$title1)
+toma$title1<-gsub("Episode VI","",toma$title1)
+toma$title1<-gsub("Episode V","",toma$title1)
+toma$title1<-gsub("Episode III","",toma$title1)
+toma$title1<-gsub("Episode I","",toma$title1)
+dfnew$title1<-dfnew$title
+dfnew$title1<-gsub("Episode III","",dfnew$title1)
+dfnew$title1<-gsub("Episode II","",dfnew$title1)
+dfnew$title1<-gsub("Episode I","",dfnew$title1)
+dfnew$title1<-gsub("-","",dfnew$title1)
+dfnew$title1<-gsub(",","",dfnew$title1)
+toma$title1<-gsub("-","",toma$title1)
+toma$title1<-gsub(",","",toma$title1)
+toma$title1<-gsub("\\)","",toma$title1)
+dfnew$title1<-tolower(dfnew$title1)
+dfnew$title1<-gsub(" ","",dfnew$title1)
+toma$title1<-tolower(gsub(" ","",toma$title1))
+#match
+tomaid<-rep(c(0),nrow(dfnew))
+for (i in (1:nrow(dfnew))){
+  if (length(grep(dfnew$title1[i],toma$title1))>0){
+    tomaid[i]=grep(dfnew$title1[i],toma$title1)  
+  }
+}
+tomaid
+tomaid[60]<- 0
+tomaid[181]<-0
+for (i in (1:nrow(dfnew))){
+  if (tomaid[i]>0){
+    dfnew$rn[i]<-toma$reviewnum[tomaid[i]]
+    dfnew$to_rating[i]<-toma$tomato_rating[tomaid[i]]    
+  } 
+  else {
+    dfnew$rn[i]<-0
+    dfnew$to_rating[i]<-0    
+  }
+}
+sum(dfnew$rn>0)
+#306/631 has the rotten indexes
+```
+## superhero movie
+1. BV
++ marvel's avengers
++ iron man 
++ guardians of the galaxy
++ the incredibles
++ captain america
++ big hero
++ ant-man
++ unbreakable
++ skyhigh
+
+2. WB
++ the dark knight
++ man of steel
++ batman
++ superman
++ watchmen
++ greenlaten
++ catwoman
+
+3. Sony
++ spiderman
++ hancock
+
+4. Fox
++ deadpool
++ x_men
++ fantastic four
+
+5. Par.
++ ironman
+```{r}
+b1<-union(grep(("avengers"),dfnew$title1),grep("ironman",dfnew$title1))
+b2<-union(grep("guardiansofthegalaxy",dfnew$title1),grep("theincredibles",dfnew$title1))
+b3<-union(grep("captainamerica",dfnew$title1),grep("bighero",dfnew$title1))
+b4<-union(b3,grep("antman",dfnew$title1))
+b5<-union(b1,b2)
+bv<-union(b4,b5)
+#WB=2
+w1<-union(grep("thedarkknight",dfnew$title1),grep("manofsteel",dfnew$title1))
+w2<-union(grep("batman",dfnew$title1),grep("superman",dfnew$title1))
+wb<-union(w1,w2)
+
+#Sony=3
+sony<-union(grep("spiderman",dfnew$title1),grep("hancock",dfnew$title1))
+#Fox=4
+fox<-union(grep("xmen",dfnew$title1),grep("fantasticfour",dfnew$title1))
+#Par.=5
+par<-grep("ironman",dfnew$title1)
+
+#create superhero variable
+dfnew$sh<-0
+dfnew$sh[bv]<-1
+dfnew$sh[wb]<-2
+dfnew$sh[sony]<-3
+dfnew$sh[fox]<-4
+dfnew$sh[par]<-5
+table(dfnew$sh)
+```
+Create boxoffice/budget variable :bb 
+```{r}
+dfnew$bb<-round(dfnew$domestic/dfnew$budget,2)
+summary(dfnew$bb)
+write.table(dfnew,"/Users/mac/Desktop/EDSP\ /dataclean_4.txt",sep="\t")
+```
+
+
+
+
+
+
+
