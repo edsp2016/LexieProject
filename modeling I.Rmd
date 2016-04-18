@@ -1,0 +1,121 @@
+---
+title: "modeling part I"
+author: "Siyang Sun"
+date: "April 4, 2016"
+output: html_document
+---
+# Adjusting for ticket price inflation 
+Considering the price inflation factor, I adjust movie finanicals (budget,opening weekend, domestic box office) to today's "price" measurement. 
+The data I used to make adjustment comes from the website below.
+http://www.boxofficemojo.com/about/adjuster.htm
+```{r}
+inf<-read.csv("/Users/mac/Desktop/EDSP\ /inflation.csv",header =T)
+df<-read.table("/Users/mac/Desktop/EDSP\ /dataclean_4.txt", header =T,sep="\t")
+df$price<-0
+for (i in 2:nrow(inf)){
+  df$price[grep(inf$Year[i],df$release_year)]<-inf$Avg..Price[i]    
+}
+df$price<-gsub("\\$","",df$price)
+df$adjusted<-8.7*df$domestic/as.numeric(df$price)
+df$adow<-round(8.7*df$ow/as.numeric(df$price),2)
+df$adbudget<-round(8.7*df$budget/as.numeric(df$price),2)
+df$adjusted<-round(df$adjusted,2)
+write.table(df,"/Users/mac/Desktop/EDSP\ /adjusted_data.txt")
+df<-read.table("/Users/mac/Desktop/EDSP\ /adjusted_data.txt",header=T)
+```
+# 1. Linear regression model 
+For now, I used a subset of the data to build regression models.
+```{r,echo=FALSE}
+da<-df
+da$number<-NULL
+da$worldwide<-NULL
+da$overseas<-NULL
+da$title1<-NULL
+da$rank<-NULL
+da$title<-NULL
+da$genre1<-NULL
+da$genre2<-NULL  
+da$director1<-NULL
+da$director2<-NULL
+da$star1<-NULL
+da$star2<-NULL
+da$bb<-NULL
+da$domestic<-NULL
+da$price<-NULL
+da$adjusted<-df$adjusted
+da$adow<-NULL
+da$adbudget<-NULL
+da$rn[which(da$rn==0)]<-NA
+da$to_rating[which(da$to_rating==0)]<-NA
+write.table(da,"/Users/mac/Desktop/EDSP\ /subset_res.txt")
+```
+## Outcome variable: domestic box office (adjusted)
+### 1. treating studio genre mpaa per as categorical variables
+```{r}
+#baseline model
+res0<-lm(adjusted~budget,na.omit(da))
+summary(res0)
+##how to deal with missing data here?
+#stepwise regression
+da$release_year<-factor(da$release_year)
+res1<-lm(da$adjusted~.,da)
+summary(res1)
+```
+This model gives a R^2=78.6%.
+However, does year ever makes sense when we would like to build a precitive model?
+Try deleting release_year variable here. 
+```{r}
+da$release_year<-NULL
+res2<-lm(adjusted~.,da)
+summary(res2)
+## This time the R square gets a little bit lower, which is 73.6%.
+#omitted missing data
+dn<-na.omit(da)
+#That reduces my dataset by the size of 120 observations.
+new1<-lm(adjusted~.,dn)
+summary(new1)
+## Is there anyway to do not omit data and conduct the stepwise procedure? 
+library(MASS)
+step <- stepAIC(new1, direction="backward")
+step$anova
+new1step<-lm(adjusted ~ studio + genre + mpaa + ow + theater+weeks+rn+sh,dn)
+summary(new1step)
+par(mfrow=c(1,1))
+plot(new1step,cex=0.5)
+abline(new1step)
+#A little bit improvement. The R square is 75.7% now. 
+```
+Final model:
+new1step<-lm(adjusted ~ studio + genre + mpaa + ow + theater+weeks+rn+sh,dn)
+Adjusted R-squared:  0.757 
+### 2. exclude the superhero movie?
+```{r}
+res3<-lm(adjusted~.,da[da$sh==0,])
+summary(res3)
+```
+A little bit improvement, R^2 75.9%.
+### 3. delete high correlated varaibles to increase sample sizes and avoid collinearity.
+Try delete theater,opening weekend and weeks (too many NAs inside, highly correlated)
+```{r}
+vars<-names(da) %in% c("theater","ow","weeks")
+dv<-da[!vars]
+##??? why it does not work?
+#res4<-lm(adjusted ~budget,dv)
+#summary(res4)
+```
+##2. Outcome variable: openging weekend 
+```{r}
+res5<-lm(ow~.-adjusted-ow,na.omit(da))
+summary(res5)
+step <- stepAIC(res5, direction="backward")
+step$anova
+res5step<-lm(ow ~ studio + mpaa + theater + weeks + per + budget + rn + sh,da)
+summary(res5step)
+```
+R^2 is 60.5%, not better.
+
+#2.Regression decision Tree
+```{r}
+
+```
+
