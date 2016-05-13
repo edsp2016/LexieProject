@@ -1,0 +1,490 @@
+---
+title: 'Part I: data importing,cleaning and visualization'
+author: "Siyang Sun"
+date: "May 10, 2016"
+output: html_document
+---
+#Description
+The data is from:
+Box Office Mojo, IMDb (rating, directors, actors,awards), Rotten Tomatoes (rating, # of reviews).
+
+* Continuous
+    +  Financials:Worldwide, Domestic, Overseas, Openingweekend, theater, weeks (highly correlated)
+    +  Budget
+    +  Runtime
+    +  Rating related:IMDB rating, rotten tomatoes rating, # of reviews 
+* Category
+    + Studio
+    + MPAA
+    + Year
+    + Release_Date --> Period
+    + Genre (Genre 1&2)
+* Other
+    + Director 
+    + Actor1，2
+#Part I data import and cleaning
+##1.read scrapped data (from Box office Mojo and IMDb)
+Original data could be found here:
+http://www.boxofficemojo.com
+http://www.imdb.com
+All text data files (.txt) used are listed :undo_data, people (IMDb director and stars),rt (rotten tomatoes reviewing and total number of reviews),inflation (adjusted movie price),IMDb (awards: times of winning an award and times of nomitation.)
+```{r}
+data =read.delim("/Users/mac/Dropbox/EDSP/undo_data.txt", header =T,sep="\t")
+require(reshape2)
+df<-data.frame(matrix(ncol = 20, nrow =633))  
+colnames(df)<-c('number','rank','title','studio','worldwide','domestic','overseas',
+                'year','release_date','release_year','genre','runtime','mpaa','bugdet',
+                'opening_weekend','duration','director','actors','theater','rating')
+for (i in 1:633){
+  df[i,]<-colsplit(data[i,], ",",c('number','rank','title','studio','worldwide','domestic','overseas',
+                               'year','release_date','release_year','genre','runtime','mpaa','bugdet',
+                               'opening_weekend','duration','director','actors','theater','rating'))
+}
+```
+##2.data cleaning
+2.1 delete variables: year,directors,actors(messy)
+2.2 split genre
+2.3 transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
+```{r}
+df$year <- NULL
+df$actors<- NULL
+df$director<-NULL
+df$genre <- gsub('Action / Adventure', 'AA', df$genre)
+library(stringr)
+genrematrix<-str_split_fixed(df$genre, " ", 2)
+df$genre1<-genrematrix[,1]
+df$genre2<-genrematrix[,2]
+df$genre2 <- gsub('/ ', '', df$genre2)
+df$ow<-round(as.numeric(df$opening_weekend)/1000000,digits=1)
+df$opening_weekend<- NULL
+df$ow[df$ow>=250]<-NA
+```
+2.4 transfer date data
++ transfer release date
++ transfer runtime to mins
++ seperate duration (generate weeks as the number of week (duration))
+```{r}
+date<-as.POSIXlt(strptime(df$release_date,"%B %d"))
+run <- gsub('min.', '', gsub('hrs. ', ',', df$runtime))
+runmatrix<-str_split_fixed(run, ",", 2)
+df$runt<-as.numeric(runmatrix[,1])*60+as.numeric(runmatrix[,2])
+df$runtime <- NULL
+df$duration <- gsub(' / ', ',', df$duration)
+duramatrix<-str_split_fixed(df$duration, ",", 2)
+df$duration<- NULL
+df$weeks<-as.numeric(gsub('weeks','',duramatrix[,2]))
+df$ow[is.na(df$weeks)]<-NA
+```
+2.5 clean director and actor data
+```{r}
+people<-read.delim("/Users/mac/Dropbox/EDSP/people.txt", header =T,sep="\t")
+df$director1<-people$director1
+df$director2<-people$director2
+df$star1<-people$star1
+df$star2<-people$star2
+```
+2.6 clean movie title data
+```{r,echo=FALSE}
+df$title<-as.character(df$title)
+grep("\\(",df$title)
+df$title<-as.character(df$title)
+df$title[22]<-"Alice in Wonderland"
+df$title[131]<-"Cinderella"
+df$title[137]<-"Godzilla"
+df$title[150]<-"Teenage Mutant Ninja Turtles"
+df$title[152]<-"Clash of the Titans"
+df$title[189]<-"Les Miserables"
+df$title[198]<-"The Intouchables"
+df$title[227]<-"Home"
+df$title[265]<-"Planet of the Apes"
+df$title[285]<-"The Great Gatsby"
+df$title[312]<-"Fantastic Four"
+df$title[322]<-"A Christmas Carol"
+df$title[329]<-"101 Dalmatians"
+df$title[414]<-"The Nutty Professor"
+df$title[481]<-"Hercules"
+df$title[490]<-"RoboCop"
+df$title[512]<-"The Day the Earth Stood Still"
+df$title[513]<-"The Girl with the Dragon Tattoo"
+df$title[589]<-"Fury"
+df$title[618]<-"Everest"
+df$title[621]<-"Hairspray"
+#should find a fancy way to do this, maybe partial match? 
+```
+2.7 clean movie rating data
+```{r,echo=FALSE}
+df$domestic<-as.numeric(as.character(df$domestic))
+df$rating<-as.numeric(as.character(df$rating))
+df$theater<-as.numeric(as.character(df$theater))
+df$release_year<-as.character(df$release_year)
+df$budget<-df$bugdet
+df$bugdet<-NULL
+df$rating[100]<-8.0
+df$rating[184]<-6.0
+df$theater[184]<-3255
+df$rating[338]<-8.2
+df$rating[468]<-6.4
+df$theater[100]<-4390
+df$theater[338]<-1837
+df$theater[218]<-NA 
+df$release_year[479]<-2008
+df$genre[479]<-"Comedy"
+df$rating[479]<-7.1
+df$genre1[479]<-"Comedy"
+df$theater[479]<-NA
+df$release_year<-as.numeric(df$release_year)
+```
+##3. create  variables
+3.1 Period
+* summer season(ss):late May- late Aug (5-20,8-31)
+* holiday season(hs):late Nov- Jan (11-20,1-7)
+* other: (ns)
+```{r}
+df$period<-as.POSIXct(strptime(df$release_date,"%B %d"))
+df$per<- ifelse((df$period>=as.POSIXct(as.character("2016-05-20")))&
+                     (df$period<=as.POSIXct(as.character("2016-08-31"))),"ss",df$period)
+df$per<- ifelse((df$period>=as.POSIXct(as.character("2016-11-20")))|
+                     (df$period<=as.POSIXct(as.character("2016-01-07"))),"hs",df$per)
+df$per<- ifelse((df$per!="ss")&(df$per!= "hs"),"ns",df$per)
+df$period<-NULL
+```
+3.2 Super hero movies
+Create a label to distinguish super hero movie or not ($hero)
+
+https://en.wikipedia.org/wiki/List_of_American_superhero_films
+
+1. BV
++ marvel's avengers
++ iron man 
++ guardians of the galaxy
++ the incredibles
++ captain america
++ big hero
++ ant-man
++ unbreakable
++ skyhigh
+
+2. WB
++ the dark knight
++ man of steel
++ batman
++ superman
++ watchmen
++ greenlaten
++ catwoman
++ green lantern
+3. Sony
++ spiderman
++ hancock
+
+4. Fox
++ deadpool
++ x_men
++ fantastic four
+
+5. Par.
++ ironman
++ SpongeBob
+
+6.Lion
++ thor
++ hulk 
+```{r}
+df$title1<-df$title
+df$title1<-gsub("Episode III","",df$title1)
+df$title1<-gsub("Episode II","",df$title1)
+df$title1<-gsub("Episode I","",df$title1)
+df$title1<-gsub("-","",df$title1)
+df$title1<-gsub(",","",df$title1)
+df$title1<-tolower(df$title1)
+df$title1<-gsub(" ","",df$title1)
+toMatch <- c("avengers", "ironman", "guardiansofthegalaxy","theincredibles","captainamerica","bighero","antman","greenlantern")
+bv<-grep(paste(toMatch,collapse="|"),df$title1)
+#WB=2
+toMatch <- c("thedarkknight","manofsteel","batman","superman")
+wb<-grep(paste(toMatch,collapse="|"),df$title1)
+#Sony=3
+toMatch <-c("spiderman","hancock")
+sony<-grep(paste(toMatch,collapse="|"),df$title1)
+#Fox=4
+toMatch <-c("xmen","fantasticfour")
+fox<-grep(paste(toMatch,collapse="|"),df$title1)
+#Par.=5
+toMatch <-c("ironman","spongebob","megamind")
+par<-grep(paste(toMatch,collapse="|"),df$title1)
+#Lion=6
+toMatch <-c("thor","hulk")
+lion<-grep(paste(toMatch,collapse="|"),df$title1)
+#create superhero variable
+df$sh<-0
+df$sh[bv]<-1
+df$sh[wb]<-2
+df$sh[sony]<-3
+df$sh[fox]<-4
+df$sh[par]<-5
+df$sh[lion]<-6
+table(df$sh)
+df$shb<-0
+df$shb<-ifelse(df$sh>0,1,0)
+```
+3.3 Series movie
+Create a label to distinguish a series moive or not ($series)
+```{r}
+df$series<-substr(df$title,nchar(df$title),nchar(df$title))
+df$series[543]<-0
+part<-grep("Part",df$title)
+episode<-grep("Episode",df$title)
+s23<-union(grep("2",df$series),grep("3",df$series))
+s45<-union(grep("4",df$series),grep("5",df$series))
+s67<-union(grep("6",df$series),grep("7",df$series))
+U<-union(part,episode)
+U<-sort(union(union(s23,s45),union(s67,U)),F)
+colon<-grep(":",df$title)
+se<-union(U,colon)
+#134 series movies
+df$series[se]<-1
+df$series<-ifelse(df$series==1,1,0)
+table(df$series)
+```
+3.4 Add indexed from Rotten tomatoes 
++ rotten tomatoes rating
++ number of reviews
+```{r,echo=FALSE}
+toma<-read.table("/Users/mac/Dropbox/EDSP/rt.txt", header =T,sep="\t")
+toma$title<-as.character(toma$title)
+toma$title[182]<-"Léon: The Professional"
+toma$title[228]<-"The City of Lost Children"
+toma$title[350]<-"Life Is Beautiful"
+toma$title[437]<-"Live Flesh"
+toma$title[479]<-"Apt Pupil"
+toma$title[617]<-"Aimée & Jaguar"
+toma$title[629]<-"Nico and Dani"
+toma$title[663]<-"Code Unknown"
+toma$title[724]<-"Amélie"
+toma$title[734]<-"Kandahar: Le soleil derrière la lune"
+toma$title[745]<-"Comment j'ai tué mon père"
+toma$title[922]<-"The Best of Youth"
+toma$title[957]<-"Noi the Albino"
+toma$title1<-toma$title
+toma$title1<-gsub("Episode VII","",toma$title1)
+toma$title1<-gsub("Episode VI","",toma$title1)
+toma$title1<-gsub("Episode V","",toma$title1)
+toma$title1<-gsub("Episode III","",toma$title1)
+toma$title1<-gsub("Episode I","",toma$title1)
+toma$title1<-gsub("-","",toma$title1)
+toma$title1<-gsub(",","",toma$title1)
+toma$title1<-gsub("\\)","",toma$title1)
+toma$title1<-tolower(gsub(" ","",toma$title1))
+#using movie name to match rotten tomatoes data with my own dataset 
+tomaid<-rep(c(0),nrow(df))
+for (i in (1:nrow(df))){
+  if (length(grep(df$title1[i],toma$title1))>0){
+    tomaid[i]=grep(df$title1[i],toma$title1)  
+  }
+}
+tomaid[60]<- 0
+tomaid[181]<-0
+for (i in (1:nrow(df))){
+  if (tomaid[i]>0){
+    df$rn[i]<-toma$reviewnum[tomaid[i]]
+    df$to_rating[i]<-toma$tomato_rating[tomaid[i]]    
+  } 
+  else {
+    df$rn[i]<-0
+    df$to_rating[i]<-0    
+  }
+}
+sum(df$rn>0)
+#306/631 has the rotten indexes
+```
+3.5 Create boxoffice/budget variable: bb 
+```{r}
+df$bb<-round(df$domestic/df$budget,2)
+summary(df$bb)
+```
+3.6 Adjusted for inflation (modeling I)
+```{r}
+inf<-read.csv("/Users/mac/Dropbox/EDSP/inflation.csv",header =T)
+inf$avg<-gsub("\\$","",inf$Avg..Price)
+inf$Avg..Price<-NULL
+df$price<-0
+for (i in 2:nrow(inf)){
+  df$price[grep(inf$Year[i],df$release_year)]<-inf$avg[i]    
+}
+df$adjusted<-8.7*df$domestic/as.numeric(df$price)
+df$adow<-round(8.7*df$ow/as.numeric(df$price),2)
+df$adbudget<-round(8.7*df$budget/as.numeric(df$price),2)
+df$adjusted<-round(df$adjusted,2)
+```
+3.7 Quantify movie awards data 
+```{r}
+imdb<-read.delim("/Users/mac/Dropbox/EDSP/IMDb.txt",header=T)
+imdb<-imdb[-634,]
+df$dir_win<-imdb$dir_win
+df$dir_nomi<-imdb$dir_nomi
+df$st1_win<-imdb$st1_won
+df$st2_win<-imdb$st2_won
+df$st1_nomi<-imdb$st1_nomi
+df$st2_nomi<-imdb$st2_nomi
+df$st1_nomi<-as.numeric(as.character(df$st1_nomi))
+```
+3.8 missing data
+```{r}
+df$rn[df$rn==0]<-NA
+df$to_rating[df$to_rating==0]<-NA
+```
+3.9 save data and select useful variables for modeling
+```{r}
+#summary(df)
+write.table(df,"/Users/mac/Dropbox/EDSP/alldata.txt")
+da<-subset(df,select=c(adjusted,studio,release_year,genre,mpaa,theater,rating,runt,per,sh,shb,series,rn,to_rating,bb,adjusted,adbudget,adow,dir_win,dir_nomi,st1_win,st1_nomi,st2_win,st2_nomi,genre1))
+write.table(da,"/Users/mac/Dropbox/EDSP/modeling.txt")
+```
+# Part II Data visualization and descriptive analysis
+### necessary visualization R packages
+```{r}
+#install.packages("knitr")
+#install_github("easyGgplot2", "kassambara")
+library("devtools")
+library("knitr")
+library("ggplot2")
+library("easyGgplot2")
+```
+### Setting up
+```{r}
+# Define image sizes
+img.width <- 450
+img.height <- 300
+options(RCHART_HEIGHT = img.height, RCHART_WIDTH = img.width)
+opts_chunk$set(fig.width=6, fig.height=4)
+par(mfrow=c(1,1))
+# Plotly needs some setting up (using the credentials from here).
+# Plotly requires authentication
+#py <- plotly("RgraphingAPI", "ektgzomjbx")
+```
+## Movie industry and market visualization
+### The expansion and globalization 
+Some visualizations are made in order to have a direct understanding of how movie industry grows in recent years
+A. The industry grows rapidly in recent decades:
+```{r}
+library(scales)
+perbar=function(xx){
+q=ggplot(data=data.frame(xx),aes(x=xx))+
+geom_bar(aes(y = (..count..)),fill="orange")+
+geom_text(aes(y = (..count..),label =   ifelse((..count..)==0,"",scales::percent((..count..)/sum(..count..)))), stat="bin",colour="darkgreen") 
+q
+}
+perbar(df$release_year)
+```
+For more than 600 movies ranked by global box office revenues over 7 decades, most of them are released after year 2000. There might be several reasons:
+1. There is a price inflation over time 
+2. Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
+3.There is a raid overseas movie markets expansion since 21st century.
+In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes. 
+```{r}
+#ggplot2.histogram(data=df, xName='worldwide',groupName='release_year', legendPosition="top")
+ggplot2.histogram(data=df[as.numeric(df$release_year)>1999,], xName='adjusted',groupName='release_year', legendPosition="top")
+```
+It seems that hypothesis 2 holds. 
+In order to have a general understanding of the overseas market effect, some visulizations are made:
+(For the barplot, I just use movies released from year 1980)
+B. Overseas markets expand after year 1987
+```{r}
+plot(df$worldwide,type = "s",main="Movie Financials Plot")
+points(df$domestic,col="red",cex = 0.1)
+points(df$overseas,col="blue",type = "l")
+legend("topleft",legend=c("worldwide box office","domestic box office","oversea box office"),lty=c(1,0),col=c("black","red","blue"))
+#?#qplot(df$worldwide, geom="histogram",stat="count")
+percen<-rep(0,37)
+for (i in 1980:2016){
+sum(df$domestic[df$release_year==i])
+  percen[i-1979]=sum(df$domestic[df$release_year==i])/sum(df$worldwide[df$release_year==i])
+}
+overseas<-1-percen
+dta <- read.table(text = "    1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2010 2011 2012 2013 2014 2015 2016
+1   0.363  0.637 0.549 0.651 0.695 0.490 0.518 0.410 0.475 0.497 0.472 0.434 0.448 0.430 0.420 0.390 0.415 0.372 0.434 0.433 0.493 0.452 0.452 0.419 0.443 0.452 0.412 0.413 0.376 0.356 0.376 0.369 0.340 0.366 0.379
+2   0.637  0.363 0.451 0.349 0.305 0.510 0.482 0.590 0.525 0.503 0.528 0.566 0.452 0.571 0.580 0.610 0.585 0.628 0.566 0.567 0.507 0.548 0.548 0.581 0.557 0.575 0.588 0.587 0.624 0.645 0.624 0.631 0.660 0.634 0.621",sep = "",header = TRUE)
+dtam <- melt(cbind(dta, ind = rownames(dta)), id.vars = c('ind'))
+library(scales)
+ggplot(dtam,aes(x=variable,y=value,fill =ind)) + geom_bar(position = "fill",stat = "identity")+ 
+scale_y_continuous(labels = percent_format())
+```
+The first plot shows that there is always a highly positive correlation between domestic and international box office revenue.
+The second plot (percentage par plot) shows there is an increaing trend in overseas market shares, and starts from year 1987, the average overseas market shares exceeds 50%, and keeps increasing till now.
+C. The effect of price inflation
+```{r]}
+hist(df$domestic,col='lightblue',xlim=c(0,800),breaks=50,border=F,main = paste("Histogram of Movie Financials-domestic adjusted VS unadjusted"))
+hist(df$adjusted,col=scales::alpha('pink',.5),xlim=c(0,800),breaks=500,add=T,border=F)
+```
+The pink one refers to the domestic box office revenues after adjusting for the price inflation.
+Compared to the original blue histogram, it is flatter. 
+## The story behind movies
+A. The effect of studio and period 
+
+| HolidaySeason | SummerSeason |    Other    |
+|:-------------:|:------------:|:-----------:|
+|      130      |     227      |     275     | 
+```{r}
+#table(df$per)
+ggplot(df[df$release_year>2000,], aes(release_year, fill=studio)) + geom_bar(position="dodge")
+```
+As time flows, there is not a big change in the market share for each distributor. "Big Six" still have unique advantages.
+B. What type of movies do best during the summer vs holiday vs non-season?
+```{r}
+ggplot(df, aes(per, fill=genre1)) + geom_bar(position="dodge")
+ggplot(df,aes(x=factor(per),y=adjusted,fill=factor(genre1)), color=factor(genre1)) +  
+  stat_summary(fun.y=sum,position=position_dodge(),geom="bar")
+ggplot(df,aes(x=factor(per),y=adjusted,fill=factor(genre1)), color=factor(genre1)) +  
+  stat_summary(fun.y=mean,position=position_dodge(),geom="bar")
+```
+Interesitng plot! 
+The first graph shows the counts of genres in different seasons;
+the second shows the sum revenue and the third represents mean box office,respectively.
+
+There are more movies released in summer.
+Animation/Action/Sci-Fi movies are popular, especially in summer;
+The total revenue distribution of holiday season movie is different from other two seasons.
+But foreign movies and horror movies on average earn a lot in holiday season than other two.
+C. Do super hero movies always success?
+```{r}
+ggplot(df,aes(x=adjusted)) + 
+    geom_histogram(data=df[df$shb==0,]),fill = "pink", alpha = 0.2) +
+    geom_histogram(data=df[df$shb==1,],fill = "blue", alpha = 0.2)
+ggplot(df, aes(factor(sh),adjusted))+geom_boxplot(aes(fill = factor(sh)))
+```
+The purple one refers to super hero movies while pink one refers to other. The two distribution looks really simliar. Further details could be found from the following box plot.
+D. Do series movie always success?
+```{r}
+ggplot(df, aes(factor(series),adjusted))+geom_boxplot(aes(fill = factor(series)))
+```
+Seems not...
+
+E. Movie ratings
+```{r}
+hist(df$rating,col='lightblue',xlim=c(0,10),breaks=20,border=F,main=paste("Histogram of Movie ratings"))
+hist(df$to_rating/10,col=scales::alpha('pink',.5),xlim=c(0,10),breaks=20,add=T,border=F)
+```
+Blue: IMDb; Pink: rotten tomatoes(after transformation).
+IMDb ratings are more normal distributed while the other is much flatter and have more lower values.
+F. Heatmap for Top 50 movies so far
+```{r}
+library(ggplot2)
+library(plyr)
+top<-subset(df,number<=50, select = c(rank,worldwide, domestic,overseas,adjusted,adow,adbudget,theater,weeks,bb,rating,to_rating,rn,dir_win,dir_nomi,st1_win,st1_nomi,st2_win,st2_nomi))
+top$rank <- with(top, reorder(rank, adjusted))
+top.m <- ddply(melt(top), .(variable), transform,rescale = rescale(value))
+ggplot(top.m, aes(variable,rank)) + geom_tile(aes(fill = rescale),colour = "white") + scale_fill_gradient(low = "white",high = "steelblue")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
