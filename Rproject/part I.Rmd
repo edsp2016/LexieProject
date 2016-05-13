@@ -447,8 +447,8 @@ The total revenue distribution of holiday season movie is different from other t
 But foreign movies and horror movies on average earn a lot in holiday season than other two.
 C. Do super hero movies always success?
 ```{r}
-ggplot(df,aes(x=adjusted)) + 
-    geom_histogram(data=df[df$shb==0,]),fill = "pink", alpha = 0.2) +
+ggplot(df,aes(x=adjusted))+ 
+    geom_histogram(data=df[df$shb==0,],fill = "pink", alpha = 0.2) +
     geom_histogram(data=df[df$shb==1,],fill = "blue", alpha = 0.2)
 ggplot(df, aes(factor(sh),adjusted))+geom_boxplot(aes(fill = factor(sh)))
 ```

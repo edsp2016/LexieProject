@@ -21,7 +21,7 @@ I use log transformation on variables including: adjusted,adow,bb and all movie 
 ```{r}
 library(ggplot2)
 corr_table2<-round(cor(subset(na.omit(da),select=c(adjusted,adow,adbudget,theater,bb,rating,to_rating,rn,runt,dir_win,dir_nomi,st1_win,st1_nomi,st2_win,st2_nomi))),2)
-ggplot(melt(corr_table2), aes(x=Var1, y=Var2, fill=value))+geom_tile()
+#ggplot(melt(corr_table2), aes(x=Var1, y=Var2, fill=value))+geom_tile()
 #movie awards data have high correlation,collinearity should be considered.
 #variable transformation
 #normal variables: rating,runt
@@ -149,14 +149,12 @@ Regression decision tree is better when facing some missing values.
 #install.packages("tree")
 #install.packages("rpart.plot")
 library(rpart)
-library(tree)
 library(rpart.plot)
 #cross validation
-install.packages("caret")
-install.packages("e1071")
-library(caret)
-library(e1071)
-#random forest
+#install.packages("caret")
+#install.packages("e1071")
+#library(caret)
+#library(e1071)
 ```
 
 ```{r}
@@ -172,14 +170,12 @@ rpart.plot(fit)
 plot(predict(fit),col="blue")
 points(da$bb,col="red")
 ## cross validation
-numFolds = trainControl(method="cv", number=5)
-cpGrid = expand.grid(.cp = seq(0.01,0.5,0.01))
-train(frmla, data=da , method="rpart", trControl=numFolds, tuneGrid = cpGrid)
-train(frmla_tree, data=da,method="rpart", trControl=numFolds, tuneGrid = cpGrid)
+#numFolds = trainControl(method="cv", number=5)
+#cpGrid = expand.grid(.cp = seq(0.01,0.5,0.01))
+#train(frmla, data=da , method="rpart", trControl=numFolds, tuneGrid = cpGrid)
+#train(frmla_tree, data=da,method="rpart", trControl=numFolds, tuneGrid = cpGrid)
 #get the optimal cp and prune the tree
-??
-prediction??
-
+#prediction??
 ```
 ## Part 3: Random Forest
 packages
