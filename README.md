@@ -15,20 +15,20 @@ http://www.imdb.com
 http://www.rottentomatoes.com
 variables included:
 -  Continuous
-1. Financials:Worldwide, Domestic, Overseas, Openingweekend, theater, weeks (h
+  1. Financials:Worldwide, Domestic, Overseas, Openingweekend, theater, weeks (h
 ighly correlated)
-2. Budget
-3. Runtime
-4. Rating related:IMDB rating, rotten tomatoes rating, # of reviews
+  2. Budget
+  3. Runtime
+  4. Rating related:IMDB rating, rotten tomatoes rating, # of reviews
 -  Category
-1. Studio
-2. MPAA
-3. Year
-4. Release_Date --> Period
-5. Genre (Genre 1&2)
+  1. Studio
+  2. MPAA
+  3. Year
+  4. Release_Date --> Period
+  5. Genre (Genre 1&2)
 - Other
-1. Director
-2. Actor1，2
+  1. Director
+  2. Actor1，2
 All of them are stored in the scraping folder.
 #### 2. Data cleaning
 -clean messy data
@@ -40,59 +40,56 @@ All of them are stored in the scraping folder.
 #### 3. Data manipulating
 Create some new variables in order to make further statistical analysis.
 -Period
-1. summer season(ss):late May- late Aug (5-20,8-31)
-2. holiday season(hs):late Nov- Jan (11-20,1-7)
-3. other: (ns)
+  1. summer season(ss):late May- late Aug (5-20,8-31)
+  2. holiday season(hs):late Nov- Jan (11-20,1-7)
+  3. other: (ns)
 -Super hero movies
 Create a label to distinguish super hero movie or not ($sh)
 https://en.wikipedia.org/wiki/List_of_American_superhero_films
 1. BV
-1. marvel's avengers
-2. iron man
-3. guardians of the galaxy
-4. the incredibles
-5. captain america
-6. big hero
-7. ant-man
-8. unbreakable
-9. skyhigh
+  1. marvel's avengers
+  2. iron man
+  3. guardians of the galaxy
+  4. the incredibles
+  5. captain america
+  6. big hero
+  7. ant-man
+  8. unbreakable
+  9. skyhigh
 2. WB
-1. the dark knight
-2. man of steel
-3. batman
-4. superman
-5. watchmen
-6. greenlaten
-7. catwoman
-8. green lantern
+  1. the dark knight
+  2. man of steel
+  3. batman
+  4. superman
+  5. watchmen
+  6. greenlaten
+  7. catwoman
+  8. green lantern
 3. Sony
-1. spiderman
-2. hancock
+  1. spiderman
+  2. hancock
 4. Fox
-1. deadpool
-2. x_men
-4. Fox
-1. deadpool
-2. x_men
-3. fantastic four
+  1. deadpool
+  2. x_men
+  3. fantastic four
 5. Par.
-1. ironman
-2. SpongeBob
+  1. ironman
+  2. SpongeBob
 6.Lion
-1. thor
-2. hulk
+  1. thor
+  2. hulk
 -Series movie
 Create a label to distinguish a series moive or not ($series)
 -Add variables from Rotten tomatoes
-1. rotten tomatoes rating
-2. number of reviews
+  1. rotten tomatoes rating
+  2. number of reviews
 -Create boxoffice/budget variable:($bb)
 -Adjusted for inflation (modeling I)
 -Quantify movie awards data
 -Deal with missing data
 
 #### 4. Data visualization
--necessary R packages
+necessary R packages
 -devtools
 -knitr
 -ggplot2
@@ -106,6 +103,7 @@ For more than 600 movies ranked by global box office revenues over 7 decades, mo
 (2). Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
 (3).There is a raid overseas movie markets expansion since 21st century.
 In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes.
+![alt tag]()
 2.Overseas markets expand after year 1987
 3.The effect of price inflation
 ###### The story behind movies
