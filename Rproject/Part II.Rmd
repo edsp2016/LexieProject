@@ -18,7 +18,7 @@ Variables including theater, number of reviews and rating (rotten tomatoes), ope
 First check the correlation between variables. Highly correlated variables could result in collinearity. The correlation coefficients results are stored in corr_table2; it turns out that the award data(times of winning and nomitation) are highly correlated. 
 Second check the skewness and make some variables transformation. 
 I use log transformation on variables including: adjusted,adow,bb and all movie award data, and stored them as new variables.
-```{r}
+```{r,echo=FALSE}
 library(ggplot2)
 corr_table2<-round(cor(subset(na.omit(da),select=c(adjusted,adow,adbudget,theater,bb,rating,to_rating,rn,runt,dir_win,dir_nomi,st1_win,st1_nomi,st2_win,st2_nomi))),2)
 #ggplot(melt(corr_table2), aes(x=Var1, y=Var2, fill=value))+geom_tile()
@@ -63,15 +63,15 @@ res0<-lm(logadjusted~lgadbug,na.omit(da))
 + Case 1: Outcome variable: domestic box office (adjusted)
 ```{r}
 resfull<-lm(logadjusted~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+lgadbug+lgdir_win+lgdir_nomi+lgst1_win+lgst1_nomi+lgst2_win+lgst2_nomi,na.omit(da))
-summary(resfull)
+#summary(resfull)
 #adjusted R square 55.68%. AIC=89.36614
 library(MASS)
-step<-stepAIC(resfull,direction="backward")
+#step<-stepAIC(resfull,direction="backward")
 res1<-lm(logadjusted~studio+release_year+genre1+rating+runt+per+factor(sh)+series+lgdir_win+lgdir_nomi+lgst2_nomi,na.omit(da))
 #summary(res1)
 #adjusted R^2 61.86% AIC=75.009 BIC=186.9145
 n<-nrow(na.omit(da))
-stepBIC<-step(resfull,direction = "both",k=log(n))
+#stepBIC<-step(resfull,direction = "both",k=log(n))
 res1_1<-lm(logadjusted ~ release_year + rating + series + lgadbug,na.omit(da))
 #summary(res1_1)
 #R^2 33.14%, delete
@@ -81,7 +81,7 @@ res1_1<-lm(logadjusted ~ release_year + rating + series + lgadbug,na.omit(da))
 resfull2<-lm(logbb~studio+release_year+genre1+mpaa+rating+runt+per+as.factor(sh)+series+lgdir_win+lgdir_nomi+lgst1_win+lgst1_nomi+lgst2_win+lgst2_nomi,na.omit(da))
 #summary(resfull2)
 #adjusted R square 55.41%.
-step2<-stepAIC(resfull2,direction="backward")
+#step2<-stepAIC(resfull2,direction="backward")
 res2<-lm(logbb~studio+release_year+genre1+mpaa+rating+runt+per+as.factor(sh)+lgdir_win+lgst1_win +lgst1_nomi,na.omit(da))
 #summary(res2)
 #adjusted R square 57% AIC=117.6126
@@ -95,14 +95,14 @@ qplot(da$dir, geom="histogram",stat="count")
 resnew<-lm(logadjusted~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+lgadbug+dir+st1+st2,na.omit(da))
 #summary(resnew)
 # R^2 53.69% AIC 93.0
-step3<-stepAIC(resnew,direction="backward")
+#step3<-stepAIC(resnew,direction="backward")
 res3<-lm(logadjusted ~ studio + release_year + genre1 + rating + runt + per + series + lgadbug,na.omit(da))
 #summary(res3)
 #R^2 55.97% AIC 86.20
 resnew2<-lm(logbb~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+dir+st1+st2,na.omit(da))
 #summary(resnew2)
 #52.2%
-step4<-stepAIC(resnew2,direction="backward")
+#step4<-stepAIC(resnew2,direction="backward")
 res4<-lm(logbb ~ studio + release_year + genre1 +mpaa+ rating + per+ dir,na.omit(da))
 #summary(res4)
 #55.43%,AIC=118.8446
@@ -110,12 +110,12 @@ res4<-lm(logbb ~ studio + release_year + genre1 +mpaa+ rating + per+ dir,na.omit
 What if we ignore the normality assumption and stop making log transformation?
 ```{r}
 resfull3<-lm(adjusted~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+lgadbug+dir_win+dir_nomi+st1_win+st1_nomi+st2_win+st2_nomi,na.omit(da))
-step5<-stepAIC(resfull3,direction="backward")
+#step5<-stepAIC(resfull3,direction="backward")
 res5<-lm(adjusted ~ studio + release_year + genre1 + rating + runt + per + 
     series + dir_win + dir_nomi + st2_win + st2_nomi,na.omit(da))
 #summary(res5)
 resfull4<-lm(bb~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+dir_win+dir_nomi+st1_win+st1_nomi+st2_win+st2_nomi,na.omit(da))
-step6<-stepAIC(resfull4,direction="backward")
+#step6<-stepAIC(resfull4,direction="backward")
 res6<-lm(bb ~ studio + release_year + genre1 + mpaa + rating + runt,na.omit(da))
 #summary(res6)
 #42.08%,AIC=1182.888
@@ -130,11 +130,14 @@ res6<-lm(bb ~ studio + release_year + genre1 + mpaa + rating + runt,na.omit(da))
 |      res5     |   adjusted   |     47.73%  |  1171.801   |
 |      res6     |      bb      |     45.89%  |  308.9774   |
 The first model has the highest adjusted R^2 and the smallest AIC, in this case I choose res 1.
-The log adjusted domestic box office revenue is the outcome
+The log adjusted domestic box office revenue is the outcome.
 ```{r}
 summary(res1)
 layout(matrix(c(1,2,3,4),2,2))
 plot(res1,cex=0.5)
+deviance(res1)
+mean(res1$residuals^2)
+#mse,0.051 deviance 4.79
 ```
 The residual diagnostic seems fine.
 From the model coefficients,
@@ -150,32 +153,28 @@ Regression decision tree is better when facing some missing values.
 #install.packages("rpart.plot")
 library(rpart)
 library(rpart.plot)
-#cross validation
-#install.packages("caret")
-#install.packages("e1071")
-#library(caret)
-#library(e1071)
+library(tree)
 ```
 
 ```{r}
 #rpart package
 frmla<-bb~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+rn+to_rating+dir_win+dir_nomi+st1_win+st1_nomi+st2_win+st2_nomi
-frm2<-bb~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+rn+to_rating+dir_win+dir_nomi+st1_win+st1_nomi+st2_win+st2_nomi
+#frm2<-bb~studio+release_year+genre1+mpaa+rating+runt+per+sh+series+rn+to_rating+dir_win+dir_nomi+st1_win+st1_nomi+st2_win+st2_nomi
 fit<-rpart(frmla,method="anova",data=da,minbucket=10)
 printcp(fit)
 par(mfrow=c(1,1))
 plotcp(fit) # visualize cross-validation results
 summary(fit) # detailed summary of splits
 rpart.plot(fit)
-plot(predict(fit),col="blue")
-points(da$bb,col="red")
-## cross validation
-#numFolds = trainControl(method="cv", number=5)
-#cpGrid = expand.grid(.cp = seq(0.01,0.5,0.01))
-#train(frmla, data=da , method="rpart", trControl=numFolds, tuneGrid = cpGrid)
-#train(frmla_tree, data=da,method="rpart", trControl=numFolds, tuneGrid = cpGrid)
-#get the optimal cp and prune the tree
-#prediction??
+predict_tree<-predict(fit,da)
+tree_rmse<-mean((predict_tree-da$bb)^2,na.rm=TRUE)
+#tree mse: 12.4464
+# tree package
+frmla_tree<-bb~mpaa+rating+runt+per+sh+series+rn+to_rating+dir_win+dir_nomi+st1_win+st1_nomi+st2_win+st2_nomi+genre1
+tree<-tree(frmla_tree,data=da)
+summary(tree)
+plot(tree);text(tree)
+#deviance:(mean square error): 16.01
 ```
 ## Part 3: Random Forest
 packages
@@ -185,17 +184,28 @@ library(randomForest)
 ```
 
 ```{r}
-forestModel=randomForest(frmla,data=na.omit(da),ntree=20,importance=T)
+forestModel=randomForest(frmla,na.omit(da),ntree=500,importance=T)
+print(forestModel)
 vu = varUsed(forestModel, count=TRUE)
 vusorted = sort(vu, decreasing = FALSE, index.return = TRUE)
 dotchart(vusorted$x, names(forestModel$forest$xlevels[vusorted$ix]))
 varImpPlot(forestModel)
+#mse:1.86
 ```
+## Conclusion
+|   Model type    |     Outcome    |      MSE      |    Deviance   |
+|:---------------:|:--------------:|:-------------:|:-------------:|
+|linear regression|  log(adjusted) |      0.05     |      4.79     |
+| decision tree   |adjusted/budget |      12.4     |      12.4     |
+| random forest   |adjusted/budget |      1.86     |      1.86     |
 
 
 
-
-
+|   Model type    |     Outcome    |    Positive factor    |    Negative factor    |
+|:---------------:|:--------------:|:---------------------:|:---------------------:|
+|linear regression|  log(adjusted) | rating,series, dirwin |      genre (war)      |
+| decision tree   |adjusted/budget |         release_year,studio,genre             |
+| random forest   |adjusted/budget | genre, stnomi, mpaa, stwin,studio,runt,rating |
 
 
 

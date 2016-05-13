@@ -2,7 +2,7 @@
 title: 'Part I: data importing,cleaning and visualization'
 author: "Siyang Sun"
 date: "May 10, 2016"
-output: html_document
+output: pdf_document
 ---
 #Description
 The data is from:
@@ -149,7 +149,7 @@ df$per<- ifelse((df$per!="ss")&(df$per!= "hs"),"ns",df$per)
 df$period<-NULL
 ```
 3.2 Super hero movies
-Create a label to distinguish super hero movie or not ($hero)
+Create a label to distinguish super hero movie or not ($sh)
 
 https://en.wikipedia.org/wiki/List_of_American_superhero_films
 
@@ -246,7 +246,7 @@ df$series[se]<-1
 df$series<-ifelse(df$series==1,1,0)
 table(df$series)
 ```
-3.4 Add indexed from Rotten tomatoes 
+3.4 Add indexes from Rotten tomatoes 
 + rotten tomatoes rating
 + number of reviews
 ```{r,echo=FALSE}
@@ -302,7 +302,7 @@ sum(df$rn>0)
 df$bb<-round(df$domestic/df$budget,2)
 summary(df$bb)
 ```
-3.6 Adjusted for inflation (modeling I)
+3.6 Adjusted for inflation
 ```{r}
 inf<-read.csv("/Users/mac/Dropbox/EDSP/inflation.csv",header =T)
 inf$avg<-gsub("\\$","",inf$Avg..Price)
