@@ -111,9 +111,12 @@ In order to prove 1 and 2, we use the adjusted data which eliminates price infla
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/inflation.jpeg)
 ###### The story behind movies
 1.The effect of studio and period
+
 | HolidaySeason | SummerSeason |    Other    |
 |:-------------:|:------------:|:-----------:|
 |      130      |     227      |     275     |
+
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/studio.jpeg)
 2. What type of movies do best during the summer vs holiday vs non-season?
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/genre_season.jpeg)
