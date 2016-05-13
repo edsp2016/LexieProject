@@ -105,15 +105,19 @@ For more than 600 movies ranked by global box office revenues over 7 decades, mo
 In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes.
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/year.jpeg)
 2.Overseas markets expand after year 1987
-![alt tag]()
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/over%20seas%20market.jpeg)
 3.The effect of price inflation
-![alt tag]()
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/inflation.jpeg)
 ###### The story behind movies
 1.The effect of studio and period
 | HolidaySeason | SummerSeason |    Other    |
 |:-------------:|:------------:|:-----------:|
 |      130      |     227      |     275     |
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/studio.jpeg)
 2. What type of movies do best during the summer vs holiday vs non-season?
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/genre_season.jpeg)
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/sum_genre_season.jpeg)
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/avg_genre_season.jpeg)
 Interesitng plot!
 The first graph shows the counts of genres in different seasons;
 the second shows the sum revenue and the third represents mean box office,respectively.
@@ -123,13 +127,17 @@ Animation/Action/Sci-Fi movies are popular, especially in summer;
 The total revenue distribution of holiday season movie is different from other two seasons.
 But foreign movies and horror movies on average earn a lot in holiday season than other two.
 3. Do super hero movies always success?
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/superhero.jpeg)
 4. Do series movie always success?
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/series.jpeg)
 5. Movie ratings
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/ratings.jpeg)
 ### Part 2: Data analysis and modeling
 Potential outcome variables: adjusted domestic boxoffice ($adjusted)
 or boxoffice/budget ($bb)
 #### Linear regression models
 -assumption checked: normality,correlation matrix
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/correlation.jpeg)
 -variables transformation
 -model selection
 | Model name    |    Outcome   | Adjusted R^2|     AIC     |
