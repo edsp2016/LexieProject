@@ -30,20 +30,22 @@ ighly correlated)
   1. Director
   2. Actor1，2
 All of them are stored in the scraping folder.
+
 #### 2. Data cleaning
--clean messy data
--split genre
--transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
--transfer date data
--clean director and actor data
--clean title,rating  data
+*clean messy data
+*split genre
+*transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
+*transfer date data
+*clean director and actor data
+*clean title,rating  data
+
 #### 3. Data manipulating
 Create some new variables in order to make further statistical analysis.
--Period
+*Period
   1. summer season(ss):late May- late Aug (5-20,8-31)
   2. holiday season(hs):late Nov- Jan (11-20,1-7)
   3. other: (ns)
--Super hero movies
+*Super hero movies
 Create a label to distinguish super hero movie or not ($sh)
 https://en.wikipedia.org/wiki/List_of_American_superhero_films
 1. BV
@@ -78,28 +80,33 @@ https://en.wikipedia.org/wiki/List_of_American_superhero_films
 6.Lion
   1. thor
   2. hulk
--Series movie
+
+*Series movie
 Create a label to distinguish a series moive or not ($series)
--Add variables from Rotten tomatoes
+
+*Add variables from Rotten tomatoes
   1. rotten tomatoes rating
   2. number of reviews
--Create boxoffice/budget variable:($bb)
--Adjusted for inflation (modeling I)
--Quantify movie awards data
--Deal with missing data
+
+*Create boxoffice/budget variable:($bb)
+*Adjusted for inflation (modeling I)
+*Quantify movie awards data
+*Deal with missing data
 
 #### 4. Data visualization
 necessary R packages
--devtools
--knitr
--ggplot2
--easyGgplot2
--scales
+*devtools
+*knitr
+*ggplot2
+*easyGgplot2
+*scales
+
 ##### Movie industry and market visualization
 ###### The expansion and globalization
 1. The industry grows rapidly in recent decades
 For more than 600 movies ranked by global box office revenues over 7 decades, most of them are released after year 2000. There might be several reasons:
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/year.jpeg)
+
 (1). There is a price inflation over time
 (2). Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
 (3).There is a raid overseas movie markets expansion since 21st century.
@@ -109,7 +116,9 @@ In order to prove 1 and 2, we use the adjusted data which eliminates price infla
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/over%20seas%20market.jpeg)
 3.The effect of price inflation
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/inflation.jpeg)
+
 ###### The story behind movies
+
 1.The effect of studio and period
 
 | HolidaySeason | SummerSeason |    Other    |
@@ -125,7 +134,6 @@ In order to prove 1 and 2, we use the adjusted data which eliminates price infla
 Interesitng plot!
 The first graph shows the counts of genres in different seasons;
 the second shows the sum revenue and the third represents mean box office,respectively.
-
 There are more movies released in summer.
 Animation/Action/Sci-Fi movies are popular, especially in summer;
 The total revenue distribution of holiday season movie is different from other two seasons.
@@ -140,12 +148,13 @@ But foreign movies and horror movies on average earn a lot in holiday season tha
 Potential outcome variables: adjusted domestic boxoffice ($adjusted)
 or boxoffice/budget ($bb)
 #### Linear regression models
--assumption checked: normality,correlation matrix
+*assumption checked: normality,correlation matrix
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/correlation.jpeg)
--variables transformation
+*variables transformation
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/adjusted.jpeg)
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/log%20adjusted.jpeg)
--model selection
+*model selection
+
 | Model name    |    Outcome   | Adjusted R^2|     AIC     |
 |:-------------:|:------------:|:-----------:|:-----------:|
 |      res1     |log(adjusted) |     61.86%  |   75.009    |
@@ -154,18 +163,19 @@ or boxoffice/budget ($bb)
 |      res4     |   log(bb)    |     55.43%  |   118.845   |
 |      res5     |   adjusted   |     47.73%  |  1171.801   |
 |      res6     |      bb      |     45.89%  |  308.9774   |
+
 The first model has the highest adjusted R^2 and the smallest AIC, in this case I choose res 1.
 The log adjusted domestic box office revenue is the outcome.
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/residuals.jpeg)
 #### Regression Decision tree
 Regression decision tree is better when facing some missing values.
--necessary R packages
-rpart,tree,rpart.plot
--tree model
-![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/rpart_tree.jpeg)
+*necessary R packages
+  rpart,tree,rpart.plot
+*tree model
+  ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/rpart_tree.jpeg)
 
 #### random Forest
--necessary R package: randomForest
+*necessary R package: randomForest
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/forest.jpeg)
 
 |   Model type    |     Outcome    |      MSE      |    Deviance   |
