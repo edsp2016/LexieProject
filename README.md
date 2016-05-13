@@ -103,9 +103,11 @@ For more than 600 movies ranked by global box office revenues over 7 decades, mo
 (2). Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
 (3).There is a raid overseas movie markets expansion since 21st century.
 In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes.
-![alt tag]()
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/year.jpeg)
 2.Overseas markets expand after year 1987
+![alt tag]()
 3.The effect of price inflation
+![alt tag]()
 ###### The story behind movies
 1.The effect of studio and period
 | HolidaySeason | SummerSeason |    Other    |
