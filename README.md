@@ -99,11 +99,12 @@ necessary R packages
 ###### The expansion and globalization
 1. The industry grows rapidly in recent decades
 For more than 600 movies ranked by global box office revenues over 7 decades, most of them are released after year 2000. There might be several reasons:
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/year.jpeg)
 (1). There is a price inflation over time
 (2). Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
 (3).There is a raid overseas movie markets expansion since 21st century.
 In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes.
-![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/year.jpeg)
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/group_by_year.jpeg)
 2.Overseas markets expand after year 1987
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/over%20seas%20market.jpeg)
 3.The effect of price inflation
@@ -139,6 +140,8 @@ or boxoffice/budget ($bb)
 -assumption checked: normality,correlation matrix
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/correlation.jpeg)
 -variables transformation
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/adjusted.jpeg)
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/log%20adjusted.jpeg)
 -model selection
 | Model name    |    Outcome   | Adjusted R^2|     AIC     |
 |:-------------:|:------------:|:-----------:|:-----------:|
@@ -150,14 +153,17 @@ or boxoffice/budget ($bb)
 |      res6     |      bb      |     45.89%  |  308.9774   |
 The first model has the highest adjusted R^2 and the smallest AIC, in this case I choose res 1.
 The log adjusted domestic box office revenue is the outcome.
-
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/residuals.jpeg)
 #### Regression Decision tree
 Regression decision tree is better when facing some missing values.
 -necessary R packages
 rpart,tree,rpart.plot
 -tree model
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/rpart_tree.jpeg)
+
 #### random Forest
 -necessary R package: randomForest
+![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/forest.jpeg)
 
 |   Model type    |     Outcome    |      MSE      |    Deviance   |
 |:---------------:|:--------------:|:-------------:|:-------------:|
