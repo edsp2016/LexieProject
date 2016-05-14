@@ -29,15 +29,16 @@ ighly correlated)
 - Other
   1. Director
   2. Actor1，2
+
 All of them are stored in the scraping folder.
 
 #### 2. Data cleaning
--clean messy data
--split genre
--transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
--transfer date data
--clean director and actor data
--clean title,rating  data
+- clean messy data
+- split genre
+- transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
+- transfer date data
+- clean director and actor data
+- clean title,rating  data
 
 #### 3. Data manipulating
 Create some new variables in order to make further statistical analysis.
@@ -89,8 +90,11 @@ Create a label to distinguish a series moive or not ($series)
   2. number of reviews
 
 -Create boxoffice/budget variable:($bb)
+
 -Adjusted for inflation (modeling I)
+
 -Quantify movie awards data
+
 -Deal with missing data
 
 #### 4. Data visualization
@@ -107,15 +111,18 @@ necessary R packages
 For more than 600 movies ranked by global box office revenues over 7 decades, most of them are released after year 2000. There might be several reasons:
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/year.jpeg)
 
-(1). There is a price inflation over time
-(2). Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
-(3).There is a raid overseas movie markets expansion since 21st century.
+- (1). There is a price inflation over time
+- (2). Movie industry keeps booming, watching movie has become one important entertainment in people's daily life.
+- (3).There is a raid overseas movie markets expansion since 21st century.
 In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes.
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/group_by_year.jpeg)
 2.Overseas markets expand after year 1987
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/over%20seas%20market.jpeg)
 3.The effect of price inflation
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/inflation.jpeg)
+
+The pink one refers to the domestic box office revenues after adjusting for the price inflation.
+Compared to the original blue histogram, it is flatter. 
 
 ###### The story behind movies
 
@@ -125,12 +132,15 @@ In order to prove 1 and 2, we use the adjusted data which eliminates price infla
 |:-------------:|:------------:|:-----------:|
 |      130      |     227      |     275     |
 
+As time flows, there is not a big change in the market share for each distributor. "Big Six" still have unique advantages.
 
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/studio.jpeg)
+
 2. What type of movies do best during the summer vs holiday vs non-season?
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/genre_season.jpeg)
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/sum_genre_season.jpeg)
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/avg_genre_season.jpeg)
+
 Interesitng plot!
 The first graph shows the counts of genres in different seasons;
 the second shows the sum revenue and the third represents mean box office,respectively.
@@ -138,12 +148,19 @@ There are more movies released in summer.
 Animation/Action/Sci-Fi movies are popular, especially in summer;
 The total revenue distribution of holiday season movie is different from other two seasons.
 But foreign movies and horror movies on average earn a lot in holiday season than other two.
+
 3. Do super hero movies always success?
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/superhero.jpeg)
+
 4. Do series movie always success?
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/series.jpeg)
+
 5. Movie ratings
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/ratings.jpeg)
+
 ### Part 2: Data analysis and modeling
 Potential outcome variables: adjusted domestic boxoffice ($adjusted)
 or boxoffice/budget ($bb)
@@ -167,16 +184,25 @@ or boxoffice/budget ($bb)
 
 The first model has the highest adjusted R^2 and the smallest AIC, in this case I choose res 1.
 The log adjusted domestic box office revenue is the outcome.
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/residuals.jpeg)
 #### Regression Decision tree
+
 Regression decision tree is better when facing some missing values.
+
 ###### necessary R packages
   rpart,tree,rpart.plot
 ###### tree model
   ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/rpart_tree.jpeg)
 
+Release_year,studio,genre,awards of star 1, runtime and mpaa are relatively important when predicting the outcome.
+Distinctive genres: AA, Action,Adventure,Animation,Crime,Fantasy,Si-Fi,Sports,Thriller, West, War.
+
 #### random Forest
 ###### necessary R package: randomForest
+
+500 trees planted, genre, awards of star 1, studio, mpaa, release_year are relatively important factors.
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/forest.jpeg)
 
 |   Model type    |     Outcome    |      MSE      |    Deviance   |
@@ -186,11 +212,24 @@ Regression decision tree is better when facing some missing values.
 | random forest   |adjusted/budget |      1.86     |      1.86     |
 
 #### Conclusion
+
 |   Model type    |     Outcome    |    Positive factor    |    Negative factor    |
 |:---------------:|:--------------:|:---------------------:|:---------------------:|
 |linear regression|  log(adjusted) | rating,series, dirwin |      genre (war)      |
 | decision tree   |adjusted/budget |         release_year,studio,genre             |
 | random forest   |adjusted/budget | genre, stnomi, mpaa, stwin,studio,runt,rating
+
+Different models return us different results. I would prefer to choose the random forest model and the linear regression model to make predictions. 
+In the future, in order to make success on movie revenues, distributors should consider the genre of the movie, as well as wellknown movie stars who has already won or been nomitated for movie awards many times.
+
+## Improvement
+
+If I have more time, I will consider use cross validation or other methods to avoid the overfitting.
+I will take more time dealing with missing data, in order to avoid the shrink of my data set.
+I will try to use text mining technique on the reviews of moives and see if there is anything interesting.
+ 
+Thanks to Yoav Bergner and anyone in this class for the advice and help. 
+
 
 
 
