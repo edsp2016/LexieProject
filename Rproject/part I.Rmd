@@ -2,7 +2,7 @@
 title: 'Part I: data importing,cleaning and visualization'
 author: "Siyang Sun"
 date: "May 10, 2016"
-output: pdf_document
+output: html_document
 ---
 #Description
 The data is from:
@@ -29,7 +29,7 @@ http://www.boxofficemojo.com
 http://www.imdb.com
 All text data files (.txt) used are listed :undo_data, people (IMDb director and stars),rt (rotten tomatoes reviewing and total number of reviews),inflation (adjusted movie price),IMDb (awards: times of winning an award and times of nomitation.)
 ```{r}
-data =read.delim("/Users/mac/Dropbox/EDSP/undo_data.txt", header =T,sep="\t")
+data =read.delim("undo_data.txt", header =T,sep="\t")
 require(reshape2)
 df<-data.frame(matrix(ncol = 20, nrow =633))  
 colnames(df)<-c('number','rank','title','studio','worldwide','domestic','overseas',
@@ -77,7 +77,7 @@ df$ow[is.na(df$weeks)]<-NA
 ```
 2.5 clean director and actor data
 ```{r}
-people<-read.delim("/Users/mac/Dropbox/EDSP/people.txt", header =T,sep="\t")
+people<-read.delim("people.txt", header =T,sep="\t")
 df$director1<-people$director1
 df$director2<-people$director2
 df$star1<-people$star1
@@ -250,7 +250,7 @@ table(df$series)
 + rotten tomatoes rating
 + number of reviews
 ```{r,echo=FALSE}
-toma<-read.table("/Users/mac/Dropbox/EDSP/rt.txt", header =T,sep="\t")
+toma<-read.table("rt.txt", header =T,sep="\t")
 toma$title<-as.character(toma$title)
 toma$title[182]<-"Léon: The Professional"
 toma$title[228]<-"The City of Lost Children"
@@ -304,7 +304,7 @@ summary(df$bb)
 ```
 3.6 Adjusted for inflation
 ```{r}
-inf<-read.csv("/Users/mac/Dropbox/EDSP/inflation.csv",header =T)
+inf<-read.csv("inflation.csv",header =T)
 inf$avg<-gsub("\\$","",inf$Avg..Price)
 inf$Avg..Price<-NULL
 df$price<-0
@@ -318,7 +318,7 @@ df$adjusted<-round(df$adjusted,2)
 ```
 3.7 Quantify movie awards data 
 ```{r}
-imdb<-read.delim("/Users/mac/Dropbox/EDSP/IMDb.txt",header=T)
+imdb<-read.delim("IMDb.txt",header=T)
 imdb<-imdb[-634,]
 df$dir_win<-imdb$dir_win
 df$dir_nomi<-imdb$dir_nomi
@@ -336,9 +336,9 @@ df$to_rating[df$to_rating==0]<-NA
 3.9 save data and select useful variables for modeling
 ```{r}
 #summary(df)
-write.table(df,"/Users/mac/Dropbox/EDSP/alldata.txt")
+write.table(df,"alldata.txt")
 da<-subset(df,select=c(adjusted,studio,release_year,genre,mpaa,theater,rating,runt,per,sh,shb,series,rn,to_rating,bb,adjusted,adbudget,adow,dir_win,dir_nomi,st1_win,st1_nomi,st2_win,st2_nomi,genre1))
-write.table(da,"/Users/mac/Dropbox/EDSP/modeling.txt")
+write.table(da,"modeling.txt")
 ```
 # Part II Data visualization and descriptive analysis
 ### necessary visualization R packages

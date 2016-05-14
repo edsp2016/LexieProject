@@ -141,7 +141,7 @@ $(document).ready(function () {
 <li>Actor1，2 #Part I data import and cleaning ##1.read scrapped data (from Box office Mojo and IMDb) Original data could be found here: <a href="http://www.boxofficemojo.com" class="uri">http://www.boxofficemojo.com</a> <a href="http://www.imdb.com" class="uri">http://www.imdb.com</a> All text data files (.txt) used are listed :undo_data, people (IMDb director and stars),rt (rotten tomatoes reviewing and total number of reviews),inflation (adjusted movie price),IMDb (awards: times of winning an award and times of nomitation.)</li>
 </ul></li>
 </ul>
-<pre class="r"><code>data =read.delim(&quot;/Users/mac/Dropbox/EDSP/undo_data.txt&quot;, header =T,sep=&quot;\t&quot;)
+<pre class="r"><code>data =read.delim(&quot;undo_data.txt&quot;, header =T,sep=&quot;\t&quot;)
 require(reshape2)</code></pre>
 <pre><code>## Loading required package: reshape2</code></pre>
 <pre class="r"><code>df&lt;-data.frame(matrix(ncol = 20, nrow =633))  
@@ -181,7 +181,7 @@ df$duration&lt;- NULL
 df$weeks&lt;-as.numeric(gsub('weeks','',duramatrix[,2]))
 df$ow[is.na(df$weeks)]&lt;-NA</code></pre>
 <p>2.5 clean director and actor data</p>
-<pre class="r"><code>people&lt;-read.delim(&quot;/Users/mac/Dropbox/EDSP/people.txt&quot;, header =T,sep=&quot;\t&quot;)
+<pre class="r"><code>people&lt;-read.delim(&quot;people.txt&quot;, header =T,sep=&quot;\t&quot;)
 df$director1&lt;-people$director1
 df$director2&lt;-people$director2
 df$star1&lt;-people$star1
@@ -206,7 +206,7 @@ df$per&lt;- ifelse((df$period&gt;=as.POSIXct(as.character(&quot;2016-11-20&quot;
                      (df$period&lt;=as.POSIXct(as.character(&quot;2016-01-07&quot;))),&quot;hs&quot;,df$per)
 df$per&lt;- ifelse((df$per!=&quot;ss&quot;)&amp;(df$per!= &quot;hs&quot;),&quot;ns&quot;,df$per)
 df$period&lt;-NULL</code></pre>
-<p>3.2 Super hero movies Create a label to distinguish super hero movie or not ($hero)</p>
+<p>3.2 Super hero movies Create a label to distinguish super hero movie or not ($sh)</p>
 <p><a href="https://en.wikipedia.org/wiki/List_of_American_superhero_films" class="uri">https://en.wikipedia.org/wiki/List_of_American_superhero_films</a></p>
 <ol style="list-style-type: decimal">
 <li>BV</li>
@@ -316,7 +316,7 @@ table(df$series)</code></pre>
 <pre><code>## 
 ##   0   1 
 ## 497 134</code></pre>
-<p>3.4 Add indexed from Rotten tomatoes + rotten tomatoes rating + number of reviews</p>
+<p>3.4 Add indexes from Rotten tomatoes + rotten tomatoes rating + number of reviews</p>
 <pre><code>## Warning in tomaid[i] = grep(df$title1[i], toma$title1): number of items to
 ## replace is not a multiple of replacement length
 
@@ -475,8 +475,8 @@ table(df$series)</code></pre>
 summary(df$bb)</code></pre>
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
 ##   0.290   1.140   1.780   2.992   3.005  48.280      86</code></pre>
-<p>3.6 Adjusted for inflation (modeling I)</p>
-<pre class="r"><code>inf&lt;-read.csv(&quot;/Users/mac/Dropbox/EDSP/inflation.csv&quot;,header =T)
+<p>3.6 Adjusted for inflation</p>
+<pre class="r"><code>inf&lt;-read.csv(&quot;inflation.csv&quot;,header =T)
 inf$avg&lt;-gsub(&quot;\\$&quot;,&quot;&quot;,inf$Avg..Price)
 inf$Avg..Price&lt;-NULL
 df$price&lt;-0
@@ -488,7 +488,7 @@ df$adow&lt;-round(8.7*df$ow/as.numeric(df$price),2)
 df$adbudget&lt;-round(8.7*df$budget/as.numeric(df$price),2)
 df$adjusted&lt;-round(df$adjusted,2)</code></pre>
 <p>3.7 Quantify movie awards data</p>
-<pre class="r"><code>imdb&lt;-read.delim(&quot;/Users/mac/Dropbox/EDSP/IMDb.txt&quot;,header=T)
+<pre class="r"><code>imdb&lt;-read.delim(&quot;IMDb.txt&quot;,header=T)
 imdb&lt;-imdb[-634,]
 df$dir_win&lt;-imdb$dir_win
 df$dir_nomi&lt;-imdb$dir_nomi
@@ -503,9 +503,9 @@ df$st1_nomi&lt;-as.numeric(as.character(df$st1_nomi))</code></pre>
 df$to_rating[df$to_rating==0]&lt;-NA</code></pre>
 <p>3.9 save data and select useful variables for modeling</p>
 <pre class="r"><code>#summary(df)
-write.table(df,&quot;/Users/mac/Dropbox/EDSP/alldata.txt&quot;)
+write.table(df,&quot;alldata.txt&quot;)
 da&lt;-subset(df,select=c(adjusted,studio,release_year,genre,mpaa,theater,rating,runt,per,sh,shb,series,rn,to_rating,bb,adjusted,adbudget,adow,dir_win,dir_nomi,st1_win,st1_nomi,st2_win,st2_nomi,genre1))
-write.table(da,&quot;/Users/mac/Dropbox/EDSP/modeling.txt&quot;)</code></pre>
+write.table(da,&quot;modeling.txt&quot;)</code></pre>
 </div>
 </div>
 <div id="part-ii-data-visualization-and-descriptive-analysis" class="section level1">

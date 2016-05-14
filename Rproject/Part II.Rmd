@@ -7,7 +7,7 @@ output: html_document
 My whole data set after cleaning is stored in the data-file folder, called "all data". For modeling part, some of the columns are meaningless. So I used the subset of whole data set for modeling, which is called "modeling" in the same folder. Feel free to use that dataset if you just want to go through the modeling part.
 # Modeling
 ```{r}
-da<-read.table("/Users/mac/Dropbox/EDSP/modeling.txt",header=T)
+da<-read.table("modeling.txt",header=T)
 da$adjusted.1<-NULL
 summary(da)
 #theater,adow,rn,to_rating
@@ -176,6 +176,9 @@ summary(tree)
 plot(tree);text(tree)
 #deviance:(mean square error): 16.01
 ```
+Release_year,studio,genre,awards of star 1, runtime and mpaa are relatively important when predicting the outcome.
+Distinctive genres: AA, Action,Adventure,Animation,Crime,Fantasy,Si-Fi,Sports,Thriller, West, War.
+
 ## Part 3: Random Forest
 packages
 ```{r}
@@ -192,6 +195,8 @@ dotchart(vusorted$x, names(forestModel$forest$xlevels[vusorted$ix]))
 varImpPlot(forestModel)
 #mse:1.86
 ```
+500 trees planted, genre, awards of star 1, studio, mpaa, release_year are relatively important factors.
+
 ## Conclusion
 |   Model type    |     Outcome    |      MSE      |    Deviance   |
 |:---------------:|:--------------:|:-------------:|:-------------:|
@@ -200,12 +205,19 @@ varImpPlot(forestModel)
 | random forest   |adjusted/budget |      1.86     |      1.86     |
 
 
-
 |   Model type    |     Outcome    |    Positive factor    |    Negative factor    |
 |:---------------:|:--------------:|:---------------------:|:---------------------:|
 |linear regression|  log(adjusted) | rating,series, dirwin |      genre (war)      |
 | decision tree   |adjusted/budget |         release_year,studio,genre             |
 | random forest   |adjusted/budget | genre, stnomi, mpaa, stwin,studio,runt,rating |
 
+Different models return us different results. I would prefer to choose the random forest model and the linear regression model to make predictions. 
+In the future, in order to make success on movie revenues, distributors should consider the genre of the movie, as well as wellknown movie stars who has already won or been nomitated for movie awards many times.
 
+## Improvement
 
+If I have more time, I will consider use cross validation or other methods to avoid the overfitting.
+I will take more time dealing with missing data, in order to avoid the shrink of my data set.
+I will try to use text mining technique on the reviews of moives and see if there is anything interesting.
+ 
+Thanks to Yoav Bergner and anyone in this class for the advice and help. 

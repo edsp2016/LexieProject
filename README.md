@@ -116,9 +116,13 @@ For more than 600 movies ranked by global box office revenues over 7 decades, mo
 - (3).There is a raid overseas movie markets expansion since 21st century.
 In order to prove 1 and 2, we use the adjusted data which eliminates price inflation and only focuses on domestic market to see the bar color changes.
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/group_by_year.jpeg)
+
 2.Overseas markets expand after year 1987
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/over%20seas%20market.jpeg)
+
 3.The effect of price inflation
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/inflation.jpeg)
 
 The pink one refers to the domestic box office revenues after adjusting for the price inflation.
