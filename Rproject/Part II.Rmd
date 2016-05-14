@@ -7,7 +7,7 @@ output: html_document
 My whole data set after cleaning is stored in the data-file folder, called "all data". For modeling part, some of the columns are meaningless. So I used the subset of whole data set for modeling, which is called "modeling" in the same folder. Feel free to use that dataset if you just want to go through the modeling part.
 # Modeling
 ```{r}
-da<-read.table("modeling.txt",header=T)
+da<-read.table("data/modeling.txt",header=T)
 da$adjusted.1<-NULL
 summary(da)
 #theater,adow,rn,to_rating
