@@ -3,8 +3,8 @@
 ### Siyang (Lexie) Sun
 
 ## Research questions:
-1) How's the film industry expanding in recent years? Is there any relationship between movie financials and features?
-2) Can we predict the box office of a particular movie given some labels?
+- 1) How's the film industry expanding in recent years? Is there any relationship between movie financials and features?
+- 2) Can we predict the box office of a particular movie given some labels?
 
 ## Project timeline
 ### Part I: data scraping (python),data cleaning and data visualization (R)
@@ -32,20 +32,20 @@ ighly correlated)
 All of them are stored in the scraping folder.
 
 #### 2. Data cleaning
-*clean messy data
-*split genre
-*transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
-*transfer date data
-*clean director and actor data
-*clean title,rating  data
+-clean messy data
+-split genre
+-transfer opening_weekend data to numerical million level,digit=1 and fixxed ow data.
+-transfer date data
+-clean director and actor data
+-clean title,rating  data
 
 #### 3. Data manipulating
 Create some new variables in order to make further statistical analysis.
-*Period
+- Period
   1. summer season(ss):late May- late Aug (5-20,8-31)
   2. holiday season(hs):late Nov- Jan (11-20,1-7)
   3. other: (ns)
-*Super hero movies
+- Super hero movies
 Create a label to distinguish super hero movie or not ($sh)
 https://en.wikipedia.org/wiki/List_of_American_superhero_films
 1. BV
@@ -77,29 +77,29 @@ https://en.wikipedia.org/wiki/List_of_American_superhero_films
 5. Par.
   1. ironman
   2. SpongeBob
-6.Lion
+6. Lion
   1. thor
   2. hulk
 
-*Series movie
+-Series movie
 Create a label to distinguish a series moive or not ($series)
 
-*Add variables from Rotten tomatoes
+-Add variables from Rotten tomatoes
   1. rotten tomatoes rating
   2. number of reviews
 
-*Create boxoffice/budget variable:($bb)
-*Adjusted for inflation (modeling I)
-*Quantify movie awards data
-*Deal with missing data
+-Create boxoffice/budget variable:($bb)
+-Adjusted for inflation (modeling I)
+-Quantify movie awards data
+-Deal with missing data
 
 #### 4. Data visualization
 necessary R packages
-*devtools
-*knitr
-*ggplot2
-*easyGgplot2
-*scales
+-devtools
+-knitr
+-ggplot2
+-easyGgplot2
+-scales
 
 ##### Movie industry and market visualization
 ###### The expansion and globalization
@@ -148,12 +148,13 @@ But foreign movies and horror movies on average earn a lot in holiday season tha
 Potential outcome variables: adjusted domestic boxoffice ($adjusted)
 or boxoffice/budget ($bb)
 #### Linear regression models
-*assumption checked: normality,correlation matrix
+###### assumption checked: normality,correlation matrix
+###### variables transformation
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/correlation.jpeg)
-*variables transformation
+
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/adjusted.jpeg)
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/log%20adjusted.jpeg)
-*model selection
+###### model selection
 
 | Model name    |    Outcome   | Adjusted R^2|     AIC     |
 |:-------------:|:------------:|:-----------:|:-----------:|
@@ -169,13 +170,13 @@ The log adjusted domestic box office revenue is the outcome.
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/residuals.jpeg)
 #### Regression Decision tree
 Regression decision tree is better when facing some missing values.
-*necessary R packages
+###### necessary R packages
   rpart,tree,rpart.plot
-*tree model
+###### tree model
   ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/rpart_tree.jpeg)
 
 #### random Forest
-*necessary R package: randomForest
+###### necessary R package: randomForest
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/forest.jpeg)
 
 |   Model type    |     Outcome    |      MSE      |    Deviance   |
@@ -183,6 +184,7 @@ Regression decision tree is better when facing some missing values.
 |linear regression|  log(adjusted) |      0.05     |      4.79     |
 | decision tree   |adjusted/budget |      12.4     |      12.4     |
 | random forest   |adjusted/budget |      1.86     |      1.86     |
+
 #### Conclusion
 |   Model type    |     Outcome    |    Positive factor    |    Negative factor    |
 |:---------------:|:--------------:|:---------------------:|:---------------------:|
