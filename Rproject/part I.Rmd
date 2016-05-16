@@ -366,7 +366,7 @@ par(mfrow=c(1,1))
 ### The expansion and globalization 
 Some visualizations are made in order to have a direct understanding of how movie industry grows in recent years
 A. The industry grows rapidly in recent decades:
-```{r}
+```{r setup, include=FALSE}
 library(scales)
 perbar=function(xx){
 q=ggplot(data=data.frame(xx),aes(x=xx))+
@@ -374,7 +374,7 @@ geom_bar(aes(y = (..count..)),fill="orange")+
 geom_text(aes(y = (..count..),label =   ifelse((..count..)==0,"",scales::percent((..count..)/sum(..count..)))), stat="bin",colour="darkgreen") 
 q
 }
-perbar(df$release_year)
+perbar(df$release_year)(cache=TRUE)
 ```
 For more than 600 movies ranked by global box office revenues over 7 decades, most of them are released after year 2000. There might be several reasons:
 1. There is a price inflation over time 

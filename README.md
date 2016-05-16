@@ -188,6 +188,7 @@ or boxoffice/budget ($bb)
 
 The first model has the highest adjusted R^2 and the smallest AIC, in this case I choose res 1.
 The log adjusted domestic box office revenue is the outcome.
+(If the outcome is the ratio ($bb), the $budget is excluded from the covariates lists.)
 
 ![alt tag](https://github.com/edsp2016/LexieProject/blob/master/Rproject/pics/residuals.jpeg)
 #### Regression Decision tree
